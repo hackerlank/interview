@@ -1,0 +1,31 @@
+RACEDEFINITION
+
+RACE
+	NAME = Alkari
+	
+RACE
+	NAME = Mrrshan
+	
+RACE
+	NAME = Meklar
+	
+RACE
+	NAME = Darlok
+	
+RACE
+	NAME = Human
+	
+RACE
+	NAME = Bulrathi
+	
+RACE
+	NAME = Silicoid
+	
+RACE
+	NAME = Psilon
+	
+RACE
+	NAME = Sakkra
+	
+RACE
+	NAME = Klackon

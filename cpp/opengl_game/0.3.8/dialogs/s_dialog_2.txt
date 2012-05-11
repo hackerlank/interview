@@ -1,0 +1,2 @@
+"Player", 1, 4, "sohchan_face", "At this rate, I'm not going to make it... Wait, what was that sound just now?";
+#"Player", 0, 2, "sohchan_face", "Wait, what was that sound just now?";

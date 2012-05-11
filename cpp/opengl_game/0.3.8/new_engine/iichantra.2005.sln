@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iichantra", "iichantra.2005.vcproj", "{7BAB9684-E037-407E-AFE8-8B9FDCD13E23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D86801E1-0633-4A34-BD8B-14E157723449} = {D86801E1-0633-4A34-BD8B-14E157723449}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaLib", "LuaLib.2005.vcproj", "{D86801E1-0633-4A34-BD8B-14E157723449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BAB9684-E037-407E-AFE8-8B9FDCD13E23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BAB9684-E037-407E-AFE8-8B9FDCD13E23}.Debug|Win32.Build.0 = Debug|Win32
+		{7BAB9684-E037-407E-AFE8-8B9FDCD13E23}.Release|Win32.ActiveCfg = Release|Win32
+		{7BAB9684-E037-407E-AFE8-8B9FDCD13E23}.Release|Win32.Build.0 = Release|Win32
+		{D86801E1-0633-4A34-BD8B-14E157723449}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D86801E1-0633-4A34-BD8B-14E157723449}.Debug|Win32.Build.0 = Debug|Win32
+		{D86801E1-0633-4A34-BD8B-14E157723449}.Release|Win32.ActiveCfg = Release|Win32
+		{D86801E1-0633-4A34-BD8B-14E157723449}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

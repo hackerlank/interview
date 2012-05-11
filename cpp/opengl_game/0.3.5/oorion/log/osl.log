@@ -1,0 +1,145 @@
+23:16:37 Warning (scripts/menu_main.txt, line 13): Float to int convertion
+23:16:37 Warning (scripts/menu_main.txt, line 14): Float to int convertion
+23:16:37 New GUI control: GUIButton(btnStartGame)
+23:16:37 New GUI control: GUIButton(btnLoadGame)
+23:16:37 New GUI control: GUIButton(btnOptions)
+23:16:37 New GUI control: GUIButton(btnCredits)
+23:16:37 New GUI control: GUIButton(btnExit)
+23:16:37 Warning (scripts/choose_hero.txt, line 0): Float to int convertion
+23:16:37 Warning (scripts/choose_hero.txt, line 1): Float to int convertion
+23:16:37 New GUI control: GUIButton(lbl1)
+23:16:37 Warning (scripts/choose_hero.txt, line 20): Float to int convertion
+23:16:37 New GUI control: GUIButton(btnAnonya)
+23:16:37 New GUI control: GUIButton(btnUnylTan)
+23:16:37 Warning (scripts/choose_hero.txt, line 72): Float to int convertion
+23:16:37 New GUI control: GUIButton(lbl2)
+23:16:38 Player created
+23:16:38 Powerup created
+23:16:38 Powerup created
+23:16:38 Powerup created
+23:16:38 Enemy created
+23:16:38 Enemy created
+23:16:38 World Max X set
+23:16:38 World Max Y set
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created
+23:16:38 Sprite created

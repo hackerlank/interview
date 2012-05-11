@@ -1,0 +1,30 @@
+# -- GAME MENU ----------------------------------
+NewGUIElem("GUIVidget", "vdgMainScreen3");
+SetGUIElem("vdgMainScreen3", "Width", 1024);
+SetGUIElem("vdgMainScreen3", "Height", 512);
+SetGUIElem("vdgMainScreen3", "X", 0);
+SetGUIElem("vdgMainScreen3", "Y", 0);
+SetGUIElem("vdgMainScreen3", "Color", 255, 255, 255, 255);
+SetGUIElem("vdgMainScreen3", "Texture", "fail_screen");
+SetGUIElem("vdgMainScreen3", "Visible", 0);
+SetGUIElem("vdgMainScreen3", "PatternCount", 1);
+SetGUIElem("vdgMainScreen3", "CurrentPattern", 0);
+SetGUIElem("vdgMainScreen3", "Group", MENU_FAILURE);
+
+NewGUIElem("GUIButton", "btnRet2");
+SetGUIElem("btnRet2", "X", 280);
+SetGUIElem("btnRet2", "Y", 300);
+SetGUIElem("btnRet2", "Width", 80);
+SetGUIElem("btnRet2", "Height", 9);
+SetGUIElem("btnRet2", "Color", 255, 255, 255, 255);
+SetGUIElem("btnRet2", "Visible", 0);
+SetGUIElem("btnRet2", "Caption", "THANKS, CAP!");
+SetGUIElem("btnRet2", "CaptionX", 0);
+SetGUIElem("btnRet2", "CaptionY", 0);
+SetGUIElem("btnRet2", "CaptionFont", "default");
+SetGUIElem("btnRet2", "CaptionColor", 181, 181, 181, 255);
+SetGUIElem("btnRet2", "SelectedCaptionColor", 120, 88, 150, 255);
+SetGUIElem("btnRet2", "PressedCaptionColor", 69, 46, 90, 255);
+SetGUIElem("btnRet2", "Group", MENU_FAILURE);
+SetGUIElem("btnRet2", "AddSignal", GUI_SGN_OPEN_GROUP, MENU_MAIN, 0);
+

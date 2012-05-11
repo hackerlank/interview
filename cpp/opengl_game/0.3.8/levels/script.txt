@@ -1,0 +1,250 @@
+SetWorldMaxX(1570);
+SetWorldMinX(0);
+
+#intro
+CreateEvent(EVENT_CONDITION_TIME_ELAPSED, 1, EVENT_ACTION_START_DIALOG, 2, "s_dialog_1");
+#CreateEvent(EVENT_CONDITION_TIME_ELAPSED, 1, EVENT_ACTION_SET_AI, 1, "");
+#CreateEvent(EVENT_CONDITION_TIME_ELAPSED, 3, EVENT_ACTION_SOUND_PLAY, 1, "iie_lab");
+
+
+
+
+#***************************************explosion block**************************************************************
+#Earthquake for 2 TU
+#CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, EVENT_ACTION_START_QUAKE, 10, "");
+
+#After that, stop EQ, say smth, start boss mus
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, EVENT_ACTION_STOP_QUAKE, 0, \"\")");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, EVENT_SOUND_PLAY, 0, \"iie_boss\")");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, EVENT_ACTION_HERO_SAY, 2, \"What was THAT?!\")");
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+#start spawning enemies
+#spawn initial slowpokes and btards: 2/1 > o < 2/1
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"btard\\", 1583, 318, 100);
+	\");
+");
+
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"btard\\", 438, 318, 100);
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"slowpoke\\", 1580, 330, 100);
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"slowpoke\\", 1570, 330, 100);
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"slowpoke\\", 448, 330, 100);
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 3, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEnemy(\\"slowpoke\\", 458, 330, 100);
+	\");
+")  
+#*****************************************/explosion*****************************************************************
+
+
+#***************************************endless enemies block**************************************************************
+#Wait for 2 TU after the first spawn, then begin endless spawn, completely out of sight
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 4, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", 1583, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", -114, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 4, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", -114, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 6, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", -114, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", 1583, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 7, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", 1583, 330, 100);
+		\\");
+	\");
+");
+#*****************************************/enemies*************************************************************************
+
+
+#***************************************powerups block**************************************************************
+#It's meant to be hard, so after 5 TUs from the original spawn begin spawning ammo and points
+#Points are not very helpful, so there would be plenty of it.
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 8, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 0, \\"
+			CreatePowerup(\\\"pwr_score\\\", 1022, 396, 100);
+		\\");
+	\");
+");
+
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 8, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 15, EVENT_ACTION_OSL_STING, 0, \\"
+			CreatePowerup(\\\"pwr_ammo\\\", 1077, 397, 15);
+		\\");
+	\");
+");
+
+#Health is extremely rare
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 8, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 25, EVENT_ACTION_OSL_STING, 0, \\"
+			CreatePowerup(\\\"pwr_health\\\", 1077, 397, 5);
+		\\");
+	\");
+");
+#***************************************/powerups*******************************************************************
+
+#***************************************enemies: second wave**************************************************************
+#After the first minute, add two btards and one slowpoke to the spawnees
+#But make them spawn on the rare occasions
+#Also say smth
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 63, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 10, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", 1583, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 63, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 12, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", -114, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 63, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 10, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", 1583, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 63, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 10, EVENT_ACTION_HERO_SAY, 2, \\"Where do they keep coming from?!\\");
+	\");
+");
+
+#*****************************************/enemies*************************************************************************
+
+
+#***************************************enemies: darkest hour**************************************************************
+#Do a short earthquake in last 12 TUs
+#For keeping tension, double the enemies for the last 10 TUs
+#Also say smth
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 1, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 110, EVENT_START_QUAKE, 10, \"\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 1, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 112, EVENT_STOP_QUAKE, 10, \"\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 10, EVENT_ACTION_HERO_SAY, 2, \\"Oh shi~...!\\");
+	\");
+");
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 4, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", 1583, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"btard\\\", -114, 318, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 4, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", -114, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 6, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", -114, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 5, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", 1583, 330, 100);
+		\\");
+	\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 0, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 113, EVENT_ACTION_OSL_STING, 1, \"
+		CreateEvent(EVENT_CONDITION_PERIOD, 7, EVENT_ACTION_OSL_STING, 0, \\"
+			CreateEnemy(\\\"slowpoke\\\", 1583, 330, 100);
+		\\");
+	\");
+");
+#*****************************************/enemies*************************************************************************
+
+#***************************************ending block**************************************************************
+#finally, in two minutes, pause everything
+#show the second monologue
+#then fade out
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 1, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 123, EVENT_ACTION_SET_AI, 0, \"\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 1, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 123, EVENT_DISABLE_KEYBOARD, 0, \"\");
+");
+CreateEvent(EVENT_CONDITION_HERO_X_GR, 970, event_action_exec_osl_string, 1, "
+	CreateEvent(EVENT_CONDITION_PERIOD, 123, EVENT_START_DIALOG, 2, \"s_dialog_2\");
+");
+#Call final menu
+#fgsfds
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG USAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#***************************************/ending*******************************************************************

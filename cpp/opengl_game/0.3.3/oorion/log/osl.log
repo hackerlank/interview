@@ -1,0 +1,395 @@
+18:55:05 Loading file: scripts/init.txt
+18:55:05 scripts/init.txt: Input...
+18:55:05 scripts/init.txt: Input OK
+18:55:05 Lexemize...
+18:55:05 scripts/init.txt: Lexemize OK (204 lexems token)
+18:55:05 Interpret...
+18:55:05 1 functions compiled
+18:55:05 Loading config file: config/default.cfg
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (121 lexems token)
+18:55:05 Applying config...
+18:55:05 Applying config OK
+18:55:05 Config successfully loaded
+18:55:05 1 functions compiled
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load texture...
+18:55:05 LoadTexture OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/hero.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (154 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/bullet.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (69 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/btard.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (89 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/pwr_health.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (74 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/pwr_ammo.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (74 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/pwr_score.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (74 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/explosion.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (49 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_floor.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (110 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (100 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall_1.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_column_1.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall_main.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall_2.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall_lamp.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load resource...
+18:55:05 Loading resource file: objects/tile_wall_up.txt
+18:55:05 Input...
+18:55:05 Input OK
+18:55:05 Lexemize...
+18:55:05 Lexemize OK (90 lexems token)
+18:55:05 Making resource...
+18:55:05 Resource successfully loaded
+18:55:05 LoadResource OK
+18:55:05 1 functions compiled
+18:55:05 Trying to load font...
+18:55:05 LoadFont OK
+18:55:05 1 functions compiled
+18:55:05 Loading file: scripts/menu_main.txt
+18:55:05 scripts/menu_main.txt: Input...
+18:55:05 scripts/menu_main.txt: Input OK
+18:55:05 Lexemize...
+18:55:05 scripts/menu_main.txt: Lexemize OK (961 lexems token)
+18:55:05 Interpret...
+18:55:05 1 constants recognized
+18:55:05 Declaring variable: x
+18:55:05 Trying to math: 640/2
+18:55:05 Result: 320.
+18:55:05 Trying to math: 320.+-50
+18:55:05 Result: 270.
+18:55:05 Warning (scripts/menu_main.txt, line 13): Float to int convertion
+18:55:05 1 constants recognized
+18:55:05 Declaring variable: y
+18:55:05 Trying to math: 480/2
+18:55:05 Result: 240.
+18:55:05 Trying to math: 240.+50
+18:55:05 Result: 290.
+18:55:05 Warning (scripts/menu_main.txt, line 14): Float to int convertion
+18:55:05 New GUI control: GUIButton(btnStartGame)
+18:55:05 1 variables compiled
+18:55:05 1 variables compiled
+18:55:05 1 constants recognized
+18:55:05 Trying to math: 290+20
+18:55:05 Result: 310
+18:55:05 New GUI control: GUIButton(btnLoadGame)
+18:55:05 1 variables compiled
+18:55:05 1 variables compiled
+18:55:05 Trying to math: 310+20
+18:55:05 Result: 330
+18:55:05 New GUI control: GUIButton(btnOptions)
+18:55:05 1 variables compiled
+18:55:05 1 variables compiled
+18:55:05 Trying to math: 330+20
+18:55:05 Result: 350
+18:55:05 New GUI control: GUIButton(btnCredits)
+18:55:05 1 variables compiled
+18:55:05 1 variables compiled
+18:55:05 Trying to math: 350+20
+18:55:05 Result: 370
+18:55:05 New GUI control: GUIButton(btnExit)
+18:55:05 1 variables compiled
+18:55:05 1 variables compiled
+18:55:05 scripts/menu_main.txt: Interpret OK
+18:55:05 scripts/menu_main.txt: File successfully loaded
+18:55:05 scripts/init.txt: Interpret OK
+18:55:05 scripts/init.txt: File successfully loaded
+18:55:05 Loading file: levels\level1.txt
+18:55:05 levels\level1.txt: Input...
+18:55:05 levels\level1.txt: Input OK
+18:55:05 Lexemize...
+18:55:05 levels\level1.txt: Lexemize OK (1337 lexems token)
+18:55:05 Interpret...
+18:55:05 1 constants recognized
+18:55:05 Player created
+18:55:05 1 constants recognized
+18:55:05 Powerup created
+18:55:05 1 constants recognized
+18:55:05 Powerup created
+18:55:05 1 constants recognized
+18:55:05 Powerup created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 Sprite created
+18:55:05 2 constants recognized
+18:55:06 World Max X set
+18:55:06 World Max Y set
+18:55:06 levels\level1.txt: Interpret OK
+18:55:06 levels\level1.txt: File successfully loaded

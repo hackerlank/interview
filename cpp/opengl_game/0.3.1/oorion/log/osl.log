@@ -1,0 +1,108 @@
+23:06:59 Loading file: init.txt
+23:06:59 init.txt: Input...
+23:06:59 init.txt: Input OK
+23:06:59 Lexemize...
+23:06:59 init.txt: Lexemize OK (109 lexems token)
+23:06:59 Interpret...
+23:06:59 1 functions compiled
+23:06:59 Loading config file: default.cfg
+23:06:59 Input...
+23:06:59 Input OK
+23:06:59 Lexemize...
+23:06:59 Lexemize OK (99 lexems token)
+23:06:59 Applying config...
+23:06:59 Applying config OK
+23:06:59 Config successfully loaded
+23:06:59 1 functions compiled
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load texture...
+23:06:59 LoadTexture OK
+23:06:59 1 functions compiled
+23:06:59 Trying to load font...
+23:06:59 LoadFont OK
+23:06:59 1 functions compiled
+23:06:59 Loading file: scripts/menu_main.txt
+23:06:59 scripts/menu_main.txt: Input...
+23:06:59 scripts/menu_main.txt: Input OK
+23:06:59 Lexemize...
+23:06:59 scripts/menu_main.txt: Lexemize OK (961 lexems token)
+23:06:59 Interpret...
+23:06:59 1 constants recognized
+23:06:59 Declaring variable: x
+23:06:59 Trying to math: 800/2
+23:06:59 Result: 400.
+23:06:59 Trying to math: 400.+-50
+23:06:59 Result: 350.
+23:06:59 Warning (scripts/menu_main.txt, line 13): Float to int convertion
+23:06:59 1 constants recognized
+23:06:59 Declaring variable: y
+23:06:59 Trying to math: 480/2
+23:06:59 Result: 240.
+23:06:59 Trying to math: 240.+50
+23:06:59 Result: 290.
+23:06:59 Warning (scripts/menu_main.txt, line 14): Float to int convertion
+23:06:59 New GUI control: GUIButton(btnStartGame)
+23:06:59 1 variables compiled
+23:06:59 1 variables compiled
+23:06:59 1 constants recognized
+23:06:59 Trying to math: 290+20
+23:06:59 Result: 310
+23:06:59 New GUI control: GUIButton(btnLoadGame)
+23:06:59 1 variables compiled
+23:06:59 1 variables compiled
+23:06:59 Trying to math: 310+20
+23:06:59 Result: 330
+23:06:59 New GUI control: GUIButton(btnOptions)
+23:06:59 1 variables compiled
+23:06:59 1 variables compiled
+23:06:59 Trying to math: 330+20
+23:06:59 Result: 350
+23:06:59 New GUI control: GUIButton(btnCredits)
+23:06:59 1 variables compiled
+23:06:59 1 variables compiled
+23:06:59 Trying to math: 350+20
+23:06:59 Result: 370
+23:06:59 New GUI control: GUIButton(btnExit)
+23:06:59 1 variables compiled
+23:06:59 1 variables compiled
+23:06:59 scripts/menu_main.txt: Interpret OK
+23:06:59 scripts/menu_main.txt: File successfully loaded
+23:06:59 init.txt: Interpret OK
+23:06:59 init.txt: File successfully loaded
+23:06:59 Loading file: levels\level1.txt
+23:06:59 levels\level1.txt: Input...
+23:06:59 levels\level1.txt: Input OK
+23:06:59 Lexemize...
+23:06:59 levels\level1.txt: Lexemize OK (155 lexems token)
+23:06:59 Interpret...
+23:06:59 1 constants recognized
+23:06:59 Player created
+23:06:59 1 constants recognized
+23:06:59 Powerup created
+23:06:59 1 constants recognized
+23:06:59 Powerup created
+23:06:59 1 constants recognized
+23:06:59 Powerup created
+23:06:59 Enemy created
+23:06:59 Enemy created
+23:06:59 Enemy created
+23:06:59 levels\level1.txt: Interpret OK
+23:06:59 levels\level1.txt: File successfully loaded

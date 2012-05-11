@@ -1,0 +1,16 @@
+07:10:47 Loading file: test.txt
+07:10:47 Input...
+07:10:47 Input OK
+07:10:47 Lexemize...
+07:10:47 Lexemize OK (45 lexems token)
+07:10:47 Dumping lexem stream...
+07:10:47 	int ( a ) = ( + -1 + -2 + -3 + -4 + -5 + -6 + -7 + -8 + -9 ) * ( + -2 ) + 7 + -3 * 4 + 8 + -5 * 2 * 6 ; 
+07:10:47 Finished dumping
+07:10:47 Compile...
+07:10:47 Compile OK
+07:10:47 Interpret...
+07:10:47 Error: Semicolon expected
+07:10:47 Error: Semicolon expected
+07:10:47 Error: Semicolon expected
+07:10:47 Error: Equalcolon expected
+07:10:47 Interpret FAILED

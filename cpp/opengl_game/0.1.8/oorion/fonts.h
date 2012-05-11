@@ -1,0 +1,1 @@
+void BuildFont(HFONT *font);

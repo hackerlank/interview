@@ -1,0 +1,213 @@
+14:53:33 left: MainMenu; right: VISIBLE; value: 1
+14:53:33 this is first element
+14:53:33 buffer overflow check: 
+14:53:33 OK
+14:53:33 parsing new element
+14:53:33 left: MainMenu; right: TEXTURE_NAME; value: mainscreen
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: PATTERNCOUNT; value: 1
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: PATTERNCURRENT; value: 0
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: PATTERNWIDTH; value: 580
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: PATTERNHEIGHT; value: 440
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: X; value: 50
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: Y; value: 50
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: COLOR_RED; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: COLOR_GREEN; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: COLOR_BLUE; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: MainMenu; right: COLOR_ALPHA; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 0)
+14:53:33 left: Start; right: VISIBLE; value: 1
+14:53:33 not found control in 'elements', now copying name
+14:53:33 buffer overflow check: 
+14:53:33 OK
+14:53:33 parsing new element
+14:53:33 left: Start; right: TEXTURE_NAME; value: button_long
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: PATTERNCOUNT; value: 3
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: PATTERNCURRENT; value: 0
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: PATTERNWIDTH; value: 220
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: PATTERNHEIGHT; value: 32
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: X; value: 70
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: Y; value: 70
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: COLOR_RED; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: COLOR_GREEN; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: COLOR_BLUE; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: COLOR_ALPHA; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_FONT_NAME; value: default
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_X; value: 10
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_Y; value: 5
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_COLOR_RED; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_COLOR_GREEN; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_COLOR_BLUE; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION_COLOR_ALPHA; value: 255
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: CAPTION; value: Start
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:33 left: Start; right: PARENT; value: MainMenu
+14:53:33 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:34 left: Start; right: NEXT; value: DifficultyMenu
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:34 left: Start; right: ACTION; value: 1
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 1)
+14:53:34 left: Load; right: VISIBLE; value: 1
+14:53:34 not found control in 'elements', now copying name
+14:53:34 buffer overflow check: 
+14:53:34 OK
+14:53:34 parsing new element
+14:53:34 left: Load; right: TEXTURE_NAME; value: button_long
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: PATTERNCOUNT; value: 3
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: PATTERNCURRENT; value: 0
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: PATTERNWIDTH; value: 220
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: PATTERNHEIGHT; value: 32
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: X; value: 70
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: Y; value: 110
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_FONT_NAME; value: default
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_X; value: 10
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_Y; value: 5
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION_COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: CAPTION; value: Load
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Load; right: PARENT; value: MainMenu
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 2)
+14:53:34 left: Options; right: VISIBLE; value: 1
+14:53:34 not found control in 'elements', now copying name
+14:53:34 buffer overflow check: 
+14:53:34 OK
+14:53:34 parsing new element
+14:53:34 left: Options; right: TEXTURE_NAME; value: button_long
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: PATTERNCOUNT; value: 3
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: PATTERNCURRENT; value: 0
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: PATTERNWIDTH; value: 220
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: PATTERNHEIGHT; value: 32
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: X; value: 70
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: Y; value: 150
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_FONT_NAME; value: default
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_X; value: 10
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_Y; value: 5
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION_COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: CAPTION; value: Options
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: PARENT; value: MainMenu
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Options; right: ACTION; value: 0
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 3)
+14:53:34 left: Credits; right: VISIBLE; value: 1
+14:53:34 not found control in 'elements', now copying name
+14:53:34 buffer overflow check: 
+14:53:34 OK
+14:53:34 parsing new element
+14:53:34 left: Credits; right: TEXTURE_NAME; value: button_long
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: PATTERNCOUNT; value: 3
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: PATTERNCURRENT; value: 0
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: PATTERNWIDTH; value: 220
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: PATTERNHEIGHT; value: 32
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: X; value: 70
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: Y; value: 190
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_FONT_NAME; value: default
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_X; value: 10
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_Y; value: 5
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_COLOR_RED; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_COLOR_GREEN; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_COLOR_BLUE; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION_COLOR_ALPHA; value: 255
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: CAPTION; value: Credits
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)
+14:53:34 left: Credits; right: PARENT; value: MainMenu
+14:53:34 DEBUG: in 'elements' loop, found control (iteration 4)

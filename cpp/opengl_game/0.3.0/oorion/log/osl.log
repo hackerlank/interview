@@ -1,0 +1,41 @@
+18:44:27 Loading file: init.txt
+18:44:27 init.txt: Input...
+18:44:27 init.txt: Input OK
+18:44:27 Lexemize...
+18:44:27 init.txt: Lexemize OK (87 lexems token)
+18:44:27 Interpret...
+18:44:27 1 functions compiled
+18:44:27 Loading config file: default.cfg
+18:44:27 Input...
+18:44:27 Input OK
+18:44:27 Lexemize...
+18:44:27 Lexemize OK (29 lexems token)
+18:44:27 Applying config...
+18:44:27 Applying config OK
+18:44:27 Config successfully loaded
+18:44:27 1 functions compiled
+18:44:27 1 functions compiled
+18:44:27 Trying to load texture...
+18:44:27 LoadTexture OK
+18:44:27 1 functions compiled
+18:44:27 Trying to load texture...
+18:44:27 LoadTexture OK
+18:44:27 1 functions compiled
+18:44:27 Trying to load font...
+18:44:27 LoadFont OK
+18:44:27 1 functions compiled
+18:44:27 Loading file: scripts/menu_starname.txt
+18:44:27 scripts/menu_starname.txt: Input...
+18:44:27 scripts/menu_starname.txt: Input OK
+18:44:27 Lexemize...
+18:44:27 scripts/menu_starname.txt: Lexemize OK (397 lexems token)
+18:44:27 Interpret...
+18:44:27 New GUI control: GUITextBox(txtHomeStarName)
+18:44:27 New GUI control: GUIButton(btnHomeStarNameNext)
+18:44:27 1 constants recognized
+18:44:27 1 constants recognized
+18:44:27 Error (scripts/menu_starname.txt, line 35): SetGUIElem: incompatible types
+18:44:27 scripts/menu_starname.txt: Interpret OK
+18:44:27 scripts/menu_starname.txt: File successfully loaded
+18:44:27 init.txt: Interpret OK
+18:44:27 init.txt: File successfully loaded

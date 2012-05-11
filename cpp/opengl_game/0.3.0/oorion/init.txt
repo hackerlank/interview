@@ -1,0 +1,33 @@
+# config
+LoadConfig("default.cfg");
+
+# GUI
+Init(gui);
+
+# textures
+LoadTexture("textures/button_long.bmp");
+LoadTexture("textures/mainmenu.bmp");
+
+# fonts
+#LoadFont("Times New Roman", 14, 700, "default"); # doesnt work
+LoadFont("Courier New", 14, 400, "oorion_font"); # doesnt work
+#LoadFont("Times New Roman", 14, 700, "debug");
+#LoadFont("Courier New", 10, 400, "star");
+
+#LoadFontFromFile("fonts/oorion_font.bmp", 16, 10);
+
+# info
+echo("GUI initialized");
+echo("Textures loaded");
+echo("Config loaded");
+echo("Fonts loaded");
+
+
+#Load("scripts/menu_main.txt");
+#Load("scripts/menu_difficulty.txt");
+#Load("scripts/menu_galaxy_size.txt");
+#Load("scripts/menu_races.txt");
+#Load("scripts/menu_opponents.txt");
+#Load("scripts/menu_playername.txt");
+Load("scripts/menu_starname.txt");
+#Load("scripts/menu_color.txt");

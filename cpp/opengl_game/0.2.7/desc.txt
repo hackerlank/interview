@@ -1,0 +1,7 @@
+Сделал сигналы (gui)
+Поправил структуру GUIMessage
+Добавил структуру GUISignal
+Обновлены константы (GUI_MOUSE_MOVE и т.д.)
+GUIControl: добавил вектор сигналов (vector<GUISignal>)
+Сообщения теперь отправляются в цикле
+SetGUIElem(AddSignal)

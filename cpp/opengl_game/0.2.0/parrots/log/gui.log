@@ -1,0 +1,50 @@
+01:37:40 DEBUG: Beginning parsing gui definition element: MainMenu
+01:37:40 DEBUG: Finished parsing gui definition element: MainMenu
+01:37:40 DEBUG: Beginning parsing gui definition element: Start
+01:37:40 DEBUG: Finished parsing gui definition element: Start
+01:37:40 DEBUG: Beginning parsing gui definition element: Load
+01:37:40 DEBUG: Finished parsing gui definition element: Load
+01:37:40 DEBUG: Beginning parsing gui definition element: Options
+01:37:40 DEBUG: Finished parsing gui definition element: Options
+01:37:40 DEBUG: Beginning parsing gui definition element: Credits
+01:37:40 DEBUG: Finished parsing gui definition element: Credits
+01:37:40 DEBUG: Beginning parsing gui definition element: Exit
+01:37:40 DEBUG: Finished parsing gui definition element: Exit
+01:37:40 DEBUG: Beginning parsing gui definition element: DifficultyMenu
+01:37:40 DEBUG: Finished parsing gui definition element: DifficultyMenu
+01:37:40 DEBUG: Beginning parsing gui definition element: Easy
+01:37:40 DEBUG: Finished parsing gui definition element: Easy
+01:37:40 DEBUG: Beginning parsing gui definition element: Medium
+01:37:40 DEBUG: Finished parsing gui definition element: Medium
+01:37:40 DEBUG: Beginning parsing gui definition element: Back
+01:37:40 DEBUG: Finished parsing gui definition element: Back
+01:37:40 DEBUG: Beginning parsing gui definition element: RaceMenu
+01:37:40 DEBUG: Finished parsing gui definition element: RaceMenu
+01:37:40 DEBUG: Beginning parsing gui definition element: Back2
+01:37:40 DEBUG: Finished parsing gui definition element: Back2
+01:37:40 DEBUG: Beginning parsing gui definition element: Alkari
+01:37:40 DEBUG: Finished parsing gui definition element: Alkari
+01:37:40 DEBUG: Beginning parsing gui definition element: Bulrathi
+01:37:40 DEBUG: Finished parsing gui definition element: Bulrathi
+01:37:40 DEBUG: trying to set parent for Start
+01:37:40 MainMenu is set as a parent to Start
+01:37:40 DEBUG: trying to set parent for Load
+01:37:40 MainMenu is set as a parent to Load
+01:37:40 DEBUG: trying to set parent for Options
+01:37:40 MainMenu is set as a parent to Options
+01:37:40 DEBUG: trying to set parent for Credits
+01:37:40 MainMenu is set as a parent to Credits
+01:37:40 DEBUG: trying to set parent for Exit
+01:37:40 MainMenu is set as a parent to Exit
+01:37:40 DEBUG: trying to set parent for Easy
+01:37:40 DifficultyMenu is set as a parent to Easy
+01:37:40 DEBUG: trying to set parent for Medium
+01:37:40 DifficultyMenu is set as a parent to Medium
+01:37:40 DEBUG: trying to set parent for Back
+01:37:40 DifficultyMenu is set as a parent to Back
+01:37:40 DEBUG: trying to set parent for Back2
+01:37:40 RaceMenu is set as a parent to Back2
+01:37:40 DEBUG: trying to set parent for Alkari
+01:37:40 RaceMenu is set as a parent to Alkari
+01:37:40 DEBUG: trying to set parent for Bulrathi
+01:37:40 RaceMenu is set as a parent to Bulrathi

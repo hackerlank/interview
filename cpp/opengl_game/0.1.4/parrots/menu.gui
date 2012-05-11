@@ -1,0 +1,206 @@
+# -- MENU SYSTEM -- (God, help me parse it)
+
+
+# - MainMenu                        # - DifficultyMenu				# - SizeMenu                            # - RaceMenu         
+
+# Start ->	DifficultyMenu			# Easy ->		SizeMenu 		# Tiny ->		RaceMenu				# ...races...	
+									# Medium ->		SizeMenu		# Small ->		RaceMenu
+									# Hard ->		SizeMenu		# Medium ->		RaceMenu
+									# Impossible -> SizeMenu        # Large ->		RaceMenu
+									# Back ->		MainMenu		# Huge ->		RaceMenu
+																	# Back ->		DifficultyMenu
+
+
+# Load ->		# Back
+
+
+# Options ->	# 1280x1024
+				# 1024x768
+				# 800x600
+				# 640x480
+				# Back
+
+
+# Credits ->	# Back
+
+
+# Quit
+
+Load("races.txt")
+
+
+MENU "Mainmenu"
+{
+	BUTTON "Start"
+	{
+		texture="button_long"
+		patterns=3
+		pattern=0
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=150
+		next="Difficultymenu"
+		action=actNext
+	}
+		
+	BUTTON "Load"
+	{
+		texture="button_long"
+		patterns=3
+		pattern=0
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=190
+		next="Loadmenu"
+		action=actNext
+	}
+	
+	BUTTON "Options"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=230
+		next="Optionsmenu"
+		action=actNext
+	}
+	
+	BUTTON "Credits"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=270
+		next="Creditsmenu"
+		action=actNext
+	}
+	
+	BUTTON "Quit"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=300
+		action=actExit;
+	}
+}
+
+MENU "Loadmenu"
+{
+	BUTTON "Back"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=150
+		next="Mainmenu"
+		action=actNext
+	}
+}
+
+MENU "Optionsmenu"
+{
+	BUTTON "1280x1024"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=150
+	}
+	
+	BUTTON "1024x768"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=190
+	}
+	
+	BUTTON "800x600"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=230
+	}
+	
+	BUTTON "640x480"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=270
+	}
+	
+	BUTTON "Back"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=300
+		next="Mainmenu"
+		action=actNext
+	}
+}
+
+MENU "Creditsmenu"
+{
+	BUTTON "Back"
+	{
+		patterns=3
+		pattern=0
+		texture="button_long"
+		fontname="Arial"
+		fontsize=10
+		fontcolor=255,255,255,255
+		x=250
+		y=300
+		next="Mainmenu"
+		action=actNext
+	}
+}
+
+
+
+		
+	

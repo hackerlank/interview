@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+g++ -Wall -c config.cpp
+g++ -Wall -c main.cpp
+g++ -Wall -c -I/usr/local/include/ db.cpp
+g++ -Wall -c -I/usr/local/include/ work.cpp
+
+g++ -Wall -o "mizuno" /usr/local/lib/libpq.so /usr/local/lib/libcurl.so main.o config.o db.o work.o -lpthread

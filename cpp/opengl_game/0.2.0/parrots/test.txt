@@ -1,0 +1,16 @@
+int(a) = 5;
+int(b) = 3;
+string(result) = "";
+
+result = tostr(a+b);
+
+
+
+
+for(i = 0; i < 5; i++)
+{
+print("Hello World!");
+print(i);
+}
+
+print(result);

@@ -1,0 +1,2 @@
+//void ApplyColors();
+void ApplyQuake();

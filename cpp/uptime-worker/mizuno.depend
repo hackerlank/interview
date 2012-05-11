@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1267247705 source:/home/faito/Documents/src/mizuno/main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<pthread.h>
+	<stdio.h>
+	<mcheck.h>
+	"config.h"
+	"work.h"
+	"db.h"
+
+1267151647 /home/faito/Documents/src/mizuno/thread.h
+	<windows.h>
+	"pthread.h"
+
+1267151724 source:/home/faito/Documents/src/mizuno/thread.cpp
+	"thread.h"
+
+1267247698 source:/home/faito/Documents/src/mizuno/config.cpp
+	"config.h"
+
+1267170287 /home/faito/Documents/src/mizuno/config.h
+
+1267247525 source:/home/faito/Documents/src/mizuno/work.cpp
+	"work.h"
+	"db.h"
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<curl/curl.h>
+
+1267164794 /home/faito/Documents/src/mizuno/work.h
+
+1267246084 source:/home/faito/Documents/src/mizuno/db.cpp
+	<string>
+	<postgresql/libpq-fe.h>
+	<stdio.h>
+	<string.h>
+	"db.h"
+	"config.h"
+	<iostream>
+	<stdarg.h>
+	<stdlib.h>
+
+1267234133 /home/faito/Documents/src/mizuno/db.h
+
+1268662455 source:/home/tosaka/svn/mizuno/config.cpp
+	"config.h"
+
+1268662391 /home/tosaka/svn/mizuno/config.h
+
+1268997328 source:/home/tosaka/svn/mizuno/db.cpp
+	<string>
+	<libpq-fe.h>
+	<postgresql/libpq-fe.h>
+	<stdio.h>
+	<string.h>
+	"data_in.h"
+	"db.h"
+	"config.h"
+	<iostream>
+	<stdarg.h>
+	<stdlib.h>
+
+1268662165 /home/tosaka/svn/mizuno/db.h
+
+1268992798 source:/home/tosaka/svn/mizuno/main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<pthread.h>
+	<stdio.h>
+	"config.h"
+	"work.h"
+	"data_in.h"
+	"db.h"
+
+1268656187 /home/tosaka/svn/mizuno/work.h
+
+1268995116 source:/home/tosaka/svn/mizuno/work.cpp
+	"data_in.h"
+	"config.h"
+	"work.h"
+	"db.h"
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<curl/curl.h>
+
+1268996127 /home/tosaka/svn/mizuno/data_in.h
+

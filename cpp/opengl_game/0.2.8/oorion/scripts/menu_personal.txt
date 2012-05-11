@@ -1,0 +1,21 @@
+# -- DATA FORM ----------------------------------
+
+
+NewGUIElem("GUITextBox", "ctrlPlayerName");
+SetGUIElem("ctrlPlayerName", "X", 400);
+SetGUIElem("ctrlPlayerName", "Y", 450);
+SetGUIElem("ctrlPlayerName", "Width", 200);
+SetGUIElem("ctrlPlayerName", "Height", 25);
+SetGUIElem("ctrlPlayerName", "Color", 255, 255, 255, 255);
+SetGUIElem("ctrlPlayerName", "Visible", 0);
+SetGUIElem("ctrlPlayerName", "Caption", "Enter player name:");
+SetGUIElem("ctrlPlayerName", "CaptionX", 0);
+SetGUIElem("ctrlPlayerName", "CaptionY", -20);
+SetGUIElem("ctrlPlayerName", "CaptionFont", "oorion_font");
+SetGUIElem("ctrlPlayerName", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("ctrlPlayerName", "Text", "ender");
+SetGUIElem("ctrlPlayerName", "TextX", 7);
+SetGUIElem("ctrlPlayerName", "TextY", 3);
+SetGUIElem("ctrlPlayerName", "TextFont", "oorion_font");
+SetGUIElem("ctrlPlayerName", "TextColor", 255, 255, 255, 255);
+SetGUIElem("ctrlPlayerName", "Group", 6);

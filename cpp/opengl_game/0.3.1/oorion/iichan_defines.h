@@ -1,0 +1,2 @@
+#define PLAYER_START_X 300
+#define PLAYER_START_Y 350

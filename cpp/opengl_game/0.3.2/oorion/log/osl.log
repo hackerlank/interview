@@ -1,0 +1,124 @@
+02:44:23 Loading file: init.txt
+02:44:23 init.txt: Input...
+02:44:23 init.txt: Input OK
+02:44:23 Lexemize...
+02:44:23 init.txt: Lexemize OK (127 lexems token)
+02:44:23 Interpret...
+02:44:23 1 functions compiled
+02:44:23 Loading config file: default.cfg
+02:44:23 Input...
+02:44:23 Input OK
+02:44:23 Lexemize...
+02:44:23 Lexemize OK (121 lexems token)
+02:44:23 Applying config...
+02:44:23 Applying config OK
+02:44:23 Config successfully loaded
+02:44:23 1 functions compiled
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load texture...
+02:44:23 LoadTexture OK
+02:44:23 1 functions compiled
+02:44:23 Trying to load font...
+02:44:24 LoadFont OK
+02:44:24 1 functions compiled
+02:44:24 Loading file: scripts/menu_main.txt
+02:44:24 scripts/menu_main.txt: Input...
+02:44:24 scripts/menu_main.txt: Input OK
+02:44:24 Lexemize...
+02:44:24 scripts/menu_main.txt: Lexemize OK (961 lexems token)
+02:44:24 Interpret...
+02:44:24 1 constants recognized
+02:44:24 Declaring variable: x
+02:44:24 Trying to math: 640/2
+02:44:24 Result: 320.
+02:44:24 Trying to math: 320.+-50
+02:44:24 Result: 270.
+02:44:24 Warning (scripts/menu_main.txt, line 13): Float to int convertion
+02:44:24 1 constants recognized
+02:44:24 Declaring variable: y
+02:44:24 Trying to math: 480/2
+02:44:24 Result: 240.
+02:44:24 Trying to math: 240.+50
+02:44:24 Result: 290.
+02:44:24 Warning (scripts/menu_main.txt, line 14): Float to int convertion
+02:44:24 New GUI control: GUIButton(btnStartGame)
+02:44:24 1 variables compiled
+02:44:24 1 variables compiled
+02:44:24 1 constants recognized
+02:44:24 Trying to math: 290+20
+02:44:24 Result: 310
+02:44:24 New GUI control: GUIButton(btnLoadGame)
+02:44:24 1 variables compiled
+02:44:24 1 variables compiled
+02:44:24 Trying to math: 310+20
+02:44:24 Result: 330
+02:44:24 New GUI control: GUIButton(btnOptions)
+02:44:24 1 variables compiled
+02:44:24 1 variables compiled
+02:44:24 Trying to math: 330+20
+02:44:24 Result: 350
+02:44:24 New GUI control: GUIButton(btnCredits)
+02:44:24 1 variables compiled
+02:44:24 1 variables compiled
+02:44:24 Trying to math: 350+20
+02:44:24 Result: 370
+02:44:24 New GUI control: GUIButton(btnExit)
+02:44:24 1 variables compiled
+02:44:24 1 variables compiled
+02:44:24 scripts/menu_main.txt: Interpret OK
+02:44:24 scripts/menu_main.txt: File successfully loaded
+02:44:24 init.txt: Interpret OK
+02:44:24 init.txt: File successfully loaded
+02:44:24 Loading file: levels\level1.txt
+02:44:24 levels\level1.txt: Input...
+02:44:24 levels\level1.txt: Input OK
+02:44:24 Lexemize...
+02:44:24 levels\level1.txt: Lexemize OK (287 lexems token)
+02:44:24 Interpret...
+02:44:24 1 constants recognized
+02:44:24 Player created
+02:44:24 Sprite created
+02:44:24 Sprite created
+02:44:24 Sprite created
+02:44:24 1 constants recognized
+02:44:24 Powerup created
+02:44:24 1 constants recognized
+02:44:24 Powerup created
+02:44:24 1 constants recognized
+02:44:24 Powerup created
+02:44:24 Enemy created
+02:44:24 Enemy created
+02:44:24 Enemy created
+02:44:24 Enemy created
+02:44:24 Enemy created
+02:44:24 Sprite created
+02:44:24 Sprite created
+02:44:24 levels\level1.txt: Interpret OK
+02:44:24 levels\level1.txt: File successfully loaded

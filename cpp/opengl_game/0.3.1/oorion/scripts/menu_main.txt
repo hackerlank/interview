@@ -1,0 +1,105 @@
+# -- MAIN MENU ----------------------------------
+#NewGUIElem("GUIVidget", "vdgMainScreen");
+#SetGUIElem("vdgMainScreen", "Width", 1024);
+#SetGUIElem("vdgMainScreen", "Height", 768);
+#SetGUIElem("vdgMainScreen", "X", 0);
+#SetGUIElem("vdgMainScreen", "Y", 0);
+#SetGUIElem("vdgMainScreen", "Color", 255, 255, 255, 255);
+#SetGUIElem("vdgMainScreen", "Texture", "mainmenu");
+#SetGUIElem("vdgMainScreen", "Visible", 1);
+#SetGUIElem("vdgMainScreen", "PatternCount", 1);
+#SetGUIElem("vdgMainScreen", "CurrentPattern", 0);
+#SetGUIElem("vdgMainScreen", "Group", 99);
+
+int(x) = SYS_SCR_WIDTH / 2 - 50;
+int(y) = SYS_SCR_HEIGHT / 2 + 50;
+
+NewGUIElem("GUIButton", "btnStartGame");
+SetGUIElem("btnStartGame", "X", x);
+SetGUIElem("btnStartGame", "Y", y);
+SetGUIElem("btnStartGame", "Width", 80);
+SetGUIElem("btnStartGame", "Height", 9);
+SetGUIElem("btnStartGame", "Color", 255, 255, 255, 255);
+SetGUIElem("btnStartGame", "Visible", 1);
+SetGUIElem("btnStartGame", "Caption", "START GAME");
+SetGUIElem("btnStartGame", "CaptionX", 0);
+SetGUIElem("btnStartGame", "CaptionY", 0);
+SetGUIElem("btnStartGame", "CaptionFont", "oorion_font");
+SetGUIElem("btnStartGame", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnStartGame", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnStartGame", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnStartGame", "Group", 1);
+SetGUIElem("btnStartGame", "AddSignal", GUI_SGN_START_GAME, 0, 0);
+
+y = y + 20;
+
+NewGUIElem("GUIButton", "btnLoadGame");
+SetGUIElem("btnLoadGame", "X", x);
+SetGUIElem("btnLoadGame", "Y", y);
+SetGUIElem("btnLoadGame", "Width", 70);
+SetGUIElem("btnLoadGame", "Height", 9);
+SetGUIElem("btnLoadGame", "Color", 255, 255, 255, 255);
+SetGUIElem("btnLoadGame", "Visible", 1);
+SetGUIElem("btnLoadGame", "Caption", "LOAD GAME");
+SetGUIElem("btnLoadGame", "CaptionX", 0);
+SetGUIElem("btnLoadGame", "CaptionY", 0);
+SetGUIElem("btnLoadGame", "CaptionFont", "oorion_font");
+SetGUIElem("btnLoadGame", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnLoadGame", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnLoadGame", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnLoadGame", "Group", 1);
+
+y = y + 20;
+
+NewGUIElem("GUIButton", "btnOptions");
+SetGUIElem("btnOptions", "X", x);
+SetGUIElem("btnOptions", "Y", y);
+SetGUIElem("btnOptions", "Width", 55);
+SetGUIElem("btnOptions", "Height", 9);
+SetGUIElem("btnOptions", "Color", 255, 255, 255, 255);
+SetGUIElem("btnOptions", "Visible", 1);
+SetGUIElem("btnOptions", "Caption", "OPTIONS");
+SetGUIElem("btnOptions", "CaptionX", 0);
+SetGUIElem("btnOptions", "CaptionY", 0);
+SetGUIElem("btnOptions", "CaptionFont", "oorion_font");
+SetGUIElem("btnOptions", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnOptions", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnOptions", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnOptions", "Group", 1);
+
+y = y + 20;
+
+NewGUIElem("GUIButton", "btnCredits");
+SetGUIElem("btnCredits", "X", x);
+SetGUIElem("btnCredits", "Y", y);
+SetGUIElem("btnCredits", "Width", 55);
+SetGUIElem("btnCredits", "Height", 9);
+SetGUIElem("btnCredits", "Color", 255, 255, 255, 255);
+SetGUIElem("btnCredits", "Visible", 1);
+SetGUIElem("btnCredits", "Caption", "CREDITS");
+SetGUIElem("btnCredits", "CaptionX", 0);
+SetGUIElem("btnCredits", "CaptionY", 0);
+SetGUIElem("btnCredits", "CaptionFont", "oorion_font");
+SetGUIElem("btnCredits", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnCredits", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnCredits", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnCredits", "Group", 1);
+
+y = y + 20;
+
+NewGUIElem("GUIButton", "btnExit");
+SetGUIElem("btnExit", "X", x);
+SetGUIElem("btnExit", "Y", y);
+SetGUIElem("btnExit", "Width", 30);
+SetGUIElem("btnExit", "Height", 9);
+SetGUIElem("btnExit", "Color", 255, 255, 255, 255);
+SetGUIElem("btnExit", "Visible", 1);
+SetGUIElem("btnExit", "Caption", "EXIT");
+SetGUIElem("btnExit", "CaptionX", 0);
+SetGUIElem("btnExit", "CaptionY", 0);
+SetGUIElem("btnExit", "CaptionFont", "oorion_font");
+SetGUIElem("btnExit", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnExit", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnExit", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnExit", "Group", 1);
+SetGUIElem("btnExit", "AddSignal", 650, 0, 0);

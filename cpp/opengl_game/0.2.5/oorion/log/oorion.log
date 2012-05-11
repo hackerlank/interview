@@ -1,0 +1,21 @@
+20:04:42 Log started
+20:04:42 Font loaded: default
+20:04:42 Font loaded: log_screen
+20:04:42 Font loaded: debug
+20:04:42 Font loaded: star
+20:04:42 appl. path:	c:\Source\cpp\OpenOrion\0.2.5\oorion
+20:04:42 log path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\log
+20:04:42 config path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\default.cfg
+20:04:42 textures path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\textures
+20:04:42 fonts path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\fonts
+20:04:42 defin. path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\def
+20:04:42 scripts path:	c:\Source\cpp\OpenOrion\0.2.5\oorion\scripts
+20:04:42 Found texture: button
+20:04:42 Found texture: button_long
+20:04:42 Found texture: game_button
+20:04:42 Found texture: mainscreen
+20:04:42 Found texture: messagebox
+20:04:43 Found texture: panel
+20:04:43 Found texture: progressbar
+20:04:43 Found texture: star
+20:04:57 Finished logging

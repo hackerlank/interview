@@ -1,0 +1,4 @@
+"slow", 1, 4, "slowpoke_face", "Hey, loli, do you know when iichan-eroge will be released?";
+"Player", 0, 1, "anonya_face", "Lolwut?";
+"slow", 1, 3, "slowpoke_face", "I heard there would be loli :3";
+"Player", 0, 3, "anonya_face", "No way!!! You all are stupid pedos!";

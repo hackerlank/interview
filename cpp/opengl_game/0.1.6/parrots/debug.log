@@ -1,0 +1,81 @@
+22:39:59 Log started
+22:40:00 appl. path:	c:\Source\cpp\OpenOrion\0.1.6\parrots
+22:40:00 log path:	c:\Source\cpp\OpenOrion\0.1.6\parrots\debug.log
+22:40:00 config path:	c:\Source\cpp\OpenOrion\0.1.6\parrots\default.cfg
+22:40:00 textures path:	c:\Source\cpp\OpenOrion\0.1.6\parrots\textures
+22:40:00 fonts path:	c:\Source\cpp\OpenOrion\0.1.6\parrots\fonts
+22:40:00 Searching textures in: c:\Source\cpp\OpenOrion\0.1.6\parrots\textures
+22:40:00 Found texture: button.bmp
+22:40:00 Found texture: button_long.bmp
+22:40:00 Found texture: game_button.bmp
+22:40:00 Found texture: mainscreen.bmp
+22:40:00 Found texture: messagebox.bmp
+22:40:00 Found texture: panel.bmp
+22:40:00 Found texture: progressbar.bmp
+22:40:00 Found texture: star.bmp
+22:40:00 Font loaded: Font1
+22:40:00 Font loaded: Font2
+22:40:00 Font loaded: Font3
+22:40:00 Font loaded: Font4
+22:40:00 GUI created
+22:40:00 Created GUIcontrol: GID=1; name=MainMenu
+22:40:00 Created GUIcontrol: GID=2; name=DifficultyMenu
+22:40:00 Created GUIcontrol: GID=3; name=SizeMenu
+22:40:00 Created GUIcontrol: GID=4; name=RaceMenu
+22:40:00 Created GUIcontrol: GID=5; name=OpponentsMenu
+22:40:00 Created GUIcontrol: GID=6; name=GameMenu
+22:40:00 Created GUIcontrol: GID=7; name=Start
+22:40:00 Created GUIcontrol: GID=8; name=Load
+22:40:00 Created GUIcontrol: GID=9; name=Options
+22:40:00 Created GUIcontrol: GID=10; name=Credits
+22:40:00 Created GUIcontrol: GID=11; name=Exit
+22:40:00 Created GUIcontrol: GID=12; name=Easy
+22:40:00 Created GUIcontrol: GID=13; name=Medium
+22:40:00 Created GUIcontrol: GID=14; name=Hard
+22:40:00 Created GUIcontrol: GID=15; name=Impossible
+22:40:00 Created GUIcontrol: GID=16; name=Back
+22:40:00 Created GUIcontrol: GID=17; name=Tiny
+22:40:00 Created GUIcontrol: GID=18; name=Small
+22:40:00 Created GUIcontrol: GID=19; name=Average
+22:40:00 Created GUIcontrol: GID=20; name=Big
+22:40:00 Created GUIcontrol: GID=21; name=Huge
+22:40:00 Created GUIcontrol: GID=22; name=Back
+22:40:00 Created GUIcontrol: GID=23; name=Alkari
+22:40:00 Created GUIcontrol: GID=24; name=Bulrathi
+22:40:00 Created GUIcontrol: GID=25; name=Klackon
+22:40:00 Created GUIcontrol: GID=26; name=Meklar
+22:40:00 Created GUIcontrol: GID=27; name=Psilon
+22:40:00 Created GUIcontrol: GID=28; name=Mrrshan
+22:40:00 Created GUIcontrol: GID=29; name=Darlok
+22:40:00 Created GUIcontrol: GID=30; name=Human
+22:40:00 Created GUIcontrol: GID=31; name=Sakkra
+22:40:00 Created GUIcontrol: GID=32; name=Silicoid
+22:40:00 Created GUIcontrol: GID=33; name=Back
+22:40:00 Created GUIcontrol: GID=34; name=One opponent
+22:40:00 Created GUIcontrol: GID=35; name=Two opponents
+22:40:00 Created GUIcontrol: GID=36; name=Three opponents
+22:40:00 Created GUIcontrol: GID=37; name=Four opponents
+22:40:00 Created GUIcontrol: GID=38; name=Five opponents
+22:40:00 Created GUIcontrol: GID=39; name=Back
+22:40:00 Created GUIcontrol: GID=40; name=Game
+22:40:00 Created GUIcontrol: GID=41; name=Design
+22:40:00 Created GUIcontrol: GID=42; name=Fleet
+22:40:00 Created GUIcontrol: GID=43; name=Map
+22:40:00 Created GUIcontrol: GID=44; name=Planets
+22:40:00 Created GUIcontrol: GID=45; name=Tech
+22:40:00 Created GUIcontrol: GID=46; name=Next Turn
+22:40:09 Difficulty=Easy
+22:40:09 Galaxy size=Tiny
+22:40:09 Race=Alkari
+22:40:09 Opponents count=One opponent
+22:40:09 Created player: name=Player0; race=Alkari
+22:40:09 Created player: name=Player1; race=Klackon
+22:40:09 Star Sirius created at 110, 111
+22:40:09 Star Vega created at 340, 69
+22:40:09 Star Arrakis created at 855, 232
+22:40:09 Star Sol created at 150, 1786
+22:40:09 Star Sol created at 268, 2619
+22:40:09 Star Sol created at 204, 2732
+22:40:09 Star Antares created at 321, 2018
+22:40:09 Star Arrakis created at 602, 1557
+22:40:18 Finished logging

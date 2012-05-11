@@ -1,0 +1,30 @@
+# -- GAME MENU ----------------------------------
+NewGUIElem("GUIVidget", "vdgMainScreen2");
+SetGUIElem("vdgMainScreen2", "Width", 1024);
+SetGUIElem("vdgMainScreen2", "Height", 512);
+SetGUIElem("vdgMainScreen2", "X", 0);
+SetGUIElem("vdgMainScreen2", "Y", 0);
+SetGUIElem("vdgMainScreen2", "Color", 255, 255, 255, 255);
+SetGUIElem("vdgMainScreen2", "Texture", "win_screen");
+SetGUIElem("vdgMainScreen2", "Visible", 0);
+SetGUIElem("vdgMainScreen2", "PatternCount", 1);
+SetGUIElem("vdgMainScreen2", "CurrentPattern", 0);
+SetGUIElem("vdgMainScreen2", "Group", MENU_2BCONTINUED);
+
+NewGUIElem("GUIButton", "btnRet");
+SetGUIElem("btnRet", "X", 280);
+SetGUIElem("btnRet", "Y", 300);
+SetGUIElem("btnRet", "Width", 55);
+SetGUIElem("btnRet", "Height", 9);
+SetGUIElem("btnRet", "Color", 255, 255, 255, 255);
+SetGUIElem("btnRet", "Visible", 0);
+SetGUIElem("btnRet", "Caption", "TO MENU");
+SetGUIElem("btnRet", "CaptionX", 0);
+SetGUIElem("btnRet", "CaptionY", 0);
+SetGUIElem("btnRet", "CaptionFont", "default");
+SetGUIElem("btnRet", "CaptionColor", 181, 181, 181, 255);
+SetGUIElem("btnRet", "SelectedCaptionColor", 120, 88, 150, 255);
+SetGUIElem("btnRet", "PressedCaptionColor", 69, 46, 90, 255);
+SetGUIElem("btnRet", "Group", MENU_2BCONTINUED);
+SetGUIElem("btnRet", "AddSignal", GUI_SGN_OPEN_GROUP, MENU_MAIN, 0);
+

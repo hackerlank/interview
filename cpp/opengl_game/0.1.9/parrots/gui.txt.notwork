@@ -1,0 +1,64 @@
+GUIDEFINITION
+	GUICONTROL
+	ololol =   15023 sdasd    sad    
+			NAME = MainMenu
+			VISIBLE = 0
+			TEXTURE_NAME = mainscreen
+			PATTERN_COUNT = 1
+			PATTERN_CURRENT = 0
+			X = 0
+			Y = 0
+			
+			GUICONTROL
+				NAME = Start
+				VISIBLE = 0
+				TEXTURE_NAME = button_long
+				PATTERN_COUNT = 3
+				PATTERN_CURRENT = 0
+				X = 250
+				Y = 250
+				NEXT = DifficultyMenu
+				ACTION = 1 # actOpenNext
+				CAPTION_FONT_NAME = default
+			/GUICONTROL
+			
+			GUICONTROL
+				NAME = Load
+				VISIBLE = 0
+				TEXTURE_NAME = button_long
+				PATTERN_COUNT = 3
+				PATTERN_CURRENT = 0
+				X = 250
+				Y = 290
+				CAPTION_FONT_NAME = default
+			/GUICONTROL
+	/GUICONTROL
+	GUICONTROL
+			NAME = DifficultyMenu
+			VISIBLE = 0
+			TEXTURE_NAME = mainscreen
+			PATTERN_COUNT = 1
+			PATTERN_CURRENT = 0
+			X = 0
+			Y = 0
+			
+			GUICONTROL
+				NAME = Easy
+				VISIBLE = 0
+				TEXTURE_NAME = button_long
+				PATTERN_COUNT = 3
+				PATTERN_CURRENT = 0
+				X = 250
+				Y = 250
+				CAPTION_FONT_NAME = default
+			
+			GUICONTROL
+				NAME = Back
+				VISIBLE = 0
+				TEXTURE_NAME = button_long
+				PATTERN_COUNT = 3
+				PATTERN_CURRENT = 0
+				X = 250
+				Y = 290
+				NEXT = MainMenu
+				ACTION = 1 # actOpenNext

@@ -1,0 +1,3 @@
+"Player", 0, 1, "anonya_face", "What the ... ?";
+"/b/tard", 1, 1, "btard_face", "Muahaha! Loli! I wanna some loooli";
+"Player", 0, 1, "anonya_face", "I'll kill you, stupid pedo!";

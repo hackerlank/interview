@@ -1,0 +1,171 @@
+03:16:56 Log started
+03:16:56 clearing string: scr_width=1024
+03:16:56 string cleared (spaces): scr_width=1024
+03:16:56 clearing string: scr_height=768
+03:16:56 string cleared (spaces): scr_height=768
+03:16:56 clearing string: bpp=16
+03:16:56 string cleared (spaces): bpp=16
+03:16:56 clearing string: fullscreen=0
+03:16:56 string cleared (spaces): fullscreen=0
+03:16:56 clearing string: vert_sync=0
+03:16:56 string cleared (spaces): vert_sync=0
+03:16:56 clearing string: debug=1
+03:16:56 string cleared (spaces): debug=1
+03:16:56 clearing string: debug=1
+03:16:56 string cleared (spaces): debug=1
+03:16:56 appl. path:	c:\Source\cpp\OpenOrion\0.1.7\parrots
+03:16:56 log path:	c:\Source\cpp\OpenOrion\0.1.7\parrots\debug.log
+03:16:56 config path:	c:\Source\cpp\OpenOrion\0.1.7\parrots\default.cfg
+03:16:56 textures path:	c:\Source\cpp\OpenOrion\0.1.7\parrots\textures
+03:16:56 fonts path:	c:\Source\cpp\OpenOrion\0.1.7\parrots\fonts
+03:16:56 Searching textures in: c:\Source\cpp\OpenOrion\0.1.7\parrots\textures
+03:16:56 Found texture: button.bmp
+03:16:56 Found texture: button_long.bmp
+03:16:56 Found texture: game_button.bmp
+03:16:56 Found texture: mainscreen.bmp
+03:16:56 Found texture: messagebox.bmp
+03:16:56 Found texture: panel.bmp
+03:16:56 Found texture: progressbar.bmp
+03:16:56 Found texture: star.bmp
+03:16:56 Font loaded: default
+03:16:56 Font loaded: log_screen
+03:16:56 Font loaded: debug
+03:16:56 Font loaded: star
+03:16:56 Loading file gui.txt
+03:16:56 string: MainMenu.VISIBLE=1
+03:16:56 left: MainMenu
+03:16:56 right: VISIBLE
+03:16:56 value: 1
+03:16:56 string: MainMenu.TEXTURE_NAME=mainscreen
+03:16:56 left: MainMenu
+03:16:56 right: TEXTURE_NAME
+03:16:56 value: mainscreen
+03:16:56 string: MainMenu.PATTERNCOUNT=1
+03:16:56 left: MainMenu
+03:16:56 right: PATTERNCOUNT
+03:16:56 value: 1
+03:16:56 string: MainMenu.PATTERNCURRENT=0
+03:16:56 left: MainMenu
+03:16:56 right: PATTERNCURRENT
+03:16:56 value: 0
+03:16:56 string: MainMenu.PATTERNWIDTH=580
+03:16:56 left: MainMenu
+03:16:56 right: PATTERNWIDTH
+03:16:56 value: 580
+03:16:56 string: MainMenu.PATTERNHEIGHT=440
+03:16:56 left: MainMenu
+03:16:56 right: PATTERNHEIGHT
+03:16:56 value: 440
+03:16:56 string: MainMenu.X=50
+03:16:56 left: MainMenu
+03:16:56 right: X
+03:16:56 value: 50
+03:16:56 string: MainMenu.Y=50
+03:16:56 left: MainMenu
+03:16:56 right: Y
+03:16:56 value: 50
+03:16:56 string: MainMenu.COLOR_RED=255
+03:16:56 left: MainMenu
+03:16:56 right: COLOR_RED
+03:16:56 value: 255
+03:16:56 string: MainMenu.COLOR_GREEN=255
+03:16:56 left: MainMenu
+03:16:56 right: COLOR_GREEN
+03:16:56 value: 255
+03:16:56 string: MainMenu.COLOR_BLUE=255
+03:16:56 left: MainMenu
+03:16:56 right: COLOR_BLUE
+03:16:56 value: 255
+03:16:56 string: MainMenu.COLOR_ALPHA=255
+03:16:56 left: MainMenu
+03:16:56 right: COLOR_ALPHA
+03:16:56 value: 255
+03:16:56 string: Start.VISIBLE=1
+03:16:56 left: Start
+03:16:56 right: VISIBLE
+03:16:56 value: 1
+03:16:56 string: Start.TEXTURE_NAME=button_long
+03:16:56 left: Start
+03:16:56 right: TEXTURE_NAME
+03:16:56 value: button_long
+03:16:56 string: Start.PATTERNCOUNT=3
+03:16:56 left: Start
+03:16:56 right: PATTERNCOUNT
+03:16:56 value: 3
+03:16:56 string: Start.PATTERNCURRENT=0
+03:16:56 left: Start
+03:16:56 right: PATTERNCURRENT
+03:16:56 value: 0
+03:16:56 string: Start.PATTERNWIDTH=220
+03:16:56 left: Start
+03:16:56 right: PATTERNWIDTH
+03:16:56 value: 220
+03:16:56 string: Start.PATTERNHEIGHT=32
+03:16:56 left: Start
+03:16:56 right: PATTERNHEIGHT
+03:16:56 value: 32
+03:16:56 string: Start.X=70
+03:16:56 left: Start
+03:16:56 right: X
+03:16:56 value: 70
+03:16:56 string: Start.Y=70
+03:16:56 left: Start
+03:16:56 right: Y
+03:16:56 value: 70
+03:16:56 string: Start.COLOR_RED=255
+03:16:56 left: Start
+03:16:56 right: COLOR_RED
+03:16:56 value: 255
+03:16:56 string: Start.COLOR_GREEN=255
+03:16:56 left: Start
+03:16:56 right: COLOR_GREEN
+03:16:56 value: 255
+03:16:56 string: Start.COLOR_BLUE=255
+03:16:56 left: Start
+03:16:56 right: COLOR_BLUE
+03:16:56 value: 255
+03:16:56 string: Start.COLOR_ALPHA=255
+03:16:56 left: Start
+03:16:56 right: COLOR_ALPHA
+03:16:56 value: 255
+03:16:56 string: Start.CAPTION_FONT_NAME=default
+03:16:56 left: Start
+03:16:56 right: CAPTION_FONT_NAME
+03:16:56 value: default
+03:16:56 string: Start.CAPTION_X=10
+03:16:56 left: Start
+03:16:56 right: CAPTION_X
+03:16:56 value: 10
+03:16:56 string: Start.CAPTION_Y=5
+03:16:56 left: Start
+03:16:56 right: CAPTION_Y
+03:16:56 value: 5
+03:16:56 string: Start.CAPTION_COLOR_RED=255
+03:16:56 left: Start
+03:16:56 right: CAPTION_COLOR_RED
+03:16:56 value: 255
+03:16:56 string: Start.CAPTION_COLOR_GREEN=255
+03:16:56 left: Start
+03:16:56 right: CAPTION_COLOR_GREEN
+03:16:56 value: 255
+03:16:56 string: Start.CAPTION_COLOR_BLUE=255
+03:16:56 left: Start
+03:16:56 right: CAPTION_COLOR_BLUE
+03:16:56 value: 255
+03:16:56 string: Start.CAPTION_COLOR_ALPHA=255
+03:16:56 left: Start
+03:16:56 right: CAPTION_COLOR_ALPHA
+03:16:56 value: 255
+03:16:56 string: Start.CAPTION=Start
+03:16:56 left: Start
+03:16:56 right: CAPTION
+03:16:56 value: Start
+03:16:56 string: Start.PARENT=MainMenu
+03:16:56 left: Start
+03:16:56 right: PARENT
+03:16:56 value: MainMenu
+03:16:56 GUI created
+03:16:56 Created GUIcontrol: GID=1; name=MainMenu
+03:16:56 Created GUIcontrol: GID=2; name=Start
+03:16:56 MainMenu is set as a parent to Start
+03:17:03 Finished logging

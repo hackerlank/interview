@@ -1,0 +1,48 @@
+01:37:39 Log started
+01:37:39 Found texture: button
+01:37:39 Found texture: button_long
+01:37:39 Found texture: game_button
+01:37:39 Found texture: mainscreen
+01:37:39 Found texture: messagebox
+01:37:40 Found texture: panel
+01:37:40 Found texture: progressbar
+01:37:40 Found texture: star
+01:37:40 Font loaded: default
+01:37:40 Font loaded: log_screen
+01:37:40 Font loaded: debug
+01:37:40 Font loaded: star
+01:37:40 Loading GUI definition from file: c:\Source\cpp\OpenOrion\0.2.0\parrots\def\gui.def
+01:37:40 Loading RACE definition from file: c:\Source\cpp\OpenOrion\0.2.0\parrots\def\races.def
+01:37:40 New race: Alkari.NAME=Alkari
+01:37:40 New race: Mrrshan.NAME=Mrrshan
+01:37:40 New race: Meklar.NAME=Meklar
+01:37:40 New race: Darlok.NAME=Darlok
+01:37:40 New race: Human.NAME=Human
+01:37:40 New race: Bulrathi.NAME=Bulrathi
+01:37:40 New race: Silicoid.NAME=Silicoid
+01:37:40 New race: Psilon.NAME=Psilon
+01:37:40 New race: Sakkra.NAME=Sakkra
+01:37:40 New race: Klackon.NAME=Klackon
+01:37:40 GUI created
+01:37:40 Created GUIcontrol: GID=1; name=MainMenu
+01:37:40 Created GUIcontrol: GID=2; name=Start
+01:37:40 Created GUIcontrol: GID=3; name=Load
+01:37:40 Created GUIcontrol: GID=4; name=Options
+01:37:40 Created GUIcontrol: GID=5; name=Credits
+01:37:40 Created GUIcontrol: GID=6; name=Exit
+01:37:40 Created GUIcontrol: GID=7; name=DifficultyMenu
+01:37:40 Created GUIcontrol: GID=8; name=Easy
+01:37:40 Created GUIcontrol: GID=9; name=Medium
+01:37:40 Created GUIcontrol: GID=10; name=Back
+01:37:40 Created GUIcontrol: GID=11; name=RaceMenu
+01:37:40 Created GUIcontrol: GID=12; name=Back2
+01:37:40 Created GUIcontrol: GID=13; name=Alkari
+01:37:40 Created GUIcontrol: GID=14; name=Bulrathi
+01:37:40 appl. path:	c:\Source\cpp\OpenOrion\0.2.0\parrots
+01:37:40 log path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\log
+01:37:40 config path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\default.cfg
+01:37:40 textures path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\textures
+01:37:40 fonts path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\fonts
+01:37:40 defin. path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\def
+01:37:40 scripts path:	c:\Source\cpp\OpenOrion\0.2.0\parrots\scripts
+01:37:41 Finished logging

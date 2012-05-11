@@ -1,0 +1,45 @@
+#ifndef __MISC_H_
+#define __MISC_H_
+
+
+
+//void InitPaths(void);
+//void CheckPaths();
+//void CleanupLogs();
+void EndupLogs();
+//bool LogToFile(string message);
+//bool LogToFile(char* file_name, string message);
+//void LogPaths(void);
+void CheckDefaultConfig();
+char* ExtFromPath(const char* path);
+char* GetNameFromPath(const char* path);
+
+void CreateLogFile(char *fname);
+void sLog(const char* fname, const char* Event, const char* Format,...);
+
+/**
+*	хитрый план создавать лог. мне не нравится. TODO!
+*	то то и оно проще запхать все в ф-ю Log и на первом вызове создавать логфаель.
+*/
+
+class CDummy
+{
+public:
+	CDummy();
+	~CDummy();
+};
+
+
+// Для остановки на выделении памяти расскоментировать и указать номер выделения
+//#define DEBUG_STOP_ON_ALLOC_NUM 1397
+
+//////////////////////////////////////////////////////////////////////////
+
+// Проверка на то, что два числа с плавующей точко близки друг к дургу с определеной точностью. 
+// float к примеру, может быть 1e-35, что почти 0, но не 0. НАм же такая точность иногда нафиг не нужна.
+__INLINE bool IsNear(float a, float b, float accuracy)
+{
+	return fabs(a-b) < accuracy;
+}
+
+#endif // __MISC_H_

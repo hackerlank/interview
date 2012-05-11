@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evolution category="initial" transaction="0">
+    <mutation run_id="10">
+        <comment>Create schema "Maintain"</comment>
+        <evolve_sql>
+            CREATE SCHEMA "maintain";
+        </evolve_sql>
+        <rollback_sql>DROP SCHEMA "maintain";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="15">
+        <comment>Create table "Registry"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."registry" (
+                id serial NOT NULL UNIQUE,
+                created timestamp not null default now(),
+                "key" varchar(64) NOT NULL PRIMARY KEY,
+                "value" varchar(64) NOT NULL
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "maintain"."registry";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="16">
+        <comment>Set installation flag to 1</comment>
+        <evolve_sql>
+            INSERT INTO "maintain"."registry" ("key", "value") VALUES ('db_initialized', 1);
+        </evolve_sql>
+        <rollback_sql></rollback_sql>
+    </mutation>
+
+    <mutation run_id="20">
+        <comment>Create table "Mutations"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."mutations" (
+                id serial PRIMARY KEY,
+                evolve_success boolean,
+                rollback_success boolean,
+                evolve_time timestamp,
+                rollback_time timestamp,
+                evolve_type varchar,
+                rollback_type varchar,
+                evolve_entity varchar,
+                rollback_entity varchar,
+                evolve_user varchar,
+                rollback_user varchar,
+                evolve_msg varchar,
+                rollback_msg varchar,
+                evolve_sql text not null,
+                rollback_sql text not null,
+                category varchar,
+                comment varchar
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "maintain"."mutations";</rollback_sql>
+    </mutation>
+    <mutation run_id="30">
+        <comment>Create table "Mailer log"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."mailer_log" (
+                id serial,
+                created timestamp not null default now(),
+                "to" varchar not null,
+                "from" varchar not null,
+                reply_to varchar not null,
+                subject varchar not null,
+                body text not null
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "maintain"."mailer_log";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="40">
+        <comment>Create table "managers"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."managers" (
+                id serial NOT NULL PRIMARY KEY,
+                created timestamp NOT NULL DEFAULT NOW(),
+                "login" varchar UNIQUE NOT NULL,
+                "password" varchar NOT NULL,
+                "name" varchar NOT NULL,
+                acl bit(128),
+                is_active boolean NOT NULL DEFAULT TRUE,
+                is_superuser boolean NOT NULL DEFAULT FALSE,
+                created_by integer REFERENCES "public"."managers" (id),
+                email varchar
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "public"."managers";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="50">
+        <comment>Create root manager</comment>
+        <evolve_sql>
+            INSERT INTO "public"."managers" (id, "login", "password", acl, is_superuser, created_by, name)
+                VALUES (1, 'root', '578aca4034a6072abb9b2e150c8f8ea6', NULL, TRUE, 1, 'Charlie Root');
+        </evolve_sql>
+        <rollback_sql></rollback_sql>
+    </mutation>
+
+    <mutation run_id="60">
+        <comment>Create table "clients"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."clients" (
+                id serial NOT NULL PRIMARY KEY,
+                created timestamp NOT NULL DEFAULT NOW(),
+                updated timestamp NOT NULL DEFAULT NOW(),
+                "login" varchar(32) UNIQUE NOT NULL,
+                "password" varchar(32) NOT NULL,
+                is_resident boolean NOT NULL DEFAULT TRUE,
+                is_active boolean NOT NULL DEFAULT TRUE,
+                external_uid varchar(64),
+                "type" smallint NOT NULL DEFAULT 0,
+                name_ru varchar(512) NOT NULL,
+                name_en varchar(512) NOT NULL,
+                acl bit(128) NOT NULL,
+                created_by integer NOT NULL REFERENCES "public"."managers" (id),
+                address_en varchar(378),
+                country varchar(378) NOT NULL,
+                inn varchar(32),
+                bik varchar(32),
+                kpp varchar(32),
+                okpo varchar(32),
+                okved varchar(32),
+                okato varchar(32),
+                rs varchar(32),
+                ks varchar(32),
+                ogrn varchar(32),
+                bank_name varchar(128),
+                ogrnip varchar(32),
+                ogrnip_date date,
+                birthdate date,
+                passport_serie varchar(16),
+                passport_number varchar(16),
+                passport_mnt_by varchar(128)
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "public"."clients";</rollback_sql>
+    </mutation>
+
+
+    <mutation run_id="70">
+        <comment>Create table "sessions"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."sessions" (
+                id serial,
+                ip inet not null,
+                created timestamp not null default now(),
+                valid_till timestamp not null,
+                manager_id integer REFERENCES "public"."managers" (id),
+                client_id integer REFERENCES "public"."clients" (id),
+                cookie varchar not null
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "maintain"."sessions";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="80">
+        <comment>Create table "acl"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."acl" (
+                id serial NOT NULL PRIMARY KEY,
+                created timestamp NOT NULL DEFAULT NOW(),
+                bit_position smallint NOT NULL, -- 0 - no acl check
+                controller_name varchar(64) NOT NULL,
+                controller_method varchar(64) NOT NULL
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS "maintain"."acl";</rollback_sql>
+    </mutation>
+
+    <mutation run_id="90">
+        <comment>Fill acl</comment>
+        <evolve_sql>
+            INSERT INTO "maintain"."acl" (id, bit_position, controller_name, controller_method) VALUES
+                (1, 0, 'index', 'index'),
+                (2, 0, 'index', 'error404'),
+                (3, 0, 'index', 'error403'),
+                (4, 0, 'index', 'noaccess'),
+                (5, 0, 'account', 'login'),
+                (6, 0, 'account', 'logout'),
+                (7, 0, 'account', 'register'),
+                (8, 1, 'manager', 'index'),
+                (9, 2, 'manager', 'create'),
+                (10, 3, 'manager', 'delete');
+        </evolve_sql>
+        <rollback_sql></rollback_sql>
+    </mutation>
+
+    <mutation run_id="100">
+        <comment>Create table "menu"</comment>
+        <evolve_sql>
+            CREATE TABLE "maintain"."menu" (
+                id serial NOT NULL PRIMARY KEY,
+                created timestamp NOT NULL DEFAULT NOW(),
+                parent_id integer REFERENCES "maintain"."menu" (id),
+                title varchar(64) NOT NULL,
+                acl_id integer NOT NULL REFERENCES "maintain"."acl" (id)
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>
+            DROP TABLE IF EXISTS "maintain"."menu";
+        </rollback_sql>
+    </mutation>
+
+    <mutation run_id="110">
+        <comment>Fill menu</comment>
+        <evolve_sql>
+            INSERT INTO "maintain"."menu" (id, parent_id, title, acl_id) VALUES
+                (1, NULL, 'Managers', 8),
+                (2, 1, 'Create', 9),
+                (3, 2, 'Delete', 10);
+        </evolve_sql>
+        <rollback_sql>
+        </rollback_sql>
+    </mutation>
+    
+    <mutation run_id="120">
+        <comment>Create table "objects"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."objects" (
+                id SERIAL NOT NULL UNIQUE,
+                created timestamp NOT NULL DEFAULT NOW(),
+                model varchar(64) NOT NULL,
+                foreign_id varchar(32) NOT NULL,
+                PRIMARY KEY (model, foreign_id)
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>
+            DROP TABLE IF EXISTS "public"."objects";
+        </rollback_sql>
+    </mutation>
+
+    <mutation run_id="125">
+        <comment>Create manager object</comment>
+        <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('MintManager', 1);
+            </evolve_sql>
+        <rollback_sql>DELETE FROM "public"."objects" WHERE model = 'MintManager' AND foreign_id = 1;</rollback_sql>
+    </mutation>
+
+    <mutation run_id="130">
+        <comment>Create table "object_links"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."object_links" (
+                id serial NOT NULL,
+                created timestamp NOT NULL DEFAULT NOW(),
+                parent_id bigint NOT NULL REFERENCES "public"."objects" (id),
+                child_id bigint NOT NULL REFERENCES "public"."objects" (id),
+                PRIMARY KEY (parent_id, child_id)
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>
+            DROP TABLE IF EXISTS "public"."object_links";
+        </rollback_sql>
+    </mutation>
+
+    <mutation run_id="140">
+        <comment>Create table "custom_model_types"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."custom_model_types" (
+                model varchar(64) PRIMARY KEY,
+                created timestamp NOT NULL DEFAULT NOW(),
+                name_ru varchar(64) NOT NULL UNIQUE,
+                "schema" varchar(64),
+                "table" varchar(64) NOT NULL,
+                pk_field varchar(64) NOT NULL,
+                pk_type varchar(64) NOT NULL,
+                "sequence" varchar(128),
+                connection_id varchar(32) NOT NULL DEFAULT 'main',
+                UNIQUE("schema", "table")
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>
+            DROP TABLE IF EXISTS "public"."custom_model_types";
+        </rollback_sql>
+    </mutation>
+
+    <mutation run_id="150">
+        <comment>Create table "custom_model_fields"</comment>
+        <evolve_sql>
+            CREATE TABLE "public"."custom_model_fields" (
+                id serial NOT NULL,
+                created timestamp NOT NULL DEFAULT NOW(),
+                model varchar(64) NOT NULL REFERENCES "public"."custom_model_types" (model),
+                name varchar(64) NOT NULL,
+                not_null boolean NOT NULL DEFAULT FALSE,
+                "default" varchar(64),
+                "type" varchar(64) NOT NULL,
+                PRIMARY KEY (id),
+                UNIQUE(model, name)
+            ) WITH (OIDS=FALSE);
+        </evolve_sql>
+        <rollback_sql>
+            DROP TABLE IF EXISTS "public"."custom_model_fields";
+        </rollback_sql>
+    </mutation>
+
+
+
+
+</evolution>

@@ -1,0 +1,22 @@
+18:55:04 appl. path:	c:\Source\cpp\OpenOrion\0.3.3\oorion
+18:55:04 log path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\log
+18:55:04 config path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\config\default.cfg
+18:55:04 textures path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\textures
+18:55:04 fonts path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\fonts
+18:55:04 objects path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\objects
+18:55:04 scripts path:	c:\Source\cpp\OpenOrion\0.3.3\oorion\scripts
+18:55:04 Log started
+18:55:05 Found texture: anonya
+18:55:05 Found texture: bullet
+18:55:05 Found texture: powerups
+18:55:05 Found texture: background
+18:55:05 Found texture: explosions
+18:55:05 Found texture: btard
+18:55:05 Found texture: heart
+18:55:05 Found texture: ammo
+18:55:05 Found texture: score
+18:55:05 Found texture: tiles
+18:55:05 Found texture: btard_face
+18:55:05 Found texture: anonya_face
+18:55:05 Font loaded: default
+18:55:09 Finished logging

@@ -1,0 +1,9 @@
+.completepriority{
+    height:12px;
+    background:url(/img/priority.png) no-repeat 0px -12px;
+}
+.emptypriority{
+    width:50px;
+    height:12px;
+    background:url(/img/priority.png) no-repeat top left;
+}

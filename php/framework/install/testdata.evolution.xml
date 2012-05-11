@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evolution category="initial" transaction="0">
+    <mutation run_id="10">
+        <comment>Fill table "registry"</comment>
+        <evolve_sql>INSERT INTO "maintain"."registry" ("key", "value") VALUES
+        ('test1', '1'), ('test2', '0'), ('test3', ''), ('test4', 'string');</evolve_sql>
+        <rollback_sql>DELETE FROM "maintain"."registry" WHERE "key" IN
+        ('test1', 'test2', 'test3', 'test4');</rollback_sql>
+    </mutation>
+
+    <mutation run_id="20">
+        <comment>Fill table "managers"</comment>
+        <evolve_sql>INSERT INTO "public"."managers"
+            (id, "login", "password", "name", acl, is_active, is_superuser, created_by, email)
+        VALUES
+            (2, 'test1', '5a105e8b9d40e1329780d62ea2265d8a', 'test1', NULL, TRUE, TRUE, NULL, 'test@test.ru'),
+            (3, 'test2', 'ad0234829205b9033196ba818f7a872b', 'test2', NULL, TRUE, FALSE, 1, NULL),
+            (4, 'test3', '8ad8757baa8564dc136c1e07507f4a98', 'test3',
+            '11100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+            TRUE, FALSE, 1, NULL),
+            (5, 'test4', '86985e105f79b95d6bc918fb45ec7727', 'test4',
+            '11100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+            FALSE, FALSE, 1, NULL);
+            </evolve_sql>
+            <rollback_sql>DELETE FROM "public"."managers" WHERE "login" IN
+            ('test1', 'test2', 'test3', 'test4');</rollback_sql>
+    </mutation>
+
+    <mutation run_id="21">
+        <comment>Create manager objects</comment>
+        <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('MintManager', 2),
+            ('MintManager', 3),
+            ('MintManager', 4),
+            ('MintManager', 5);
+            </evolve_sql>
+            <rollback_sql>DELETE FROM "public"."objects" WHERE model = 'MintManager' AND foreign_id IN (2,3,4,5);</rollback_sql>
+    </mutation>
+
+    <mutation run_id="30">
+        <comment>Fill table "custom_model_types"</comment>
+        <evolve_sql>INSERT INTO "public"."custom_model_types" (model, name_ru, "schema", "table", pk_field, pk_type, "sequence")
+        VALUES
+        ('test1', 'test1', 'test', 'test1', 'id', 'integer', 'test1_id_seq'),
+        ('test2', 'test2', 'test', 'test2', 'test_key', 'string', NULL);
+        </evolve_sql>
+        <rollback_sql>
+            DELETE FROM "public"."custom_model_types" WHERE "model" IN ('test1', 'test2');
+        </rollback_sql>
+     </mutation>
+
+     <mutation run_id="40">
+         <comment>Fill table "custom_model_fields"</comment>
+         <evolve_sql>INSERT INTO "public"."custom_model_fields" (model, "name", not_null, "default", "type")
+         VALUES
+         ('test1', 'id', true, NULL, 'serial'),
+         ('test2', 'test_key', true, NULL, 'varchar(64)'),
+         ('test2', 'test_field', false, 'test', 'varchar(64)');
+         </evolve_sql>
+         <rollback_sql>
+             DELETE FROM "public"."custom_model_fields" WHERE model IN ('test1', 'test2');
+         </rollback_sql>
+     </mutation>
+
+     <mutation run_id="50">
+         <comment>Create custom schema "test"</comment>
+         <evolve_sql>CREATE SCHEMA "test";</evolve_sql>
+         <rollback_sql>DROP SCHEMA IF EXISTS "test";</rollback_sql>
+     </mutation>
+
+     <mutation run_id="60">
+         <comment>Create testing table "test1"</comment>
+         <evolve_sql>CREATE TABLE "test"."test1" (
+            id serial NOT NULL PRIMARY KEY) WITH (OIDS=FALSE);</evolve_sql>
+         <rollback_sql>DROP TABLE IF EXISTS "test"."test1";</rollback_sql>
+     </mutation>
+
+     <mutation run_id="70">
+         <comment>Create testing table "test2"</comment>
+         <evolve_sql>CREATE TABLE "test"."test2" (
+            test_key varchar(32) NOT NULL PRIMARY KEY,
+            test_field varchar(64) DEFAULT 'test') WITH (OIDS=FALSE);
+            </evolve_sql>
+            <rollback_sql>DROP TABLE IF EXISTS "test"."test2";</rollback_sql>
+     </mutation>
+
+     <mutation run_id="80">
+         <comment>Fill testing table "test1"</comment>
+         <evolve_sql>INSERT INTO "test"."test1" (id) VALUES (1), (2);</evolve_sql>
+         <rollback_sql>DELETE FROM "test"."test1";</rollback_sql>
+     </mutation>
+
+     <mutation run_id="81">
+         <comment>Create test1 objects</comment>
+         <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('test1', 1),
+            ('test1', 2);
+         </evolve_sql>
+         <rollback_sql>
+             DELETE FROM "public"."objects" WHERE model = 'test1' AND foreign_id IN (1,2);
+         </rollback_sql>
+     </mutation>
+
+     <mutation run_id="90">
+         <comment>Fill testing table "test2"</comment>
+         <evolve_sql>INSERT INTO "test"."test2" (test_key, test_field) VALUES
+         ('shirou', 'saber'),
+         ('tosaka', 'archer');
+         </evolve_sql>
+         <rollback_sql>DELETE FROM "test"."test2";</rollback_sql>
+     </mutation>
+
+     <mutation run_id="91">
+         <comment>Create test2 objects</comment>
+         <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('test2', 'shirou'),
+            ('test2', 'tosaka');
+         </evolve_sql>
+         <rollback_sql>DELETE FROM "public"."objects" WHERE model = 'test2' AND foreign_id IN ('shirou','tosaka')</rollback_sql>
+     </mutation>
+
+    <mutation run_id="100">
+        <comment>Fill table "custom_model_types" (mysql)</comment>
+        <evolve_sql>INSERT INTO "public"."custom_model_types" (model, name_ru, "schema", "table", pk_field, pk_type, "sequence", connection_id)
+        VALUES
+        ('test_mysql1', 'test_mysql1', NULL, 'test_mysql1', 'id', 'integer', NULL, 'mysql'),
+        ('test_mysql2', 'test_mysql2', NULL, 'test_mysql2', 'test_key', 'string', NULL, 'mysql');
+        </evolve_sql>
+        <rollback_sql>
+            DELETE FROM "public"."custom_model_types" WHERE "model" IN ('test_mysql1', 'test_mysql2');
+        </rollback_sql>
+     </mutation>
+
+     <mutation run_id="110">
+         <comment>Fill table "custom_model_fields" (mysql)</comment>
+         <evolve_sql>INSERT INTO "public"."custom_model_fields" (model, "name", not_null, "default", "type")
+         VALUES
+         ('test_mysql1', 'id', true, NULL, 'integer'),
+         ('test_mysql1', 'payload', false, NULL, 'varchar(256)'),
+         ('test_mysql2', 'test_key', true, NULL, 'varchar(32)'),
+         ('test_mysql2', 'test_field', false, 'test', 'varchar(64)');
+         </evolve_sql>
+         <rollback_sql>
+             DELETE FROM "public"."custom_model_fields" WHERE model IN ('test_mysql1', 'test_mysql2');
+         </rollback_sql>
+     </mutation>
+
+     <mutation run_id="120">
+         <comment>Create test_mysql1 objects</comment>
+         <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('test_mysql1', 1),
+            ('test_mysql1', 2);
+         </evolve_sql>
+         <rollback_sql>
+             DELETE FROM "public"."objects" WHERE model = 'test_mysql1' AND foreign_id IN (1,2);
+         </rollback_sql>
+     </mutation>
+
+     <mutation run_id="121">
+         <comment>Create test_mysql2 objects</comment>
+         <evolve_sql>INSERT INTO "public"."objects" (model, foreign_id) VALUES
+            ('test_mysql2', 'shirou'),
+            ('test_mysql2', 'tosaka');
+         </evolve_sql>
+         <rollback_sql>
+             DELETE FROM "public"."objects" WHERE model = 'test_mysql1' AND foreign_id IN ('shirou','tosaka');
+         </rollback_sql>
+     </mutation>
+
+</evolution>

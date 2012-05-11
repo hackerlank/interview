@@ -1,0 +1,158 @@
+CreatePlayer("hero", # resource name
+ 3, # health
+ 6, # ammo
+ 4, # score
+ 300, # x
+ 312, # y
+ animStand, # start animation
+ 1); # looped animation
+
+CreatePowerup("pwr_health", # resource name
+pwrHealth, # powerup type
+5, # powerup bonus count
+80, # x
+400); # y
+CreatePowerup("pwr_ammo", pwrAmmo, 20, 150, 400);
+CreatePowerup("pwr_score", pwrScore, 30, 600, 400);
+
+
+
+# create map
+# yeah, this sucks
+# later, here will be `for { }` loop
+
+
+CreateSprite("tile_wall_1", 0, 352);
+CreateSprite("tile_wall_1", 163, 352);
+CreateSprite("tile_wall_1", 326, 352);
+CreateSprite("tile_wall_1", 489, 352);
+CreateSprite("tile_wall_1", 652, 352);
+CreateSprite("tile_wall_1", 815, 352);
+CreateSprite("tile_wall_1", 978, 352);
+CreateSprite("tile_wall_1", 1141, 352);
+CreateSprite("tile_wall_1", 1304, 352);
+CreateSprite("tile_wall_1", 1467, 352);
+
+CreateSprite("tile_wall_lamp", 0, 204);
+CreateSprite("tile_wall_lamp", 128, 204);
+CreateSprite("tile_wall_lamp", 163, 204);
+CreateSprite("tile_wall_lamp", 291, 204);
+CreateSprite("tile_wall_lamp", 326, 204);
+CreateSprite("tile_wall_lamp", 454, 204);
+CreateSprite("tile_wall_lamp", 489, 204);
+CreateSprite("tile_wall_lamp", 617, 204);
+CreateSprite("tile_wall_lamp", 652, 204);
+CreateSprite("tile_wall_lamp", 780, 204);
+CreateSprite("tile_wall_lamp", 815, 204);
+CreateSprite("tile_wall_lamp", 943, 204);
+CreateSprite("tile_wall_lamp", 978, 204);
+CreateSprite("tile_wall_lamp", 1106, 204);
+CreateSprite("tile_wall_lamp", 1141, 204);
+CreateSprite("tile_wall_lamp", 1269, 204);
+CreateSprite("tile_wall_lamp", 1304, 204);
+CreateSprite("tile_wall_lamp", 1432, 204);
+CreateSprite("tile_wall_lamp", 1467, 204);
+CreateSprite("tile_wall_lamp", 1595, 204);
+
+CreateSprite("tile_wall_up", 35, 205);
+CreateSprite("tile_wall_up", 198, 205);
+CreateSprite("tile_wall_up", 361, 205);
+CreateSprite("tile_wall_up", 524, 205);
+CreateSprite("tile_wall_up", 687, 205);
+CreateSprite("tile_wall_up", 850, 205);
+CreateSprite("tile_wall_up", 1013, 205);
+CreateSprite("tile_wall_up", 1176, 205);
+CreateSprite("tile_wall_up", 1339, 205);
+CreateSprite("tile_wall_up", 1502, 205);
+
+CreateSprite("tile_column_1", 0, 244);
+CreateSprite("tile_column_1", 128, 244);
+CreateSprite("tile_column_1", 163, 244);
+CreateSprite("tile_column_1", 291, 244);
+CreateSprite("tile_column_1", 326, 244);
+CreateSprite("tile_column_1", 454, 244);
+CreateSprite("tile_column_1", 489, 244);
+CreateSprite("tile_column_1", 617, 244);
+CreateSprite("tile_column_1", 652, 244);
+CreateSprite("tile_column_1", 780, 244);
+CreateSprite("tile_column_1", 815, 244);
+CreateSprite("tile_column_1", 943, 244);
+CreateSprite("tile_column_1", 978, 244);
+CreateSprite("tile_column_1", 1106, 244);
+CreateSprite("tile_column_1", 1141, 244);
+CreateSprite("tile_column_1", 1269, 244);
+CreateSprite("tile_column_1", 1304, 244);
+CreateSprite("tile_column_1", 1432, 244);
+CreateSprite("tile_column_1", 1467, 244);
+CreateSprite("tile_column_1", 1595, 244);
+
+CreateSprite("tile_wall_main", 35, 244);
+CreateSprite("tile_wall_main", 198, 244);
+CreateSprite("tile_wall_main", 361, 244);
+CreateSprite("tile_wall_main", 524, 244);
+CreateSprite("tile_wall_main", 687, 244);
+CreateSprite("tile_wall_main", 850, 244);
+CreateSprite("tile_wall_main", 1013, 244);
+CreateSprite("tile_wall_main", 1176, 244);
+CreateSprite("tile_wall_main", 1339, 244);
+CreateSprite("tile_wall_main", 1502, 244);
+
+CreateSprite("tile_floor", -28, 400);
+CreateSprite("tile_floor", 4, 400);
+CreateSprite("tile_floor", 36, 400);
+CreateSprite("tile_floor", 68, 400);
+CreateSprite("tile_floor", 100, 400);
+CreateSprite("tile_floor", 132, 400);
+CreateSprite("tile_floor", 164, 400);
+CreateSprite("tile_floor", 196, 400);
+CreateSprite("tile_floor", 228, 400);
+CreateSprite("tile_floor", 260, 400);
+CreateSprite("tile_floor", 292, 400);
+CreateSprite("tile_floor", 324, 400);
+CreateSprite("tile_floor", 356, 400);
+CreateSprite("tile_floor", 388, 400);
+CreateSprite("tile_floor", 420, 400);
+CreateSprite("tile_floor", 452, 400);
+CreateSprite("tile_floor", 484, 400);
+CreateSprite("tile_floor", 516, 400);
+CreateSprite("tile_floor", 548, 400);
+CreateSprite("tile_floor", 580, 400);
+CreateSprite("tile_floor", 612, 400);
+CreateSprite("tile_floor", 644, 400);
+CreateSprite("tile_floor", 676, 400);
+CreateSprite("tile_floor", 708, 400);
+CreateSprite("tile_floor", 740, 400);
+CreateSprite("tile_floor", 772, 400);
+CreateSprite("tile_floor", 804, 400);
+CreateSprite("tile_floor", 836, 400);
+CreateSprite("tile_floor", 868, 400);
+CreateSprite("tile_floor", 900, 400);
+CreateSprite("tile_floor", 932, 400);
+CreateSprite("tile_floor", 964, 400);
+
+CreateSprite("tile_floor", 996, 400);
+CreateSprite("tile_floor", 1028, 400);
+CreateSprite("tile_floor", 1060, 400);
+CreateSprite("tile_floor", 1092, 400);
+CreateSprite("tile_floor", 1124, 400);
+CreateSprite("tile_floor", 1156, 400);
+CreateSprite("tile_floor", 1188, 400);
+CreateSprite("tile_floor", 1220, 400);
+CreateSprite("tile_floor", 1252, 400);
+CreateSprite("tile_floor", 1284, 400);
+CreateSprite("tile_floor", 1316, 400);
+CreateSprite("tile_floor", 1348, 400);
+CreateSprite("tile_floor", 1380, 400);
+CreateSprite("tile_floor", 1412, 400);
+CreateSprite("tile_floor", 1444, 400);
+CreateSprite("tile_floor", 1476, 400);
+CreateSprite("tile_floor", 1508, 400);
+CreateSprite("tile_floor", 1540, 400);
+CreateSprite("tile_floor", 1572, 400);
+CreateSprite("tile_floor", 1604, 400);
+
+CreateEvent(EVENT_CONDITION_TIME_ELAPSED, 1, EVENT_ACTION_HERO_SAY, 0, "Let's rock!");
+
+
+SetWorldMaxX(1600);
+SetWorldMinX(0);

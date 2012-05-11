@@ -1,0 +1,898 @@
+23:40:38 Log started
+23:40:38 Calling loadconfig("config/default.cfg")
+23:40:38 LoadConfig() error: invalid line
+23:40:38  Result: 1
+23:40:38 Calling init(gui)
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/particle.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/ammo.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/btard_xs.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/bullet.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/bump.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/explosions.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/fail_screen.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/heart.bmp")
+23:40:38  Result: 1
+23:40:38 Calling loadtexture("textures/logo-cold.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/main_menu-bkg.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/menu-bkg.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/powerups.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/score.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/shadow.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/sharoebina_xs.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/slowpoke_projectile_xs.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/slowpoke_sprite_xs.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/snowman1.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/sohchan.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/sohchan_face.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/sohchan_figure.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/tiles_city.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/tiles_city_anim.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/tree2.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/unyl_tan_figure.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/win_screen.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/cmaniac.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/fire_shot.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadtexture("textures/phys_floor.bmp")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/anonya.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/bullet.txt")
+23:40:39 LoadResource() error: invalid line
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/btard_Xs.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/pwr_health.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/pwr_ammo.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/pwr_score.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/explosion.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/tile_floor.txt")
+23:40:39  Result: 1
+23:40:39 Calling loadresource("objects/tile_wall.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_wall_1.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_column_1.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_wall_main.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_wall_2.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_wall_lamp.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_wall_up.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/sohchan_face.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/btard_face.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/unyl_tan_figure.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/shadow.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/slowpoke_xs.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/slowpoke_face.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/slowpoke_projectile_xs.txt")
+23:40:40 LoadResource() error: invalid line
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city1.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city2.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city3.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city4.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city5.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city6.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city7.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city8.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city9.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city10.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city11.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city12.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city13.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city14.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city15.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city16.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city17.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city18.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city19.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city20.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city21.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city22.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city23.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city24.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city25.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city26.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city27.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city28.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city29.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city30.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city31.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city32.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city32.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city33.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city34.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city35.txt")
+23:40:40  Result: 1
+23:40:40 Calling loadresource("objects/tile_city36.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city37.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city38.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city39.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city40.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city41.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city42.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_city43.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/snowman1.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tree2.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/bump_sign.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/tile_tree.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/cmaniac.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/fire_shot.txt")
+23:40:41  Result: 1
+23:40:41 Calling loadresource("objects/phys_floor.txt")
+23:40:41  Result: 1
+23:40:41 Calling loaddialog("dialogs/s_dialog_1.txt")
+23:40:41  Result: 1
+23:40:41 Calling loaddialog("dialogs/s_dialog_2.txt")
+23:40:41 LoadDialog() error: invalid line
+23:40:41  Result: 1
+23:40:41 Calling loadfont("Courier New", 14, 400, "default")
+23:40:41  Result: 1
+23:40:41 Calling init(console)
+23:40:41  Result: 1
+23:40:41 Calling loadsound("sounds/music/iie_lab.it")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/music/iie_lab.it")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/music/iie_boss.it")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/music/iie_boss.it")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/music/iie_street.it")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/music/iie_street.it")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/music/iie_win_jingle.it")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/music/iie_win_jingle.it")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/explosion.ogg")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/explosion.ogg")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/health_appear.ogg")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/health_appear.ogg")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/item_appear.ogg")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/item_appear.ogg")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadsound("sounds/blaster_shot.ogg")
+23:40:41 Error (scripts/init.txt, line 0) in 'loadsound("sounds/blaster_shot.ogg")': sound not initialized
+23:40:41  Result: 0
+23:40:41 Calling loadweather("particles/snow.txt")
+23:40:41  Result: 1
+23:40:41 Calling load("scripts/menu_main.txt")
+23:40:41 Calling newguielem("GUIVidget", "vdgMainScreen")
+23:40:41 New GUI control: GUIVidget(vdgMainScreen)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Width", 1024)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Height", 768)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "X", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Y", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Texture", "main_menu-bkg")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Visible", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "PatternCount", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "CurrentPattern", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgMainScreen", "Group", 0)
+23:40:41  Result: 1
+23:40:41 Calling newguielem("GUIButton", "btnLogo")
+23:40:41 New GUI control: GUIButton(btnLogo)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "X", 85)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Y", 74)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Width", 512)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Height", 256)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Caption", "")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "CaptionX", 30)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "CaptionY", -20)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "CaptionFont", "default")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "CaptionColor", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "SelectedCaptionColor", 0, 255, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "PressedCaptionColor", 255, 0, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Group", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Texture", "logo-cold")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Visible", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "PatternCount", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "CurrentPattern", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Enabled", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "Border", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnLogo", "BorderType", 1)
+23:40:41  Result: 1
+23:40:41 Declaring variable: x
+23:40:41 Warning (scripts/menu_main.txt, line 0) in 'setguielem("btnLogo", "BorderType", 1)': Float to int convertion
+23:40:41 Declaring variable: y
+23:40:41 Warning (scripts/menu_main.txt, line 0) in 'setguielem("btnLogo", "BorderType", 1)': Float to int convertion
+23:40:41 Calling newguielem("GUIButton", "btnStartGame")
+23:40:41 New GUI control: GUIButton(btnStartGame)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "X", 170)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Y", 290)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Width", 80)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Height", 9)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Visible", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Caption", "START GAME")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "CaptionX", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "CaptionY", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "CaptionFont", "default")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "CaptionColor", 181, 181, 181, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "Group", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnStartGame", "AddSignal", 550, 1, 0)
+23:40:41  Result: 1
+23:40:41 Calling newguielem("GUIButton", "btnExit")
+23:40:41 New GUI control: GUIButton(btnExit)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "X", 170)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Y", 310)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Width", 30)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Height", 9)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Visible", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Caption", "EXIT")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "CaptionX", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "CaptionY", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "CaptionFont", "default")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "CaptionColor", 181, 181, 181, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "Group", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnExit", "AddSignal", 650, 0, 0)
+23:40:41  Result: 1
+23:40:41  Result: 1
+23:40:41 Calling load("scripts/choose_hero.txt")
+23:40:41 Calling newguielem("GUIVidget", "vdgCharSel")
+23:40:41 New GUI control: GUIVidget(vdgCharSel)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Width", 1024)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Height", 768)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "X", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Y", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Texture", "menu-bkg")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "PatternCount", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "CurrentPattern", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("vdgCharSel", "Group", 1)
+23:40:41  Result: 1
+23:40:41 Warning (scripts/choose_hero.txt, line 0) in 'setguielem("vdgCharSel", "Group", 1)': Float to int convertion
+23:40:41 Warning (scripts/choose_hero.txt, line 0) in 'setguielem("vdgCharSel", "Group", 1)': Float to int convertion
+23:40:41 Declaring variable: x1
+23:40:41 Warning (scripts/choose_hero.txt, line 0) in 'setguielem("vdgCharSel", "Group", 1)': Float to int convertion
+23:40:41 Calling newguielem("GUIButton", "btnSohchan")
+23:40:41 New GUI control: GUIButton(btnSohchan)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "X", 170)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Y", 240)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Width", 125)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Height", 155)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Caption", "SOH-chan")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "CaptionX", 30)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "CaptionY", -20)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "CaptionFont", "default")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "CaptionColor", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "SelectedCaptionColor", 0, 255, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "PressedCaptionColor", 255, 0, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Group", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "AddSignal", 850, 0, 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Texture", "sohchan_figure")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "PatternCount", 2)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "PatternCount", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "CurrentPattern", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "Border", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnSohchan", "BorderType", 1)
+23:40:41  Result: 1
+23:40:41 Calling newguielem("GUIButton", "btnUnylTan")
+23:40:41 New GUI control: GUIButton(btnUnylTan)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "X", 370)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Y", 240)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Width", 125)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Height", 155)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Color", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Caption", "Unyl-chan")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "CaptionX", 30)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "CaptionY", -20)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "CaptionFont", "default")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "CaptionColor", 255, 255, 255, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "SelectedCaptionColor", 0, 255, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "PressedCaptionColor", 255, 0, 0, 255)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Group", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "AddSignal", 850, 0, 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Texture", "unyl_tan_figure")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "PatternCount", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "CurrentPattern", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Enabled", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "Border", 1)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("btnUnylTan", "BorderType", 1)
+23:40:41  Result: 1
+23:40:41 Declaring variable: x2
+23:40:41 Warning (scripts/choose_hero.txt, line 0) in 'setguielem("btnUnylTan", "BorderType", 1)': Float to int convertion
+23:40:41 Calling newguielem("GUIButton", "lbl2")
+23:40:41 New GUI control: GUIButton(lbl2)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "X", 365)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "Y", 401)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "Width", 80)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "Height", 9)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "Visible", 0)
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "Caption", "(not enabled yet)")
+23:40:41  Result: 1
+23:40:41 Calling setguielem("lbl2", "CaptionX", 0)
+23:40:41  Result: 1
+23:40:42 Calling setguielem("lbl2", "CaptionY", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "CaptionColor", 255, 0, 0, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "SelectedCaptionColor", 0, 255, 0, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "PressedCaptionColor", 255, 0, 0, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "Group", 1)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("lbl2", "Enabled", 0)
+23:40:42  Result: 1
+23:40:42  Result: 1
+23:40:42 Calling load("scripts/menu_game.txt")
+23:40:42 Calling newguielem("GUIButton", "btnLogoIngame")
+23:40:42 New GUI control: GUIButton(btnLogoIngame)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "X", 85)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Y", 74)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Width", 512)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Height", 256)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Caption", "")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "CaptionX", 30)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "CaptionY", -20)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "CaptionColor", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "SelectedCaptionColor", 0, 255, 0, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "PressedCaptionColor", 255, 0, 0, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Group", 2)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Texture", "logo-cold")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnLogoIngame", "Visible", 1)
+23:40:42  Result: 1
+23:40:42 Warning (scripts/menu_game.txt, line 0) in 'setguielem("btnLogoIngame", "Visible", 1)': Float to int convertion
+23:40:42 Warning (scripts/menu_game.txt, line 0) in 'setguielem("btnLogoIngame", "Visible", 1)': Float to int convertion
+23:40:42 Calling newguielem("GUIButton", "btnContinue")
+23:40:42 New GUI control: GUIButton(btnContinue)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "X", 270)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Y", 260)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Width", 105)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Height", 9)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Caption", "CONTINUE GAME")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "CaptionX", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "CaptionY", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "CaptionColor", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "Group", 2)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnContinue", "AddSignal", 855, 1, 0)
+23:40:42  Result: 1
+23:40:42 Calling newguielem("GUIButton", "btnReturn")
+23:40:42 New GUI control: GUIButton(btnReturn)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "X", 270)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Y", 280)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Width", 155)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Height", 9)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Caption", "RETURN TO MAIN MENU")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "CaptionX", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "CaptionY", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "CaptionColor", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "Group", 2)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "AddSignal", 652, 0, 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnReturn", "AddSignal", 550, 0, 0)
+23:40:42  Result: 1
+23:40:42  Result: 1
+23:40:42 Calling load("scripts/menu_2bc.txt")
+23:40:42 Calling newguielem("GUIVidget", "vdgMainScreen2")
+23:40:42 New GUI control: GUIVidget(vdgMainScreen2)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Width", 1024)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Height", 512)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "X", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Y", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Texture", "win_screen")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "PatternCount", 1)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "CurrentPattern", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen2", "Group", 3)
+23:40:42  Result: 1
+23:40:42 Calling newguielem("GUIButton", "btnRet")
+23:40:42 New GUI control: GUIButton(btnRet)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "X", 280)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Y", 300)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Width", 55)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Height", 9)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Caption", "TO MENU")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "CaptionX", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "CaptionY", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "CaptionColor", 181, 181, 181, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "Group", 3)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet", "AddSignal", 550, 0, 0)
+23:40:42  Result: 1
+23:40:42  Result: 1
+23:40:42 Calling load("scripts/menu_gameover.txt")
+23:40:42 Calling newguielem("GUIVidget", "vdgMainScreen3")
+23:40:42 New GUI control: GUIVidget(vdgMainScreen3)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Width", 1024)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Height", 512)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "X", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Y", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Texture", "fail_screen")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "PatternCount", 1)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "CurrentPattern", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("vdgMainScreen3", "Group", 4)
+23:40:42  Result: 1
+23:40:42 Calling newguielem("GUIButton", "btnRet2")
+23:40:42 New GUI control: GUIButton(btnRet2)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "X", 280)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Y", 300)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Width", 80)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Height", 9)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Color", 255, 255, 255, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Visible", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Caption", "THANKS, CAP!")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "CaptionX", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "CaptionY", 0)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "CaptionFont", "default")
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "CaptionColor", 181, 181, 181, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "SelectedCaptionColor", 120, 88, 150, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "PressedCaptionColor", 69, 46, 90, 255)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "Group", 4)
+23:40:42  Result: 1
+23:40:42 Calling setguielem("btnRet2", "AddSignal", 550, 0, 0)
+23:40:42  Result: 1
+23:40:42  Result: 1
+23:40:44 Calling freeallvar(()
+23:40:44 Warning (scripts/start.txt, line 0) in 'freeallvar(()': arguments unexpected, so ignored
+23:40:44  Result: 1
+23:40:44 Calling loadlevel("levels/xmas_level.bin")
+23:40:44 Calling setworldmaxx(1570)
+23:40:44 World Max X set to: 1570
+23:40:44  Result: 1
+23:40:44 Calling setworldminx(0)
+23:40:44 World Min X set to: 0
+23:40:44  Result: 1
+23:40:44 Declaring variable: btard
+23:40:44 Declaring variable: slowpoke
+23:40:44 Declaring variable: score
+23:40:44 Declaring variable: health
+23:40:44 Declaring variable: ammo
+23:40:44 Declaring variable: btard_health
+23:40:44 Calling startweather("snow", 6000)
+23:40:44  Result: 1
+23:40:44 Calling createevent(1, 1, 1, 26, 2, 's_dialog_1')
+23:40:44  Result: 1
+23:40:44 Calling createevent(1, 1, 0, 27, 1, "")
+23:40:44  Result: 1
+23:40:44 Calling createevent(1, 3, 0, 52, 1, 'iie_lab')
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 0, 70, 10, "")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 0, 50, 0, 'explosion')
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_STOP_QUAKE, 0, '');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_MUSIC_PLAY, 1, 'iie_boss');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_HERO_SAY, 0, 'What was THAT?!');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(btard, 1533, 330, btard_health);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(btard, 438, 330, btard_health);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(slowpoke, 1580, 330, 100);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(slowpoke, 1620, 330, 100);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(slowpoke, 408, 330, 100);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 1, 1,  EVENT_ACTION_EXEC_OSL_STRING, 1, 'CreateEnemy(slowpoke, 458, 330, 100);');")
+23:40:44  Result: 1
+23:40:44 Declaring variable: spawn1_1
+23:40:44 Declaring variable: spawn1_2
+23:40:44 Declaring variable: spawn1_3
+23:40:44 Declaring variable: spawn1_4
+23:40:44 Declaring variable: spawn1_5
+23:40:44 Declaring variable: spawn1_6
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 5, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_1);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_2);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 5, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_3);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 5, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_4);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_5);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 2, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_6);")
+23:40:44  Result: 1
+23:40:44 Declaring variable: spawnp_1
+23:40:44 Declaring variable: spawnp_2
+23:40:44 Declaring variable: spawnp_3
+23:40:44 Declaring variable: spawns_1
+23:40:44 Declaring variable: spawns_2
+23:40:44 Declaring variable: spawns_3
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawnp_1);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawnp_2);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawnp_3);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawns_1);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawns_2);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 8, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawns_3);")
+23:40:44  Result: 1
+23:40:44 Declaring variable: saystr
+23:40:44 Declaring variable: spawn2_1
+23:40:44 Declaring variable: spawn2_2
+23:40:44 Declaring variable: spawn2_3
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 63, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, saystr);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 955, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 63, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn2_1);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 955, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 63, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn2_2);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 955, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 63, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn2_3);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_START_QUAKE, 10, '');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_SOUND_PLAY, 10, 'explosion');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 107, 1, EVENT_ACTION_STOP_QUAKE, 10, '');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 107, 1, EVENT_ACTION_HERO_SAY, 2, 'OH SHI~...!');")
+23:40:44  Result: 1
+23:40:44 Declaring variable: spawn3_1
+23:40:44 Declaring variable: spawn3_2
+23:40:44 Declaring variable: spawn3_3
+23:40:44 Declaring variable: spawn3_4
+23:40:44 Declaring variable: spawn3_5
+23:40:44 Declaring variable: spawn3_6
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_1);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_2);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_3);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_4);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_5);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 963, 1, 60, 0, "CreateEvent(EVENT_CONDITION_PERIOD, 105, 1, EVENT_ACTION_EXEC_OSL_STRING, 1, spawn1_6);")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 123, 1, EVENT_ACTION_SET_AI, 0, '');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 123, 1, EVENT_ACTION_DISABLE_KEYBOARD, 1, '');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 123, 1, EVENT_ACTION_START_DIALOG, 2, 's_dialog_2');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 127, 1, EVENT_ACTION_EXEC_OSL_STRING, 2, 'ShowMenu(MENU_2BCONTINUED);');")
+23:40:44  Result: 1
+23:40:44 Calling createevent(2, 970, 1, 60, 1, "CreateEvent(EVENT_CONDITION_PERIOD, 127, 1, EVENT_ACTION_EXEC_OSL_STRING, 2, 'TerminateGame();');")
+23:40:44  Result: 1
+23:40:44  Result: 1
+23:40:49 Finished logging

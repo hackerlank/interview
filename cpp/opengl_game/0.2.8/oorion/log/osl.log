@@ -1,0 +1,127 @@
+23:34:19 Loading file: init.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (110 lexems token)
+23:34:19 Compile...
+23:34:19 0 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 Loading config file: default.cfg
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (29 lexems token)
+23:34:19 Applying config...
+23:34:19 Applying config OK
+23:34:19 Config successfully loaded
+23:34:19 Trying to load texture...
+23:34:19 LoadTexture OK
+23:34:19 Trying to load texture...
+23:34:19 LoadTexture OK
+23:34:19 Trying to load font...
+23:34:19 LoadFont OK
+23:34:19 Loading file: scripts/menu_main.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (1007 lexems token)
+23:34:19 Compile...
+23:34:19 1 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUIVidget(vdgMainScreen)
+23:34:19 New GUI control: GUIControl(ctrlStartGame)
+23:34:19 New GUI control: GUIControl(ctrlLoadGame)
+23:34:19 New GUI control: GUIControl(ctrlOptions)
+23:34:19 New GUI control: GUIControl(ctrlCredits)
+23:34:19 New GUI control: GUIControl(ctrlExit)
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Loading file: scripts/menu_difficulty.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (992 lexems token)
+23:34:19 Compile...
+23:34:19 9 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUIControl(ctrlEasy)
+23:34:19 New GUI control: GUIControl(ctrlMedium)
+23:34:19 New GUI control: GUIControl(ctrlHard)
+23:34:19 New GUI control: GUIControl(ctrlImpossible)
+23:34:19 New GUI control: GUIControl(ctrlBackDiff)
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Loading file: scripts/menu_galaxy_size.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (1193 lexems token)
+23:34:19 Compile...
+23:34:19 11 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUIControl(ctrlTiny)
+23:34:19 New GUI control: GUIControl(ctrlSmall)
+23:34:19 New GUI control: GUIControl(ctrlAverage)
+23:34:19 New GUI control: GUIControl(ctrlBig)
+23:34:19 New GUI control: GUIControl(ctrlHuge)
+23:34:19 New GUI control: GUIControl(ctrlBackSize)
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Loading file: scripts/menu_races.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (2198 lexems token)
+23:34:19 Compile...
+23:34:19 21 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUIControl(ctrlAlkari)
+23:34:19 New GUI control: GUIControl(ctrlBulrathi)
+23:34:19 New GUI control: GUIControl(ctrlKlackon)
+23:34:19 New GUI control: GUIControl(ctrlMeklar)
+23:34:19 New GUI control: GUIControl(ctrlSakkra)
+23:34:19 New GUI control: GUIControl(ctrlPsilon)
+23:34:19 New GUI control: GUIControl(ctrlHuman)
+23:34:19 New GUI control: GUIControl(ctrlDarlok)
+23:34:19 New GUI control: GUIControl(ctrlSilicoid)
+23:34:19 New GUI control: GUIControl(ctrlMrrshan)
+23:34:19 New GUI control: GUIControl(ctrlBackRaces)
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Loading file: scripts/menu_opponents.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (1193 lexems token)
+23:34:19 Compile...
+23:34:19 11 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUIControl(ctrlOne)
+23:34:19 New GUI control: GUIControl(ctrlTwo)
+23:34:19 New GUI control: GUIControl(ctrlThree)
+23:34:19 New GUI control: GUIControl(ctrlFour)
+23:34:19 New GUI control: GUIControl(ctrlFive)
+23:34:19 New GUI control: GUIControl(ctrlBackOpponents)
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Loading file: scripts/menu_personal.txt
+23:34:19 Input...
+23:34:19 Input OK
+23:34:19 Lexemize...
+23:34:19 Lexemize OK (200 lexems token)
+23:34:19 Compile...
+23:34:19 0 constants recognized
+23:34:19 Compile OK
+23:34:19 Interpret...
+23:34:19 New GUI control: GUITextBox(ctrlPlayerName)
+23:34:19 Error: SetGUIElem: incompatible command and parametres
+23:34:19 Interpret OK
+23:34:19 File successfully loaded
+23:34:19 Interpret OK
+23:34:19 File successfully loaded

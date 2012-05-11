@@ -1,0 +1,60 @@
+05:09:19 Log started
+05:09:19 clearing string: scr_width=1024
+05:09:19 string cleared (spaces): scr_width=1024
+05:09:19 clearing string: scr_height=768
+05:09:19 string cleared (spaces): scr_height=768
+05:09:19 clearing string: bpp=16
+05:09:19 string cleared (spaces): bpp=16
+05:09:19 clearing string: fullscreen=0
+05:09:19 string cleared (spaces): fullscreen=0
+05:09:19 clearing string: vert_sync=0
+05:09:19 string cleared (spaces): vert_sync=0
+05:09:19 clearing string: debug=1
+05:09:19 string cleared (spaces): debug=1
+05:09:19 appl. path:	c:\Source\cpp\OpenOrion\0.1.8\parrots
+05:09:19 log path:	c:\Source\cpp\OpenOrion\0.1.8\parrots\debug.log
+05:09:19 config path:	c:\Source\cpp\OpenOrion\0.1.8\parrots\default.cfg
+05:09:19 textures path:	c:\Source\cpp\OpenOrion\0.1.8\parrots\textures
+05:09:19 fonts path:	c:\Source\cpp\OpenOrion\0.1.8\parrots\fonts
+05:09:19 Loading file: test.txt
+05:09:19 string: for(i=65;i<=72;i++)
+05:09:19 string: {
+05:09:19 body: for(i=65;i<=72;i++)
+05:09:19 Substr: for
+05:09:19 Min: 65
+05:09:19 PARSE RECORD:: key = 0
+05:09:19 PARSE RECORD:: min = 65
+05:09:19 PARSE RECORD:: max = 72
+05:09:19 PARSE RECORD:: cnd = 1
+05:09:19 string: Load(1);
+05:09:19 string: Load(2);
+05:09:19 string: Load(3);
+05:09:19 string: }
+05:09:19 body: Load(1);Load(2);Load(3);
+05:09:19 Searching textures in: c:\Source\cpp\OpenOrion\0.1.8\parrots\textures
+05:09:19 Found texture: button.bmp
+05:09:19 Found texture: button_long.bmp
+05:09:19 Found texture: game_button.bmp
+05:09:19 Found texture: mainscreen.bmp
+05:09:19 Found texture: messagebox.bmp
+05:09:19 Found texture: panel.bmp
+05:09:19 Found texture: progressbar.bmp
+05:09:19 Found texture: star.bmp
+05:09:19 Font loaded: default
+05:09:19 Font loaded: log_screen
+05:09:19 Font loaded: debug
+05:09:19 Font loaded: star
+05:09:19 Loading file gui.txt
+05:09:19 GUI created
+05:09:19 Created GUIcontrol: GID=1; name=MainMenu
+05:09:19 Created GUIcontrol: GID=2; name=DifficultyMenu
+05:09:19 Created GUIcontrol: GID=3; name=Easy
+05:09:19 Created GUIcontrol: GID=4; name=Medium
+05:09:19 Created GUIcontrol: GID=5; name=Back
+05:09:19 Created GUIcontrol: GID=6; name=Start
+05:09:19 Created GUIcontrol: GID=7; name=Load
+05:09:19 Created GUIcontrol: GID=8; name=Options
+05:09:19 Created GUIcontrol: GID=9; name=Credits
+05:09:19 Created GUIcontrol: GID=10; name=Exit
+05:09:19 GUI successfully loaded
+05:09:20 Finished logging

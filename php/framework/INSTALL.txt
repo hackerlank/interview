@@ -1,0 +1,9 @@
+1. Закрыть http-доступ на директории и файлы:
+    * install
+    * upgrade
+    * doc
+    * README.txt
+    * install.php
+    * manage.php
+
+2. Поменять пароль на root-пользователя

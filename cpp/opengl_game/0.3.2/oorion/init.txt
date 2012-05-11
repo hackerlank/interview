@@ -1,0 +1,32 @@
+# config
+LoadConfig("default.cfg");
+
+# GUI
+Init(gui);
+
+# textures
+LoadTexture("textures/anonya.bmp");
+LoadTexture("textures/bullet.bmp");
+LoadTexture("textures/powerups.bmp");
+LoadTexture("textures/background.bmp");
+LoadTexture("textures/explosions.bmp");
+LoadTexture("textures/enemy.bmp");
+LoadTexture("textures/baloon.bmp");
+LoadTexture("textures/heart.bmp");
+LoadTexture("textures/ammo.bmp");
+LoadTexture("textures/score.bmp");
+
+# fonts
+LoadFont("Courier New", 14, 400, "default");
+
+
+#LoadFontFromFile("fonts/default.bmp", 16, 10);
+
+# info
+echo("GUI initialized");
+echo("Textures loaded");
+echo("Config loaded");
+echo("Fonts loaded");
+
+
+Load("scripts/menu_main.txt");

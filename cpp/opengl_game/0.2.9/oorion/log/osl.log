@@ -1,0 +1,146 @@
+22:12:09 Loading file: init.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (122 lexems token)
+22:12:09 Compile...
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 Loading config file: default.cfg
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (29 lexems token)
+22:12:09 Applying config...
+22:12:09 Applying config OK
+22:12:09 Config successfully loaded
+22:12:09 Trying to load texture...
+22:12:09 LoadTexture OK
+22:12:09 Trying to load texture...
+22:12:09 LoadTexture OK
+22:12:09 Trying to load font...
+22:12:09 LoadFont OK
+22:12:09 Loading file: scripts/menu_main.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (1007 lexems token)
+22:12:09 Compile...
+22:12:09 1 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUIVidget(vdgMainScreen)
+22:12:09 New GUI control: GUIButton(btnStartGame)
+22:12:09 New GUI control: GUIButton(btnLoadGame)
+22:12:09 New GUI control: GUIButton(btnOptions)
+22:12:09 New GUI control: GUIButton(btnCredits)
+22:12:09 New GUI control: GUIButton(btnExit)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_difficulty.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (992 lexems token)
+22:12:09 Compile...
+22:12:09 9 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUIButton(btnEasy)
+22:12:09 New GUI control: GUIButton(btnMedium)
+22:12:09 New GUI control: GUIButton(btnHard)
+22:12:09 New GUI control: GUIButton(btnImpossible)
+22:12:09 New GUI control: GUIButton(btnBackDiff)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_galaxy_size.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (1193 lexems token)
+22:12:09 Compile...
+22:12:09 11 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUIButton(btnTiny)
+22:12:09 New GUI control: GUIButton(btnSmall)
+22:12:09 New GUI control: GUIButton(btnAverage)
+22:12:09 New GUI control: GUIButton(btnBig)
+22:12:09 New GUI control: GUIButton(btnHuge)
+22:12:09 New GUI control: GUIButton(btnBackSize)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_races.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (2198 lexems token)
+22:12:09 Compile...
+22:12:09 21 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUIButton(btnAlkari)
+22:12:09 New GUI control: GUIButton(btnBulrathi)
+22:12:09 New GUI control: GUIButton(btnKlackon)
+22:12:09 New GUI control: GUIButton(btnMeklar)
+22:12:09 New GUI control: GUIButton(btnSakkra)
+22:12:09 New GUI control: GUIButton(btnPsilon)
+22:12:09 New GUI control: GUIButton(btnHuman)
+22:12:09 New GUI control: GUIButton(btnDarlok)
+22:12:09 New GUI control: GUIButton(btnSilicoid)
+22:12:09 New GUI control: GUIButton(btnMrrshan)
+22:12:09 New GUI control: GUIButton(btnBackRaces)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_opponents.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (1193 lexems token)
+22:12:09 Compile...
+22:12:09 11 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUIButton(btnOne)
+22:12:09 New GUI control: GUIButton(btnTwo)
+22:12:09 New GUI control: GUIButton(btnThree)
+22:12:09 New GUI control: GUIButton(btnFour)
+22:12:09 New GUI control: GUIButton(btnFive)
+22:12:09 New GUI control: GUIButton(btnBackOpponents)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_playername.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (383 lexems token)
+22:12:09 Compile...
+22:12:09 1 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUITextBox(txtPlayerName)
+22:12:09 Error (line 16): SetGUIElem: incompatible command and parametres
+22:12:09 New GUI control: GUIButton(btnPlayerNameNext)
+22:12:09 Interpret OK
+22:12:09 File successfully loaded
+22:12:09 Loading file: scripts/menu_starname.txt
+22:12:09 Input...
+22:12:09 Input OK
+22:12:09 Lexemize...
+22:12:09 Lexemize OK (402 lexems token)
+22:12:09 Compile...
+22:12:09 2 constants recognized
+22:12:09 Compile OK
+22:12:09 Interpret...
+22:12:09 New GUI control: GUITextBox(txtHomeStarName)
+22:12:09 Error (line 16): SetGUIElem: incompatible command and parametres
+22:12:09 New GUI control: GUIButton(btnHomeStarNameNext)
+22:12:09 Warning (line 35): No template found
+22:12:09 Error (line 35): osl_InterpretSeq() FAILED
+22:12:09 Interpret FAILED
+22:12:09 Loading file: scripts/menu_color.txt
+22:12:09 Input...
+22:12:09 Failed to open scripts/menu_color.txt
+22:12:09 Input FAILED
+22:12:09 Interpret OK
+22:12:09 File successfully loaded

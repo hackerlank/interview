@@ -1,0 +1,149 @@
+02:00:16 Warning (scripts/menu_main.txt, line 13): Float to int convertion
+02:00:16 Warning (scripts/menu_main.txt, line 14): Float to int convertion
+02:00:16 New GUI control: GUIButton(btnStartGame)
+02:00:16 New GUI control: GUIButton(btnLoadGame)
+02:00:16 New GUI control: GUIButton(btnOptions)
+02:00:16 New GUI control: GUIButton(btnCredits)
+02:00:16 New GUI control: GUIButton(btnExit)
+02:00:16 Warning (scripts/choose_hero.txt, line 0): Float to int convertion
+02:00:16 Warning (scripts/choose_hero.txt, line 1): Float to int convertion
+02:00:16 New GUI control: GUIButton(lbl1)
+02:00:16 Warning (scripts/choose_hero.txt, line 20): Float to int convertion
+02:00:16 New GUI control: GUIButton(btnAnonya)
+02:00:16 New GUI control: GUIButton(btnUnylTan)
+02:00:16 Warning (scripts/choose_hero.txt, line 72): Float to int convertion
+02:00:16 New GUI control: GUIButton(lbl2)
+02:00:17 Player created
+02:00:17 Enemy created
+02:00:17 Enemy created
+02:00:17 Enemy created
+02:00:17 Enemy created
+02:00:17 Enemy created
+02:00:17 Enemy created
+02:00:17 Powerup created
+02:00:17 Powerup created
+02:00:17 Powerup created
+02:00:17 World Max X set
+02:00:17 World Max Y set
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created
+02:00:17 Sprite created

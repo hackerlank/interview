@@ -1,0 +1,59 @@
+# -- GAME MENU ----------------------------------
+NewGUIElem("GUIButton", "btnLogoIngame");
+SetGUIElem("btnLogoIngame", "X", 85);
+SetGUIElem("btnLogoIngame", "Y", 74);
+SetGUIElem("btnLogoIngame", "Width", 512);
+SetGUIElem("btnLogoIngame", "Height", 256);
+SetGUIElem("btnLogoIngame", "Color", 255, 255, 255, 255);
+SetGUIElem("btnLogoIngame", "Visible", 0);
+SetGUIElem("btnLogoIngame", "Caption", "");
+SetGUIElem("btnLogoIngame", "CaptionX", 30);
+SetGUIElem("btnLogoIngame", "CaptionY", -20);
+SetGUIElem("btnLogoIngame", "CaptionFont", "default");
+SetGUIElem("btnLogoIngame", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnLogoIngame", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnLogoIngame", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnLogoIngame", "Group", MENU_GAME);
+SetGUIElem("btnLogoIngame", "Texture", "logo-cold");
+SetGUIElem("btnLogoIngame", "Visible", 1);
+
+# ”же объ€влены в menu_main.txt
+x = SYS_SCR_WIDTH / 2 - 50;
+y = SYS_SCR_HEIGHT / 2 + 20;
+
+NewGUIElem("GUIButton", "btnContinue");
+SetGUIElem("btnContinue", "X", x);
+SetGUIElem("btnContinue", "Y", y);
+SetGUIElem("btnContinue", "Width", 105);
+SetGUIElem("btnContinue", "Height", 9);
+SetGUIElem("btnContinue", "Color", 255, 255, 255, 255);
+SetGUIElem("btnContinue", "Visible", 0);
+SetGUIElem("btnContinue", "Caption", "CONTINUE GAME");
+SetGUIElem("btnContinue", "CaptionX", 0);
+SetGUIElem("btnContinue", "CaptionY", 0);
+SetGUIElem("btnContinue", "CaptionFont", "default");
+SetGUIElem("btnContinue", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnContinue", "SelectedCaptionColor", 120, 88, 150, 255);
+SetGUIElem("btnContinue", "PressedCaptionColor", 69, 46, 90, 255);
+SetGUIElem("btnContinue", "Group", MENU_GAME);
+SetGUIElem("btnContinue", "AddSignal", GUI_SGN_CONTINUE_GAME, MENU_CHARACTER, 0);
+
+y = y + 20;
+
+NewGUIElem("GUIButton", "btnReturn");
+SetGUIElem("btnReturn", "X", x);
+SetGUIElem("btnReturn", "Y", y);
+SetGUIElem("btnReturn", "Width", 155);
+SetGUIElem("btnReturn", "Height", 9);
+SetGUIElem("btnReturn", "Color", 255, 255, 255, 255);
+SetGUIElem("btnReturn", "Visible", 0);
+SetGUIElem("btnReturn", "Caption", "RETURN TO MAIN MENU");
+SetGUIElem("btnReturn", "CaptionX", 0);
+SetGUIElem("btnReturn", "CaptionY", 0);
+SetGUIElem("btnReturn", "CaptionFont", "default");
+SetGUIElem("btnReturn", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnReturn", "SelectedCaptionColor", 120, 88, 150, 255);
+SetGUIElem("btnReturn", "PressedCaptionColor", 69, 46, 90, 255);
+SetGUIElem("btnReturn", "Group", MENU_GAME);
+SetGUIElem("btnReturn", "AddSignal", GUI_SGN_EXIT_GAME, 0, 0);
+SetGUIElem("btnReturn", "AddSignal", GUI_SGN_OPEN_GROUP, MENU_MAIN, 0);

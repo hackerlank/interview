@@ -1,0 +1,129 @@
+06:04:20 Loading file: test.txt
+06:04:20 Input...
+06:04:20 Input OK
+06:04:20 Lexemize...
+06:04:20 Lexemize OK (29 lexems token)
+06:04:20 Compile...
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttVarType
+06:04:20 	Lexem token: int
+06:04:20 	Lexem type: ttLeftBracket
+06:04:20 	Lexem token: (
+06:04:20 	Lexem type: ttIdentifier
+06:04:20 	Lexem token: a
+06:04:20 	Lexem type: ttRightBracket
+06:04:20 	Lexem token: )
+06:04:20 	Lexem type: ttEqualcolon
+06:04:20 	Lexem token: =
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 75
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 12
+06:04:20 	Lexem type: ttSemicolon
+06:04:20 	Lexem token: ;
+06:04:20 Finished dumping
+06:04:20 Declaring variable: a
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 75
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 12
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 Finished dumping
+06:04:20 Dumping variable pool...
+06:04:20 	 name: 	a
+06:04:20 	 type: 	int
+06:04:20 	 value: 	87
+06:04:20 Finished dumping
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttVarType
+06:04:20 	Lexem token: int
+06:04:20 	Lexem type: ttLeftBracket
+06:04:20 	Lexem token: (
+06:04:20 	Lexem type: ttIdentifier
+06:04:20 	Lexem token: b
+06:04:20 	Lexem type: ttRightBracket
+06:04:20 	Lexem token: )
+06:04:20 	Lexem type: ttEqualcolon
+06:04:20 	Lexem token: =
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 3
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 1
+06:04:20 	Lexem type: ttSemicolon
+06:04:20 	Lexem token: ;
+06:04:20 Finished dumping
+06:04:20 Declaring variable: b
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 3
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 1
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 Finished dumping
+06:04:20 Dumping variable pool...
+06:04:20 	 name: 	a
+06:04:20 	 type: 	int
+06:04:20 	 value: 	87
+06:04:20 	 name: 	b
+06:04:20 	 type: 	int
+06:04:20 	 value: 	4
+06:04:20 Finished dumping
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttVarType
+06:04:20 	Lexem token: int
+06:04:20 	Lexem type: ttLeftBracket
+06:04:20 	Lexem token: (
+06:04:20 	Lexem type: ttIdentifier
+06:04:20 	Lexem token: k
+06:04:20 	Lexem type: ttRightBracket
+06:04:20 	Lexem token: )
+06:04:20 	Lexem type: ttEqualcolon
+06:04:20 	Lexem token: =
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 2
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 5
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: *
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 3
+06:04:20 	Lexem type: ttSemicolon
+06:04:20 	Lexem token: ;
+06:04:20 Finished dumping
+06:04:20 Declaring variable: k
+06:04:20 Dumping lexem stream...
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 2
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 5
+06:04:20 	Lexem type: ttIntConstant
+06:04:20 	Lexem token: 3
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: *
+06:04:20 	Lexem type: ttOperator
+06:04:20 	Lexem token: +
+06:04:20 Finished dumping
+06:04:20 Dumping variable pool...
+06:04:20 	 name: 	a
+06:04:20 	 type: 	int
+06:04:20 	 value: 	87
+06:04:20 	 name: 	b
+06:04:20 	 type: 	int
+06:04:20 	 value: 	4
+06:04:20 	 name: 	k
+06:04:20 	 type: 	int
+06:04:20 	 value: 	17
+06:04:20 Finished dumping
+06:04:20 Compile OK
+06:04:20 Interpret...
+06:04:20 Interpret OK
+06:04:20 File successfully loaded

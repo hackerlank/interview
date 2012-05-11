@@ -1,0 +1,11 @@
+php_version=5.3.0
+php_module=libxml
+php_module=PDO
+php_module=pdo_pgsql
+php_module=pgsql
+php_module=Reflection
+php_module=SimpleXML
+php_module=xml
+php_module=json
+
+pgsql_version=8.3

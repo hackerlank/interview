@@ -1,0 +1,143 @@
+# config
+LoadConfig("default.cfg");
+
+# GUI
+Init(gui);
+
+# textures
+LoadTexture("textures/button_long.bmp");
+
+# fonts
+LoadFont("Times New Roman", 14, 700, "default"); # doesnt work
+LoadFont("Courier New", 14, 400, "log_screen"); # doesnt work
+LoadFont("Times New Roman", 14, 700, "debug");
+LoadFont("Courier New", 10, 400, "star");
+
+# info
+echo("GUI initialized");
+echo("Textures loaded");
+echo("Config loaded");
+echo("Fonts loaded");
+
+# making menu
+
+# -- Main Menu
+# -- Start game button
+
+NewGUIElem("GUIButton", "btnStartGame");
+SetGUIElem("btnStartGame", "Width", 220);
+SetGUIElem("btnStartGame", "Height", 30);
+SetGUIElem("btnStartGame", "X", 400);
+SetGUIElem("btnStartGame", "Y", 400);
+SetGUIElem("btnStartGame", "Color", 255, 255, 255, 255);
+SetGUIElem("btnStartGame", "Texture", "button_long");
+SetGUIElem("btnStartGame", "Visible", 1);
+SetGUIElem("btnStartGame", "Caption", "Start game");
+SetGUIElem("btnStartGame", "CaptionFont", "log_screen");
+SetGUIElem("btnStartGame", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnStartGame", "PatternCount", 3);
+SetGUIElem("btnStartGame", "CurrentPattern", 0);
+SetGUIElem("btnStartGame", "AddSignal", 550, 2, 0);
+SetGUIElem("btnStartGame", "CaptionX", 15);
+SetGUIElem("btnStartGame", "CaptionY", 5);
+SetGUIelem("btnStartGame", "Group", 1);
+# --
+
+# -- Credits button
+
+NewGUIElem("GUIButton", "btnCredits");
+SetGUIElem("btnCredits", "Width", 220);
+SetGUIElem("btnCredits", "Height", 30);
+SetGUIElem("btnCredits", "X", 400);
+SetGUIElem("btnCredits", "Y", 440);
+SetGUIElem("btnCredits", "Color", 255, 255, 255, 255);
+SetGUIElem("btnCredits", "Texture", "button_long");
+SetGUIElem("btnCredits", "Visible", 1);
+SetGUIElem("btnCredits", "Caption", "Credits");
+SetGUIElem("btnCredits", "CaptionFont", "log_screen");
+SetGUIElem("btnCredits", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnCredits", "PatternCount", 3);
+SetGUIElem("btnCredits", "CurrentPattern", 0);
+SetGUIElem("btnCredits", "Data1", 550);
+SetGUIElem("btnCredits", "CaptionX", 15);
+SetGUIElem("btnCredits", "CaptionY", 5);
+SetGUIelem("btnCredits", "Group", 1);
+
+# -- Exit button
+
+NewGUIElem("GUIButton", "btnExit");
+SetGUIElem("btnExit", "Width", 220);
+SetGUIElem("btnExit", "Height", 30);
+SetGUIElem("btnExit", "X", 400);
+SetGUIElem("btnExit", "Y", 480);
+SetGUIElem("btnExit", "Color", 255, 255, 255, 255);
+SetGUIElem("btnExit", "Texture", "button_long");
+SetGUIElem("btnExit", "Visible", 1);
+SetGUIElem("btnExit", "Caption", "Exit");
+SetGUIElem("btnExit", "CaptionFont", "log_screen");
+SetGUIElem("btnExit", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnExit", "PatternCount", 3);
+SetGUIElem("btnExit", "CurrentPattern", 0);
+SetGUIElem("btnExit", "Sgn", 650);
+SetGUIElem("btnExit", "CaptionX", 15);
+SetGUIElem("btnExit", "CaptionY", 5);
+SetGUIelem("btnExit", "Group", 1);
+
+
+
+
+
+
+# -- Difficulty menu
+# -- Easy difficulty button
+
+NewGUIElem("GUIButton", "btnEasy");
+SetGUIElem("btnEasy", "Width", 220);
+SetGUIElem("btnEasy", "Height", 30);
+SetGUIElem("btnEasy", "X", 400);
+SetGUIElem("btnEasy", "Y", 400);
+SetGUIElem("btnEasy", "Color", 255, 255, 255, 255);
+SetGUIElem("btnEasy", "Texture", "button_long");
+SetGUIElem("btnEasy", "Visible", 0);
+SetGUIElem("btnEasy", "Caption", "Easy");
+SetGUIElem("btnEasy", "CaptionFont", "log_screen");
+SetGUIElem("btnEasy", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnEasy", "PatternCount", 3);
+SetGUIElem("btnEasy", "CurrentPattern", 0);
+SetGUIElem("btnEasy", "Data1", 0);
+SetGUIElem("btnEasy", "CaptionX", 15);
+SetGUIElem("btnEasy", "CaptionY", 5);
+SetGUIelem("btnEasy", "Group", 2);
+# --
+
+# -- back button
+
+NewGUIElem("GUIButton", "btnBackDiff");
+SetGUIElem("btnBackDiff", "Width", 220);
+SetGUIElem("btnBackDiff", "Height", 30);
+SetGUIElem("btnBackDiff", "X", 400);
+SetGUIElem("btnBackDiff", "Y", 440);
+SetGUIElem("btnBackDiff", "Color", 255, 255, 255, 255);
+SetGUIElem("btnBackDiff", "Texture", "button_long");
+SetGUIElem("btnBackDiff", "Visible", 0);
+SetGUIElem("btnBackDiff", "Caption", "Back");
+SetGUIElem("btnBackDiff", "CaptionFont", "log_screen");
+SetGUIElem("btnBackDiff", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnBackDiff", "PatternCount", 3);
+SetGUIElem("btnBackDiff", "CurrentPattern", 0);
+SetGUIElem("btnBackDiff", "Sgn", 550);
+SetGUIElem("btnBackDiff", "SgnParam1", 1);
+SetGUIElem("btnBackDiff", "CaptionX", 15);
+SetGUIElem("btnBackDiff", "CaptionY", 5);
+SetGUIelem("btnBackDiff", "Group", 2);
+# --
+
+
+
+
+# math goes there
+#
+#
+#
+
+

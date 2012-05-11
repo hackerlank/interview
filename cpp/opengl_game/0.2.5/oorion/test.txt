@@ -1,0 +1,19 @@
+# config
+#LoadConfig("default.cfg");
+
+# GUI
+Init(GUI);
+
+# fonts
+LoadFont("Times New Roman", 14, 700, "default"); # doesnt work
+LoadFont("Courier New", 14, 400, "log_screen"); # doesnt work
+LoadFont("Times New Roman", 14, 700, "debug");
+LoadFont("Courier New", 10, 400, "star");
+
+# info
+echo("GUI initialized");
+echo("Config loaded");
+echo("Fonts loaded");
+
+
+

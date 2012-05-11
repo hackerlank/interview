@@ -1,0 +1,14 @@
+Переделал ResizeScene ( и WndProc)
+Убрал dwExStyle
+переделал клавиатуру
+ProcessKeyboard() (openorion.cpp)
+GUITextBox: max_length, text_length
+Поправил osl_Error
+Добавлен osl_Compile перед выполнением каждого темплейта (пока только одного)
+osl_Parse дополнено
+начал делать OSL_MACHINE
+
+
+BUGS:
+GetAsyncKeyState - нужно проверять фокус
+Вообще текстбокс надо переделать (и тайминги)

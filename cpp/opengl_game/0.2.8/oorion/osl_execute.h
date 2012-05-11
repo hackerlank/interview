@@ -1,0 +1,1 @@
+void osl_ExecuteSystemFunction(vector<LEXEM>* list);

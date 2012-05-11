@@ -1,0 +1,254 @@
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	height:100%;
+	width:100%;
+}
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:65%;
+}
+.hidden {
+	display:none;
+}
+#loginform label {
+	background-color: transparent;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Jamrul, sans-serif;
+	font-size: 15px;
+	height: 18px;
+	margin-bottom: 10px;
+}
+#loginform input {
+	width: 96%;
+	font-size: 22px;
+	border: 1px solid #C8C8C8;
+	margin: 5px 0 15px;
+	padding: 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+}
+.row {
+	padding: 10px 0;
+}
+#loginform {
+	padding: 11px 0px;
+	display:block;
+}
+#toolbar >ul> li> a {
+	white-space:nowrap;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	width: 19px;
+	padding: 1px;
+	height: 18px;
+	float:right;
+	cursor:default;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	display: block;
+	margin: 1px;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
+	padding: 0;
+}
+.ui-dialog .ui-dialog-titlebar-min {
+	width: 19px;
+	padding: 1px;
+	height: 18px;
+	float:right;
+	cursor:default;
+}
+.ui-dialog .ui-dialog-titlebar-min span {
+	display: block;
+	margin: 1px;
+}
+.ui-dialog .ui-dialog-titlebar-min:hover, .ui-dialog .ui-dialog-titlebar-min:focus {
+	padding: 0;
+}
+.ui-dialog .ui-dialog-titlebar-rest {
+	width: 19px;
+	padding: 1px;
+	height: 18px;
+	float:right;
+	cursor:default;
+}
+.ui-dialog .ui-dialog-titlebar-rest span {
+	display: block;
+	margin: 1px;
+}
+.ui-dialog .ui-dialog-titlebar-rest:hover, .ui-dialog .ui-dialog-titlebar-rest:focus {
+	padding: 0;
+}
+.ui-dialog .ui-dialog-titlebar-fullscreen {
+	width: 19px;
+	padding: 1px;
+	height: 18px;
+	float:right;
+	cursor:default;
+}
+.ui-dialog .ui-dialog-titlebar-fullscreen span {
+	display: block;
+	margin: 1px;
+}
+.ui-dialog .ui-dialog-titlebar-fullscreen:hover, .ui-dialog .ui-dialog-titlebar-fullscreen:focus {
+	padding: 0;
+}
+#toolbar {
+	height: 65px;
+	border-bottom: 1px solid white;
+	background-color: #333;
+}
+#toolbar a, #toolbar ul li #clock {
+	color: #74C8E1;
+	display: block;
+	font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	height: 19px;
+	margin-bottom: -1px;
+	outline-color: #74C8E1;
+	outline-style: none;
+	outline-width: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 27px;
+	padding-top: 5px;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.398438) 0px 1px 0px;
+}
+#toolbar ul {
+	display:block;
+	padding-top:20px;
+}
+#toolbar li {
+	float: left;
+	margin: 0px 0px 0px 20px;
+	position: relative;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+#toolbar ul li {
+	float: left;
+	margin: 0px 0px 0px 10px;
+	position: relative;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+#toolbar ul li div {
+	width: 140px;
+	position: absolute;
+	left: -1px;
+	display: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	z-index: 10000;
+}
+#toolbar ul li ul {
+	margin: 0px;
+	padding: 5px 0px 2px 10px;
+	float: none;
+	border: 1px solid #222;
+	border-top: none !important;
+	background: #4B4A4A url(/graphics/dropdown.gif) top left repeat-x;
+	-moz-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.50);
+}
+#toolbar ul li:hover div {
+	display: block;
+}
+#toolbar ul li.drop:hover {
+	border: 1px solid #222;
+	border-bottom: none;
+	background-image: none !important;
+	background: #383838;
+}
+#toolbar ul li.drop a {
+	background: url(/graphics/menu_arrow.png) right center no-repeat;
+	padding-right: 27px;
+}
+#toolbar ul li ul li {
+	float: none;
+	margin: 0px;
+}
+#toolbar ul li ul li a {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px 0px 0.5em 0px;
+}
+#toolbar ul li a, #toolbar ul li #clock {
+	color: white;
+	font-size: 12px;
+	font-weight: 200;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	display: block;
+	width: auto;
+	padding: 5px 10px;
+	margin: 0px 0px -1px 0px;
+}
+#toolbar ul li a:hover {
+	color: #70C7E0 /*#87D1EC*/ !important;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+#toolbar ul li#switcher a {
+	text-shadow:none;
+}
+
+table.frm th , table.basicform th{
+font-weight: bold;
+}
+
+table.frm td, table.basicform  td,  table.frm th, table.basicform  th {
+
+	padding: .6em 10px;
+	text-align: left;
+}
+
+
+
+tbody {
+display: table-row-group;
+vertical-align: middle;
+}

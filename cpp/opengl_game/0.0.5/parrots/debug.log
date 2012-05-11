@@ -1,0 +1,17 @@
+00:03:45 Log started
+00:03:45 appl. path:	c:\Source\cpp\OpenOrion\parrots
+00:03:45 log path:	c:\Source\cpp\OpenOrion\parrots\debug.log
+00:03:45 config path:	c:\Source\cpp\OpenOrion\parrots\default.cfg
+00:03:45 textures path:	c:\Source\cpp\OpenOrion\parrots\textures
+00:03:45 Searching textures in: c:\Source\cpp\OpenOrion\parrots\textures
+00:03:45 Found texture: button.bmp
+00:03:45 Found texture: button2.bmp
+00:03:45 Found texture: button_black.bmp
+00:03:45 Found texture: button_green.bmp
+00:03:45 Found texture: button_green_pressed.bmp
+00:03:45 Found texture: button_test.bmp
+00:03:45 Found texture: mainscreen.bmp
+00:03:45 Found texture: panel.bmp
+00:03:45 Font loaded: Font1
+00:03:45 Font loaded: Font2
+00:03:48 Finished logging

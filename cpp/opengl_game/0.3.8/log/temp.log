@@ -1,0 +1,4598 @@
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadconfig
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "config/default.cfg"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) init
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttValidName) gui
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) init
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttValidName) sound
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/ammo.bmp"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/btard_xs.bmp"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/bullet.bmp"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/bump.bmp"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/explosions.bmp"
+05:28:33 (ttRightBracket) )
+05:28:33 (ttSemicolon) ;
+05:28:33 Finished dumping
+05:28:33 isBracket 1 isBracket 1 
+05:28:33 Dumping lexem stream...
+05:28:33 (ttSysFunction) loadtexture
+05:28:33 (ttLeftBracket) (
+05:28:33 (ttStrConstant) "textures/fail_screen.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/heart.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/logo-cold.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/main_menu-bkg.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/menu-bkg.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/powerups.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/score.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/shadow.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/sharoebina_xs.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/slowpoke_projectile_xs.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/slowpoke_sprite_xs.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/snowman1.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/sohchan.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/sohchan_face.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/sohchan_figure.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/tiles_city.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/tiles_city_anim.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/tree2.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/unyl_tan_figure.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:34 Dumping lexem stream...
+05:28:34 (ttSysFunction) loadtexture
+05:28:34 (ttLeftBracket) (
+05:28:34 (ttStrConstant) "textures/win_screen.bmp"
+05:28:34 (ttRightBracket) )
+05:28:34 (ttSemicolon) ;
+05:28:34 Finished dumping
+05:28:34 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/anonya.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/bullet.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/btard_Xs.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/pwr_health.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/pwr_ammo.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/pwr_score.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/explosion.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_floor.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall_1.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_column_1.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall_main.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall_2.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall_lamp.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_wall_up.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/sohchan_face.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/btard_face.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/unyl_tan_figure.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/shadow.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/slowpoke_xs.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/slowpoke_face.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/slowpoke_projectile_xs.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_city1.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:35 Dumping lexem stream...
+05:28:35 (ttSysFunction) loadresource
+05:28:35 (ttLeftBracket) (
+05:28:35 (ttStrConstant) "objects/tile_city2.txt"
+05:28:35 (ttRightBracket) )
+05:28:35 (ttSemicolon) ;
+05:28:35 Finished dumping
+05:28:35 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city3.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city4.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city5.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city6.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city7.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city8.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city9.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city10.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city11.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city12.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city13.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city14.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city15.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city16.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city17.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city18.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city19.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city20.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city21.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city22.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city23.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city24.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city25.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:36 (ttSysFunction) loadresource
+05:28:36 (ttLeftBracket) (
+05:28:36 (ttStrConstant) "objects/tile_city26.txt"
+05:28:36 (ttRightBracket) )
+05:28:36 (ttSemicolon) ;
+05:28:36 Finished dumping
+05:28:36 isBracket 1 isBracket 1 
+05:28:36 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city27.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city28.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city29.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city30.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city31.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city32.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city32.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city33.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city34.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city35.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city36.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city37.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city38.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city39.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city40.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city41.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city42.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_city43.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/snowman1.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tree2.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/bump_sign.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadresource
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "objects/tile_tree.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loaddialog
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "dialogs/s_dialog_1.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loaddialog
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "dialogs/s_dialog_2.txt"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) loadfont
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttStrConstant) "Courier New"
+05:28:37 (ttComma) ,
+05:28:37 (ttIntConstant) 14
+05:28:37 (ttComma) ,
+05:28:37 (ttIntConstant) 400
+05:28:37 (ttComma) ,
+05:28:37 (ttStrConstant) "default"
+05:28:37 (ttRightBracket) )
+05:28:37 (ttSemicolon) ;
+05:28:37 Finished dumping
+05:28:37 isBracket 1 isBracket 1 
+05:28:37 Dumping lexem stream...
+05:28:37 (ttSysFunction) init
+05:28:37 (ttLeftBracket) (
+05:28:37 (ttValidName) console
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/music/iie_lab.it"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/music/iie_boss.it"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/music/iie_street.it"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/music/iie_win_jingle.it"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/explosion.ogg"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/health_appear.ogg"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/item_appear.ogg"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) loadsound
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "sounds/blaster_shot.ogg"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) newguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "GUIVidget"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Width"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 1024
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Height"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 768
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "X"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Y"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Color"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Texture"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "main_menu-bkg"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Visible"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 1
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "PatternCount"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 1
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "CurrentPattern"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "vdgMainScreen"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Group"
+05:28:38 (ttComma) ,
+05:28:38 (ttSysConstant) menu_main
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) newguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "GUIButton"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "X"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 85
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Y"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 74
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Width"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 512
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Height"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 256
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Color"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Visible"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Caption"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) ""
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "CaptionX"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 30
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "CaptionY"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) -20
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "CaptionFont"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "default"
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "CaptionColor"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "SelectedCaptionColor"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "PressedCaptionColor"
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 0
+05:28:38 (ttComma) ,
+05:28:38 (ttIntConstant) 255
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:38 Finished dumping
+05:28:38 isBracket 1 isBracket 1 
+05:28:38 Dumping lexem stream...
+05:28:38 (ttSysFunction) setguielem
+05:28:38 (ttLeftBracket) (
+05:28:38 (ttStrConstant) "btnLogo"
+05:28:38 (ttComma) ,
+05:28:38 (ttStrConstant) "Group"
+05:28:38 (ttComma) ,
+05:28:38 (ttSysConstant) menu_main
+05:28:38 (ttRightBracket) )
+05:28:38 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Texture"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "logo-cold"
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Visible"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 1
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "PatternCount"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 1
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "CurrentPattern"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 0
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Enabled"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 0
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Border"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 1
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnLogo"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "BorderType"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 1
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttVarType) int
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttValidName) x
+05:28:39 (ttRightBracket) )
+05:28:39 (ttEqualcolon) =
+05:28:39 (ttSysConstant) sys_scr_width
+05:28:39 (ttOperator) /
+05:28:39 (ttIntConstant) 2
+05:28:39 (ttOperator) +
+05:28:39 (ttIntConstant) -150
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttVarType) int
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttValidName) y
+05:28:39 (ttRightBracket) )
+05:28:39 (ttEqualcolon) =
+05:28:39 (ttSysConstant) sys_scr_height
+05:28:39 (ttOperator) /
+05:28:39 (ttIntConstant) 2
+05:28:39 (ttOperator) +
+05:28:39 (ttIntConstant) 50
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) newguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "GUIButton"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "X"
+05:28:39 (ttComma) ,
+05:28:39 (ttValidName) x
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Y"
+05:28:39 (ttComma) ,
+05:28:39 (ttValidName) y
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Width"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 80
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Height"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 9
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Color"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Visible"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 1
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Caption"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "START GAME"
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "CaptionX"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 0
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "CaptionY"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 0
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "CaptionFont"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "default"
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "CaptionColor"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 181
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 181
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 181
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "SelectedCaptionColor"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 120
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 88
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 150
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "PressedCaptionColor"
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 69
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 46
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 90
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 255
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "Group"
+05:28:39 (ttComma) ,
+05:28:39 (ttSysConstant) menu_main
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnStartGame"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "AddSignal"
+05:28:39 (ttComma) ,
+05:28:39 (ttSysConstant) gui_sgn_open_group
+05:28:39 (ttComma) ,
+05:28:39 (ttSysConstant) menu_character
+05:28:39 (ttComma) ,
+05:28:39 (ttIntConstant) 0
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttValidName) y
+05:28:39 (ttEqualcolon) =
+05:28:39 (ttValidName) y
+05:28:39 (ttOperator) +
+05:28:39 (ttIntConstant) 20
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isFunctionCall 1 isFunctionCall 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) newguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "GUIButton"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "btnExit"
+05:28:39 (ttRightBracket) )
+05:28:39 (ttSemicolon) ;
+05:28:39 Finished dumping
+05:28:39 isBracket 1 isBracket 1 
+05:28:39 Dumping lexem stream...
+05:28:39 (ttSysFunction) setguielem
+05:28:39 (ttLeftBracket) (
+05:28:39 (ttStrConstant) "btnExit"
+05:28:39 (ttComma) ,
+05:28:39 (ttStrConstant) "X"
+05:28:39 (ttComma) ,
+05:28:40 (ttValidName) x
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Y"
+05:28:40 (ttComma) ,
+05:28:40 (ttValidName) y
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Width"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 30
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Height"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 9
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Color"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Visible"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 1
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Caption"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "EXIT"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "CaptionX"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "CaptionY"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "CaptionFont"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "default"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "CaptionColor"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 181
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 181
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 181
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "SelectedCaptionColor"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 120
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 88
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 150
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "PressedCaptionColor"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 69
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 46
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 90
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Group"
+05:28:40 (ttComma) ,
+05:28:40 (ttSysConstant) menu_main
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnExit"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "AddSignal"
+05:28:40 (ttComma) ,
+05:28:40 (ttSysConstant) gui_sgn_close_program
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) load
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "scripts/menu_main.txt"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) newguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "GUIVidget"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Width"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 1024
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Height"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 768
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "X"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Y"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Color"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Texture"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "menu-bkg"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Visible"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "PatternCount"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 1
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "CurrentPattern"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 0
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "vdgCharSel"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Group"
+05:28:40 (ttComma) ,
+05:28:40 (ttSysConstant) menu_character
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttValidName) x
+05:28:40 (ttEqualcolon) =
+05:28:40 (ttSysConstant) sys_scr_width
+05:28:40 (ttOperator) /
+05:28:40 (ttIntConstant) 2
+05:28:40 (ttOperator) +
+05:28:40 (ttIntConstant) -80
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isFunctionCall 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttValidName) y
+05:28:40 (ttEqualcolon) =
+05:28:40 (ttSysConstant) sys_scr_height
+05:28:40 (ttOperator) /
+05:28:40 (ttIntConstant) 2
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isFunctionCall 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttVarType) int
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttValidName) x1
+05:28:40 (ttRightBracket) )
+05:28:40 (ttEqualcolon) =
+05:28:40 (ttSysConstant) sys_scr_width
+05:28:40 (ttOperator) /
+05:28:40 (ttIntConstant) 2
+05:28:40 (ttOperator) +
+05:28:40 (ttIntConstant) -150
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) newguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "GUIButton"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "X"
+05:28:40 (ttComma) ,
+05:28:40 (ttValidName) x1
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Y"
+05:28:40 (ttComma) ,
+05:28:40 (ttValidName) y
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Width"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 125
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Height"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 155
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:40 Dumping lexem stream...
+05:28:40 (ttSysFunction) setguielem
+05:28:40 (ttLeftBracket) (
+05:28:40 (ttStrConstant) "btnSohchan"
+05:28:40 (ttComma) ,
+05:28:40 (ttStrConstant) "Color"
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttComma) ,
+05:28:40 (ttIntConstant) 255
+05:28:40 (ttRightBracket) )
+05:28:40 (ttSemicolon) ;
+05:28:40 Finished dumping
+05:28:40 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Visible"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Caption"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "SOH-chan"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionX"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 30
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionY"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) -20
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionFont"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "default"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "SelectedCaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "PressedCaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Group"
+05:28:41 (ttComma) ,
+05:28:41 (ttSysConstant) menu_character
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "AddSignal"
+05:28:41 (ttComma) ,
+05:28:41 (ttSysConstant) gui_sgn_start_game
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Texture"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "sohchan_figure"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "PatternCount"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 2
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Visible"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "PatternCount"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 1
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CurrentPattern"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Border"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 1
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnSohchan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "BorderType"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 1
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttValidName) x1
+05:28:41 (ttEqualcolon) =
+05:28:41 (ttValidName) x1
+05:28:41 (ttOperator) +
+05:28:41 (ttIntConstant) 200
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isFunctionCall 1 isFunctionCall 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) newguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "GUIButton"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "X"
+05:28:41 (ttComma) ,
+05:28:41 (ttValidName) x1
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Y"
+05:28:41 (ttComma) ,
+05:28:41 (ttValidName) y
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Width"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 125
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Height"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 155
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Color"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Visible"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Caption"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Unyl-chan"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionX"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 30
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionY"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) -20
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionFont"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "default"
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "CaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "SelectedCaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "PressedCaptionColor"
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 255
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "Group"
+05:28:41 (ttComma) ,
+05:28:41 (ttSysConstant) menu_character
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:41 (ttLeftBracket) (
+05:28:41 (ttStrConstant) "btnUnylTan"
+05:28:41 (ttComma) ,
+05:28:41 (ttStrConstant) "AddSignal"
+05:28:41 (ttComma) ,
+05:28:41 (ttSysConstant) gui_sgn_start_game
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttComma) ,
+05:28:41 (ttIntConstant) 0
+05:28:41 (ttRightBracket) )
+05:28:41 (ttSemicolon) ;
+05:28:41 Finished dumping
+05:28:41 isBracket 1 isBracket 1 
+05:28:41 Dumping lexem stream...
+05:28:41 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Texture"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "unyl_tan_figure"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Visible"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "PatternCount"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 1
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CurrentPattern"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Enabled"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Border"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 1
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnUnylTan"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "BorderType"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 1
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttVarType) int
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttValidName) x2
+05:28:42 (ttRightBracket) )
+05:28:42 (ttEqualcolon) =
+05:28:42 (ttSysConstant) sys_scr_width
+05:28:42 (ttOperator) /
+05:28:42 (ttIntConstant) 2
+05:28:42 (ttOperator) +
+05:28:42 (ttIntConstant) 45
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) newguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "GUIButton"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "X"
+05:28:42 (ttComma) ,
+05:28:42 (ttValidName) x2
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Y"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 401
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Width"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 80
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Height"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 9
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Visible"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Caption"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "(not enabled yet)"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionX"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionY"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionFont"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "default"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionColor"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "SelectedCaptionColor"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "PressedCaptionColor"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Group"
+05:28:42 (ttComma) ,
+05:28:42 (ttSysConstant) menu_character
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "lbl2"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Enabled"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) load
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "scripts/choose_hero.txt"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) newguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "GUIButton"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "X"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 85
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Y"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 74
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Width"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 512
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Height"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 256
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Color"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Visible"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 0
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "Caption"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) ""
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionX"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 30
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionY"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) -20
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionFont"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "default"
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "CaptionColor"
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttComma) ,
+05:28:42 (ttIntConstant) 255
+05:28:42 (ttRightBracket) )
+05:28:42 (ttSemicolon) ;
+05:28:42 Finished dumping
+05:28:42 isBracket 1 isBracket 1 
+05:28:42 Dumping lexem stream...
+05:28:42 (ttSysFunction) setguielem
+05:28:42 (ttLeftBracket) (
+05:28:42 (ttStrConstant) "btnLogoIngame"
+05:28:42 (ttComma) ,
+05:28:42 (ttStrConstant) "SelectedCaptionColor"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnLogoIngame"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "PressedCaptionColor"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnLogoIngame"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Group"
+05:28:43 (ttComma) ,
+05:28:43 (ttSysConstant) menu_game
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnLogoIngame"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Texture"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "logo-cold"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnLogoIngame"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Visible"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 1
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttValidName) x
+05:28:43 (ttEqualcolon) =
+05:28:43 (ttSysConstant) sys_scr_width
+05:28:43 (ttOperator) /
+05:28:43 (ttIntConstant) 2
+05:28:43 (ttOperator) +
+05:28:43 (ttIntConstant) -50
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isFunctionCall 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttValidName) y
+05:28:43 (ttEqualcolon) =
+05:28:43 (ttSysConstant) sys_scr_height
+05:28:43 (ttOperator) /
+05:28:43 (ttIntConstant) 2
+05:28:43 (ttOperator) +
+05:28:43 (ttIntConstant) 20
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isFunctionCall 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) newguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "GUIButton"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "X"
+05:28:43 (ttComma) ,
+05:28:43 (ttValidName) x
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Y"
+05:28:43 (ttComma) ,
+05:28:43 (ttValidName) y
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Width"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 105
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Height"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 9
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Color"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Visible"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Caption"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CONTINUE GAME"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionX"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionY"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionFont"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "default"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionColor"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "SelectedCaptionColor"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 120
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 88
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 150
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "PressedCaptionColor"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 69
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 46
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 90
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Group"
+05:28:43 (ttComma) ,
+05:28:43 (ttSysConstant) menu_game
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnContinue"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "AddSignal"
+05:28:43 (ttComma) ,
+05:28:43 (ttSysConstant) gui_sgn_continue_game
+05:28:43 (ttComma) ,
+05:28:43 (ttSysConstant) menu_character
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttValidName) y
+05:28:43 (ttEqualcolon) =
+05:28:43 (ttValidName) y
+05:28:43 (ttOperator) +
+05:28:43 (ttIntConstant) 20
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isFunctionCall 1 isFunctionCall 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) newguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "GUIButton"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "X"
+05:28:43 (ttComma) ,
+05:28:43 (ttValidName) x
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Y"
+05:28:43 (ttComma) ,
+05:28:43 (ttValidName) y
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isFunctionCall 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Width"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 155
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Height"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 9
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Color"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 255
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Visible"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "Caption"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "RETURN TO MAIN MENU"
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionX"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:43 Dumping lexem stream...
+05:28:43 (ttSysFunction) setguielem
+05:28:43 (ttLeftBracket) (
+05:28:43 (ttStrConstant) "btnReturn"
+05:28:43 (ttComma) ,
+05:28:43 (ttStrConstant) "CaptionY"
+05:28:43 (ttComma) ,
+05:28:43 (ttIntConstant) 0
+05:28:43 (ttRightBracket) )
+05:28:43 (ttSemicolon) ;
+05:28:43 Finished dumping
+05:28:43 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionFont"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "default"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "SelectedCaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 120
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 88
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 150
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "PressedCaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 69
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 46
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 90
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Group"
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) menu_game
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "AddSignal"
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) gui_sgn_exit_game
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnReturn"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "AddSignal"
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) gui_sgn_open_group
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) menu_main
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) load
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "scripts/menu_game.txt"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) newguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "GUIVidget"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Width"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 1024
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Height"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 512
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "X"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Y"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Color"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Texture"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "win_screen"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Visible"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "PatternCount"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 1
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CurrentPattern"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "vdgMainScreen2"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Group"
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) menu_2bcontinued
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) newguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "GUIButton"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "X"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 280
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Y"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 300
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Width"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 55
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Height"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 9
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Color"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Visible"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Caption"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "TO MENU"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionX"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionY"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 0
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionFont"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "default"
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "CaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 181
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 181
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 181
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "SelectedCaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 120
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 88
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 150
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "PressedCaptionColor"
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 69
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 46
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 90
+05:28:44 (ttComma) ,
+05:28:44 (ttIntConstant) 255
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:44 Dumping lexem stream...
+05:28:44 (ttSysFunction) setguielem
+05:28:44 (ttLeftBracket) (
+05:28:44 (ttStrConstant) "btnRet"
+05:28:44 (ttComma) ,
+05:28:44 (ttStrConstant) "Group"
+05:28:44 (ttComma) ,
+05:28:44 (ttSysConstant) menu_2bcontinued
+05:28:44 (ttRightBracket) )
+05:28:44 (ttSemicolon) ;
+05:28:44 Finished dumping
+05:28:44 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "AddSignal"
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) gui_sgn_open_group
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) menu_main
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) load
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "scripts/menu_2bc.txt"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) newguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "GUIVidget"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Width"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 1024
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Height"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 512
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "X"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Y"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Color"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Texture"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "fail_screen"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Visible"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "PatternCount"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 1
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "CurrentPattern"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "vdgMainScreen3"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Group"
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) menu_failure
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) newguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "GUIButton"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "X"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 280
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Y"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 300
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Width"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 80
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Height"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 9
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Color"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Visible"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Caption"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "THANKS, CAP!"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "CaptionX"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "CaptionY"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "CaptionFont"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "default"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "CaptionColor"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 181
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 181
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 181
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "SelectedCaptionColor"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 120
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 88
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 150
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "PressedCaptionColor"
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 69
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 46
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 90
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 255
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "Group"
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) menu_failure
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) setguielem
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "btnRet2"
+05:28:45 (ttComma) ,
+05:28:45 (ttStrConstant) "AddSignal"
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) gui_sgn_open_group
+05:28:45 (ttComma) ,
+05:28:45 (ttSysConstant) menu_main
+05:28:45 (ttComma) ,
+05:28:45 (ttIntConstant) 0
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:28:45 Dumping lexem stream...
+05:28:45 (ttSysFunction) load
+05:28:45 (ttLeftBracket) (
+05:28:45 (ttStrConstant) "scripts/menu_gameover.txt"
+05:28:45 (ttRightBracket) )
+05:28:45 (ttSemicolon) ;
+05:28:45 Finished dumping
+05:28:45 isBracket 1 isBracket 1 
+05:30:16 isBracket 1 isBracket 1 
+05:30:16 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:17 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:17 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:18 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:19 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isFunctionCall 1 isFunctionCall 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:20 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isFunctionCall 1 
+05:30:21 isFunctionCall 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isFunctionCall 1 isFunctionCall 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:21 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isFunctionCall 1 
+05:30:22 isFunctionCall 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:22 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isFunctionCall 1 isFunctionCall 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:22 isBracket 1 isFunctionCall 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:22 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 
+05:30:23 isBracket 1 isBracket 1 

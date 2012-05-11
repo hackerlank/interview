@@ -1,0 +1,58 @@
+05:55:37 Loading file: test.txt
+05:55:37 Input...
+05:55:37 Input OK
+05:55:37 Lexemize...
+05:55:37 Lexemize OK (45 lexems token)
+05:55:37 Dumping lexem stream...
+05:55:37 	int ( a ) = ( + -1 + -2 + -3 + -4 + -5 + -6 + -7 + -8 + -9 ) * ( + -2 ) + 7 + -3 * 4 + 8 + -5 * 2 * 6 ; 
+05:55:37 Finished dumping
+05:55:37 Compile...
+05:55:37 Compile OK
+05:55:37 Interpret...
+05:55:37 Declaring variable: a
+05:55:37 Dumping lexem stream...
+05:55:37 	( @ -1 + -2 + -3 + -4 + -5 + -6 + -7 + -8 + -9 ) * ( @ -2 ) + 7 + -3 * 4 + 8 + -5 * 2 * 6 
+05:55:37 Finished dumping
+05:55:37 Trying to math: -1@
+05:55:37 Result: -1
+05:55:37 Trying to math: -8+-9
+05:55:37 Result: -17
+05:55:37 Trying to math: -7+-17
+05:55:37 Result: -24
+05:55:37 Trying to math: -6+-24
+05:55:37 Result: -30
+05:55:37 Trying to math: -5+-30
+05:55:37 Result: -35
+05:55:37 Trying to math: -4+-35
+05:55:37 Result: -39
+05:55:37 Trying to math: -3+-39
+05:55:37 Result: -42
+05:55:37 Trying to math: -2+-42
+05:55:37 Result: -44
+05:55:37 Trying to math: -1+-44
+05:55:37 Result: -45
+05:55:37 Trying to math: -2@
+05:55:37 Result: -2
+05:55:37 Trying to math: -45*-2
+05:55:37 Result: 90
+05:55:37 Trying to math: -3*4
+05:55:37 Result: -12
+05:55:37 Trying to math: 2*6
+05:55:37 Result: 12
+05:55:37 Trying to math: -5*12
+05:55:37 Result: -60
+05:55:37 Trying to math: 8+-60
+05:55:37 Result: -52
+05:55:37 Trying to math: -12+-52
+05:55:37 Result: -64
+05:55:37 Trying to math: 7+-64
+05:55:37 Result: -57
+05:55:37 Trying to math: 90+-57
+05:55:37 Result: 33
+05:55:37 Dumping variable pool...
+05:55:37 	 name: 		a
+05:55:37 	 type: 		int
+05:55:37 	 value: 	33
+05:55:37 Finished dumping
+05:55:37 Interpret OK
+05:55:37 File successfully loaded

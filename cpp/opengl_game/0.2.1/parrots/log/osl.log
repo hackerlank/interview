@@ -1,0 +1,47 @@
+13:37:53 Loading file: test.txt
+13:37:53 Input...
+13:37:53 Input OK
+13:37:53 Lexemize...
+13:37:53 Lexemize OK
+13:37:53 Making list...
+13:37:53 Declaring new INT variable: a
+13:37:53 Dumping execute list...
+13:37:53 	a
+13:37:53 	=
+13:37:53 	55
+13:37:53 	;
+13:37:53 Finished dumping
+13:37:53 Trying to execute
+13:37:53 a = 55
+13:37:53 OK
+13:37:53 Declaring new INT variable: b
+13:37:53 Dumping execute list...
+13:37:53 	b
+13:37:53 	=
+13:37:53 	32
+13:37:53 	;
+13:37:53 Finished dumping
+13:37:53 Trying to execute
+13:37:53 b = 32
+13:37:53 OK
+13:37:53 Declaring new INT variable: c
+13:37:53 Dumping execute list...
+13:37:53 	c
+13:37:53 	=
+13:37:53 	a
+13:37:53 	+
+13:37:53 	b
+13:37:53 	+
+13:37:53 	34
+13:37:53 	+
+13:37:53 	68
+13:37:53 	;
+13:37:53 Finished dumping
+13:37:53 Trying to execute
+13:37:53 c = 55
+13:37:53 c = 87
+13:37:53 c = 121
+13:37:53 c = 189
+13:37:53 OK
+13:37:53 Making list OK
+13:37:53 File successfully loaded

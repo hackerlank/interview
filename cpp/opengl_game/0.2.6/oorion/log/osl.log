@@ -1,0 +1,590 @@
+22:25:43 Loading file: test.txt
+22:25:43 Input...
+22:25:43 Input OK
+22:25:43 Lexemize...
+22:25:43 Lexemize OK (654 lexems token)
+22:25:43 Dumping lexem stream...
+22:25:43 	| loadconfig ( "default.cfg" ) ; | | | init ( gui ) ; | | | loadtexture ( "textures/button_long.bmp" ) ; | | | loadfont ( "Times New Roman" , 14 , 700 , "default" ) ; | loadfont ( "Courier New" , 14 , 400 , "log_screen" ) ; | loadfont ( "Times New Roman" , 14 , 700 , "debug" ) ; | loadfont ( "Courier New" , 10 , 400 , "star" ) ; | | | echo ( "GUI initialized" ) ; | echo ( "Textures loaded" ) ; | echo ( "Config loaded" ) ; | echo ( "Fonts loaded" ) ; | | | | newguielem ( "GUIButton" , "btnStartGame" ) ; | setguielem ( "btnStartGame" , "Width" , 220 ) ; | setguielem ( "btnStartGame" , "Height" , 30 ) ; | setguielem ( "btnStartGame" , "X" , 400 ) ; | setguielem ( "btnStartGame" , "Y" , 400 ) ; | setguielem ( "btnStartGame" , "Color" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnStartGame" , "Texture" , "button_long" ) ; | setguielem ( "btnStartGame" , "Visible" , 1 ) ; | setguielem ( "btnStartGame" , "Caption" , "Start game" ) ; | setguielem ( "btnStartGame" , "CaptionFont" , "log_screen" ) ; | setguielem ( "btnStartGame" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnStartGame" , "PatternCount" , 3 ) ; | setguielem ( "btnStartGame" , "CurrentPattern" , 0 ) ; | setguielem ( "btnStartGame" , "Data" , 550 ) ; | setguielem ( "btnStartGame" , "CaptionX" , 15 ) ; | setguielem ( "btnStartGame" , "CaptionY" , 5 ) ; | setguielem ( "btnStartGame" , "Group" , 1 ) ; | | newguielem ( "GUIButton" , "btnCredits" ) ; | setguielem ( "btnCredits" , "Width" , 220 ) ; | setguielem ( "btnCredits" , "Height" , 30 ) ; | setguielem ( "btnCredits" , "X" , 400 ) ; | setguielem ( "btnCredits" , "Y" , 440 ) ; | setguielem ( "btnCredits" , "Color" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnCredits" , "Texture" , "button_long" ) ; | setguielem ( "btnCredits" , "Visible" , 1 ) ; | setguielem ( "btnCredits" , "Caption" , "Credits" ) ; | setguielem ( "btnCredits" , "CaptionFont" , "log_screen" ) ; | setguielem ( "btnCredits" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnCredits" , "PatternCount" , 3 ) ; | setguielem ( "btnCredits" , "CurrentPattern" , 0 ) ; | setguielem ( "btnCredits" , "Data" , 550 ) ; | setguielem ( "btnCredits" , "CaptionX" , 15 ) ; | setguielem ( "btnCredits" , "CaptionY" , 5 ) ; | setguielem ( "btnCredits" , "Group" , 1 ) ; | | newguielem ( "GUIButton" , "btnExit" ) ; | setguielem ( "btnExit" , "Width" , 220 ) ; | setguielem ( "btnExit" , "Height" , 30 ) ; | setguielem ( "btnExit" , "X" , 400 ) ; | setguielem ( "btnExit" , "Y" , 480 ) ; | setguielem ( "btnExit" , "Color" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnExit" , "Texture" , "button_long" ) ; | setguielem ( "btnExit" , "Visible" , 1 ) ; | setguielem ( "btnExit" , "Caption" , "Exit" ) ; | setguielem ( "btnExit" , "CaptionFont" , "log_screen" ) ; | setguielem ( "btnExit" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; | setguielem ( "btnExit" , "PatternCount" , 3 ) ; | setguielem ( "btnExit" , "CurrentPattern" , 0 ) ; | setguielem ( "btnExit" , "Data" , 550 ) ; | setguielem ( "btnExit" , "CaptionX" , 15 ) ; | setguielem ( "btnExit" , "CaptionY" , 5 ) ; | setguielem ( "btnExit" , "Group" , 1 ) ; | | | | | | | | | | | 
+22:25:43 Finished dumping
+22:25:43 Compile...
+22:25:43 Compile OK
+22:25:43 Interpret...
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadconfig ( "default.cfg" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Loading config file: default.cfg
+22:25:43 Input...
+22:25:43 Input OK
+22:25:43 Lexemize...
+22:25:43 Lexemize OK (29 lexems token)
+22:25:43 Dumping lexem stream...
+22:25:43 	scr_width = 1024 ; | scr_height = 768 ; | bpp = 16 ; | fullscreen = 0 ; | vert_sync = 0 ; | debug = 1 ; 
+22:25:43 Finished dumping
+22:25:43 Applying config...
+22:25:43 Dumping lexem stream...
+22:25:43 	scr_width = 1024 ; 
+22:25:43 Finished dumping
+22:25:43 Dumping lexem stream...
+22:25:43 	scr_height = 768 ; 
+22:25:43 Finished dumping
+22:25:43 Dumping lexem stream...
+22:25:43 	bpp = 16 ; 
+22:25:43 Finished dumping
+22:25:43 Dumping lexem stream...
+22:25:43 	fullscreen = 0 ; 
+22:25:43 Finished dumping
+22:25:43 Dumping lexem stream...
+22:25:43 	vert_sync = 0 ; 
+22:25:43 Finished dumping
+22:25:43 Dumping lexem stream...
+22:25:43 	debug = 1 ; 
+22:25:43 Finished dumping
+22:25:43 Applying config OK
+22:25:43 Config successfully loaded
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	init ( gui ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadtexture ( "textures/button_long.bmp" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to load texture...
+22:25:43 LoadTexture OK
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadfont ( "Times New Roman" , 14 , 700 , "default" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to load font...
+22:25:43 LoadFont OK
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadfont ( "Courier New" , 14 , 400 , "log_screen" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to load font...
+22:25:43 LoadFont OK
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadfont ( "Times New Roman" , 14 , 700 , "debug" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to load font...
+22:25:43 LoadFont OK
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	loadfont ( "Courier New" , 10 , 400 , "star" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to load font...
+22:25:43 LoadFont OK
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	echo ( "GUI initialized" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	echo ( "Textures loaded" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	echo ( "Config loaded" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	echo ( "Fonts loaded" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	newguielem ( "GUIButton" , "btnStartGame" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Creating new GUI element...
+22:25:43 New GUI control: GUIButton(btnStartGame)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Width" , 220 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Width, 220)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Height" , 30 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Height, 30)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "X" , 400 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, X, 400)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Y" , 400 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Y, 400)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Color" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Color, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Texture" , "button_long" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Texture, button_long)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Visible" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Visible, 1)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Caption" , "Start game" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Caption, Start game)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "CaptionFont" , "log_screen" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, CaptionFont, log_screen)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, CaptionColor, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "PatternCount" , 3 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, PatternCount, 3)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "CurrentPattern" , 0 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, CurrentPattern, 0)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Data" , 550 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Data, 550)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "CaptionX" , 15 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, CaptionX, 15)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "CaptionY" , 5 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, CaptionY, 5)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnStartGame" , "Group" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnStartGame, Group, 1)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	newguielem ( "GUIButton" , "btnCredits" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Creating new GUI element...
+22:25:43 New GUI control: GUIButton(btnCredits)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Width" , 220 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Width, 220)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Height" , 30 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Height, 30)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "X" , 400 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, X, 400)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Y" , 440 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Y, 440)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Color" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Color, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Texture" , "button_long" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Texture, button_long)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Visible" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Visible, 1)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Caption" , "Credits" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Caption, Credits)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "CaptionFont" , "log_screen" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, CaptionFont, log_screen)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, CaptionColor, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "PatternCount" , 3 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, PatternCount, 3)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "CurrentPattern" , 0 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, CurrentPattern, 0)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Data" , 550 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Data, 550)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "CaptionX" , 15 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, CaptionX, 15)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "CaptionY" , 5 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, CaptionY, 5)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnCredits" , "Group" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnCredits, Group, 1)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	newguielem ( "GUIButton" , "btnExit" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Creating new GUI element...
+22:25:43 New GUI control: GUIButton(btnExit)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Width" , 220 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Width, 220)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Height" , 30 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Height, 30)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "X" , 400 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, X, 400)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Y" , 480 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Y, 480)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Color" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Color, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Texture" , "button_long" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Texture, button_long)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Visible" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Visible, 1)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Caption" , "Exit" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Caption, Exit)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "CaptionFont" , "log_screen" ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, CaptionFont, log_screen)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "CaptionColor" , 255 , 255 , 255 , 255 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, CaptionColor, 255, 255, 255, 255)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "PatternCount" , 3 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, PatternCount, 3)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "CurrentPattern" , 0 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, CurrentPattern, 0)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Data" , 550 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Data, 550)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "CaptionX" , 15 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, CaptionX, 15)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "CaptionY" , 5 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, CaptionY, 5)
+22:25:43 Trying to match template: E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE
+22:25:43 Trying to match template: E_OSL_DECLARE_FUNCTION_TEMPLATE
+22:25:43 Trying to match template: E_OSL_FUNCTION_CALL_TEMPLATE
+22:25:43 Match found
+22:25:43 Dumping lexem stream...
+22:25:43 	setguielem ( "btnExit" , "Group" , 1 ) ; 
+22:25:43 Finished dumping
+22:25:43 Executing system function...
+22:25:43 Setting GUI element... (btnExit, Group, 1)
+22:25:43 Dumping variable pool...
+22:25:43 Finished dumping
+22:25:43 Interpret OK
+22:25:43 File successfully loaded

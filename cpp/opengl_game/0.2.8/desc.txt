@@ -1,0 +1,26 @@
+Рефакторинг всего проекта по категориям
+Разбил гуй на файлы
+Оптимизировал логгинг
+Добавил загрузку шрифтов из bmp файла
+Новая функция LoadFontFromFile ( и в executesysfunction тоже)
+gui->FreeMessages();
+gui->FreeControls();
+GUIBaseControl::name теперь string, соотв. конструкторы поправил
+рефакторинг лоадов
+init.txt
+Сделал константы (модифицировал osl_Compile)
+Добавлен флаг _DEBUG_SYS_VARS
+_DEBUG_PICKS убрал
+добавил menu_personal.txt
+osl_makegui: name.data() -> name.c_str()
+сделал GUITextBox
+PrintText(): char* text -> const char* text
+GUIControlAllocator::GetControlByName(): LPSTR name -> const char* name
+Поправил ShowNumber
+osl_Lexemize: поправил отриц. числа
+Box(): пофиксил точки
+Сделал pressed_keys
+Новый флаг _DEBUG_KEYBOARD
+Сделал фокусы
+Жуткий костыль в GUIControl::Process - обработка клавиатуры
+unpressed_keys

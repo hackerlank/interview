@@ -1,0 +1,481 @@
+#include "stdafx.h"
+#include "../misc.h"
+#include "osl_misc.h"
+
+#include "osl_types.h"
+#include "osl_lexems.h"
+#include "osl_templates.h"
+
+
+
+
+#define OSL_NULL_PARAMETER "void"
+
+OSL_TEMPLATE::tagOSL_TEMPLATE()
+{
+	tmplt.resize(0);
+	type = E_OSL_NO_TEMPLATE;
+}
+
+bool MatchTempPatternLexem(OSL_LEXEM l, E_OSL_TEMPLATE_PATTERN p)
+{
+	switch(p)
+	{
+	case E_OSL_TYPE:
+		{
+			if(!osl_IsVarType(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_NAME:
+		{
+			if(!osl_IsValidName(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_MATH:
+		{
+			if(!osl_IsValidName(l.token) && !osl_IsConstant(l.token) && !osl_IsOperator(l.token)
+				&& !osl_IsLeftBracket(l.token) && !osl_IsRightBracket(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_PARAM:
+		{
+			if(!osl_IsValidName(l.token) && !osl_IsConstant(l.token) && !osl_IsComma(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_CONDITION:
+		{
+			if(!osl_IsValidName(l.token) && !osl_IsConstant(l.token) && !osl_IsComparison(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_CODE:
+		{
+			// ???
+			break;
+		}
+	case E_OSL_FUNC:
+		{
+			if(!osl_IsValidName(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_IF:
+		{
+			if(l.token != "if")
+				return false;
+			break;
+		}
+	case E_OSL_WHILE:
+		{
+			if(l.token != "while")
+				return false;
+			break;
+		}
+	case E_OSL_ELSE:
+		{
+			if(l.token != "else")
+				return false;
+			break;
+		}
+	case E_OSL_FUNCTION:
+		{
+			if(l.token != "function")
+				return false;
+			break;
+		}
+	case E_OSL_VARIABLE:
+		{
+			if(!osl_IsValidName(l.token))
+				return false;
+			break;
+		}
+	case E_OSL_LEFT_BRACKET:
+		{
+			if(l.token != "(")
+				return false;
+			break;
+		}
+	case E_OSL_RIGHT_BRACKET:
+		{
+			if(l.token != ")")
+				return false;
+			break;
+		}
+	case E_OSL_LEFT_BRACE:
+		{
+			if(l.token != "{")
+				return false;
+			break;
+		}
+	case E_OSL_RIGHT_BRACE:
+		{
+			if(l.token != "}")
+				return false;
+			break;
+		}
+	case E_OSL_SEMICOLON:
+		{
+			if(l.token != ";")
+				return false;
+			break;
+		}
+	case E_OSL_EQUALCOLON:
+		{
+			if(l.token != "=")
+				return false;
+			break;
+		}
+	default: return false;
+	}
+	return true;
+}
+
+string osl_TemplateToStr(enum E_OSL_TEMPLATE tmplt)
+{
+	switch(tmplt)
+	{
+	case E_OSL_DECLARE_VAR_TEMPLATE: return "E_OSL_DECLARE_VAR_TEMPLATE";
+	case E_OSL_ASSIGN_VAR_TEMPLATE: return "E_OSL_ASSIGN_VAR_TEMPLATE";
+	case E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE: return "E_OSL_DECLARE_ASSIGN_VAR_TEMPLATE";
+	case E_OSL_DECLARE_FUNCTION_TEMPLATE: return "E_OSL_DECLARE_FUNCTION_TEMPLATE";
+	case E_OSL_FUNCTION_CALL_TEMPLATE: return "E_OSL_FUNCTION_CALL_TEMPLATE";
+	case E_OSL_IF_TEMPLATE: return "E_OSL_IF_TEMPLATE";
+	case E_OSL_IF_ELSE_TEMPLATE: return "E_OSL_IF_ELSE_TEMPLATE";
+	case E_OSL_WHILE_TEMPLATE: return "E_OSL_WHILE_TEMPLATE";
+	case E_OSL_DO_TEMPLATE: return "E_OSL_DO_TEMPLATE";
+	case E_OSL_NO_TEMPLATE: return "E_OSL_NO_TEMPLATE";
+	default: return "UNKNOWN TEMPLATE";
+	}
+}
+
+bool OSL_TEMPLATE::Match(vector<OSL_LEXEM>* lexems)
+{
+
+	if(lexems->size() < tmplt.size()-1)
+		return false;
+
+	#ifdef _DEBUG_OSL
+	WriteToLog(DEFAULT_OSL_LOG_NAME, "Trying to match template: " + osl_TemplateToStr(type));
+	#endif
+
+	vector<OSL_LEXEM>::iterator m = lexems->begin();
+
+	unsigned int lxm_c = 0;
+
+	for(vector<E_OSL_TEMPLATE_PATTERN>::iterator p = tmplt.begin();
+		p != tmplt.end();
+		p++)
+	{
+
+		OSL_LEXEM lx = *m;
+
+
+		switch(*p)
+		{
+		case E_OSL_TYPE:
+			{
+				if(!osl_IsVarType(lx.token))
+				{
+					//osl_Error("Wrong type specifier");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_NAME:
+			{
+				if(!osl_IsValidName(lx.token))
+				{
+					//osl_Error("Wrong identifier");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_MATH:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+				int iter = 0;
+
+				while(osl_IsConstant(p_lx->token) || osl_IsValidName(p_lx->token) || osl_IsOperator(p_lx->token)
+					|| osl_IsLeftBracket(p_lx->token) || osl_IsRightBracket(p_lx->token))
+				{
+					m++;
+					lxm_c++;
+					p_lx = &(*m);
+
+				}
+				continue;
+			}
+		case E_OSL_PARAM:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+				int iter = 0;
+
+				if(p_lx->token == OSL_NULL_PARAMETER)
+				{
+					lxm_c++;
+					break;
+				}
+
+				while(osl_IsConstant(p_lx->token) || osl_IsValidName(p_lx->token) || osl_IsComma(p_lx->token))
+				{
+					iter++;		
+					
+					
+					if(iter % 2 == 1)
+					{
+						if(osl_IsComma(p_lx->token))
+						{
+							osl_Error("Variable or constant expected");
+							return false;
+						}
+					}
+					else
+					{
+						if(!osl_IsComma(p_lx->token))
+						{
+							osl_Error("Comma expected");
+							return false;
+						}
+						OSL_LEXEM* next = &(*(m+1));
+						if(osl_IsRightBracket(next->token))
+						{
+							osl_Error("Unexpected token: " + next->token);
+							return false;
+						}
+					}
+
+					m++;
+					lxm_c++;
+					p_lx = &(*m);
+
+				}
+
+				continue;
+			}
+		case E_OSL_CONDITION:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+				int iter = 0;
+
+				while(osl_IsConstant(p_lx->token) || osl_IsValidName(p_lx->token) ||
+					osl_IsComparison(p_lx->token) || osl_IsEqualcolon(p_lx->token))
+				{
+					iter++;
+
+					if(iter % 2 == 1)
+					{
+						if(!osl_IsConstant(p_lx->token) && !osl_IsValidName(p_lx->token))
+						{
+							osl_Error("Variable or constant expected");
+							return false;
+						}
+					}
+					else
+					{
+						if(osl_IsConstant(p_lx->token) || osl_IsValidName(p_lx->token))
+						{
+							osl_Error("Condition expected");
+							return false;
+						}
+					}
+
+					m++;
+					lxm_c++;
+					p_lx = &(*m);
+				}	
+
+				continue;
+
+			}
+		case E_OSL_CODE:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+				int iter = 0;
+
+				while(!osl_IsRightBrace(p_lx->token))
+				{
+					m++;
+					lxm_c++;
+					p_lx = &(*m);
+					
+				}
+				continue;
+			}
+		case E_OSL_FUNC:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(p_lx->token != "function")
+				{
+					//osl_Error("'function' expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_IF:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(p_lx->token != "if")
+				{
+					//osl_Error("'if' expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_WHILE:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(p_lx->token != "while")
+				{
+					//osl_Error("'while' expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_ELSE:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(p_lx->token != "else")
+				{
+					//osl_Error("'else expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_FUNCTION:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(!osl_IsValidName(p_lx->token))
+				{
+					//osl_Error("Wrong identifier");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_VARIABLE:
+			{
+				OSL_LEXEM* p_lx = &(*m);
+
+				if(!osl_IsValidName(p_lx->token))
+				{
+					//osl_Error("Wrong identifier");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_LEFT_BRACKET:
+			{
+				if(!osl_IsLeftBracket(lx.token))
+				{
+					//osl_Error("Left bracket expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_RIGHT_BRACKET:
+			{
+				if(!osl_IsRightBracket(lx.token))
+				{
+					//osl_Error("Right bracket expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_LEFT_BRACE:
+			{
+				if(!osl_IsLeftBrace(lx.token))
+				{
+					//osl_Error("Left brace expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_RIGHT_BRACE:
+			{
+				if(!osl_IsRightBrace(lx.token))
+				{
+					//osl_Error("Right brace expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_SEMICOLON:
+			{
+				if(!osl_IsSemicolon(lx.token))
+				{
+					//osl_Error("Semicolon expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		case E_OSL_EQUALCOLON:
+			{
+				if(!osl_IsEqualcolon(lx.token))
+				{
+					//osl_Error("Equalcolon expected");
+					return false;
+				}
+				lxm_c++;
+				break;
+			}
+		default: break;
+		}
+		m++;
+
+	}
+	if(lxm_c < lexems->size())
+		return false;
+
+	#ifdef _DEBUG_OSL
+	WriteToLog(DEFAULT_OSL_LOG_NAME, "Match found");
+	#endif
+	return true;
+}
+
+OSL_TEMPLATE_STORAGE::tagOSL_TEMPLATE_STORAGE()
+{
+	templates.resize(0);
+}
+
+void OSL_TEMPLATE_STORAGE::AddTemplate(E_OSL_TEMPLATE type, vector<E_OSL_TEMPLATE_PATTERN> tmplt)
+{
+	OSL_TEMPLATE temp;
+	temp.tmplt = tmplt;
+	temp.type = type;
+
+	templates.push_back(temp);
+}
+
+E_OSL_TEMPLATE OSL_TEMPLATE_STORAGE::MatchLexems(vector<OSL_LEXEM>* lexems)
+{
+	for(vector<OSL_TEMPLATE>::iterator it = templates.begin();
+		it != templates.end();
+		it++)
+	{
+		OSL_TEMPLATE t = *it;
+		if(t.Match(lexems))
+			return t.type;
+	}
+	return E_OSL_NO_TEMPLATE;
+}

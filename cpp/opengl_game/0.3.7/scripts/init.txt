@@ -1,0 +1,67 @@
+# config
+LoadConfig("config/default.cfg");
+
+# GUI
+Init(gui);
+
+# Sound
+Init(sound);
+
+# textures
+LoadTexture("textures/anonya.bmp");
+LoadTexture("textures/bullet.bmp");
+LoadTexture("textures/powerups.bmp");
+LoadTexture("textures/explosions.bmp");
+LoadTexture("textures/btard.bmp");
+LoadTexture("textures/heart.bmp");
+LoadTexture("textures/ammo.bmp");
+LoadTexture("textures/score.bmp");
+LoadTexture("textures/tiles.bmp");
+LoadTexture("textures/btard_face.bmp");
+LoadTexture("textures/anonya_face.bmp");
+LoadTexture("textures/anonya_figure.bmp");
+LoadTexture("textures/unyl_tan_figure.bmp");
+LoadTexture("textures/shadow.bmp");
+LoadTexture("textures/slowpoke.bmp");
+LoadTexture("textures/slowpoke_face.bmp");
+
+
+# resources
+LoadResource("objects/anonya.txt");
+LoadResource("objects/bullet.txt");
+LoadResource("objects/btard.txt");
+LoadResource("objects/pwr_health.txt");
+LoadResource("objects/pwr_ammo.txt");
+LoadResource("objects/pwr_score.txt");
+LoadResource("objects/explosion.txt");
+LoadResource("objects/tile_floor.txt");
+LoadResource("objects/tile_wall.txt");
+LoadResource("objects/tile_wall_1.txt");
+LoadResource("objects/tile_column_1.txt");
+LoadResource("objects/tile_wall_main.txt");
+LoadResource("objects/tile_wall_2.txt");
+LoadResource("objects/tile_wall_lamp.txt");
+LoadResource("objects/tile_wall_up.txt");
+LoadResource("objects/anonya_face.txt");
+LoadResource("objects/btard_face.txt");
+LoadResource("objects/anonya_figure.txt");
+LoadResource("objects/unyl_tan_figure.txt");
+LoadResource("objects/shadow.txt");
+LoadResource("objects/slowpoke.txt");
+LoadResource("objects/slowpoke_face.txt");
+
+
+
+# dialogs
+LoadDialog("dialogs/dialog1.txt");
+
+# fonts
+LoadFont("Courier New", 14, 400, "default");
+
+# sounds
+LoadSound("sounds/iie_lab.it");
+LoadSound("sounds/iie_boss.it");
+LoadSound("sounds/iie_street.it");
+
+Load("scripts/menu_main.txt");
+Load("scripts/choose_hero.txt");

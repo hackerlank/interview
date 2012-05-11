@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.11.04 02:22:56.046.pas,C:\Documents and Settings\Dreamcatcher\My Documents\Borland Studio Projects\Unit1.pas=C:\Documents and Settings\Dreamcatcher\Desktop\temp\Main.pas</Transaction>
+    <Transaction>2008.11.04 02:22:56.046.dfm,C:\Documents and Settings\Dreamcatcher\My Documents\Borland Studio Projects\Unit1.dfm=C:\Documents and Settings\Dreamcatcher\Desktop\temp\Main.dfm</Transaction>
+    <Transaction>2008.11.04 02:23:04.437.bdsproj,C:\Documents and Settings\Dreamcatcher\My Documents\Borland Studio Projects\Project1.bdsproj=C:\Documents and Settings\Dreamcatcher\Desktop\temp\LevelEditor.bdsproj</Transaction>
+    <Transaction>2008.11.04 03:23:17.203.pas,C:\Projects\IIchan\Object editor\src\Unit1.pas=C:\Projects\IIchan\Object editor\src\FrameAbout.pas</Transaction>
+    <Transaction>2008.11.04 03:23:17.203.dfm,C:\Projects\IIchan\Object editor\src\Unit1.dfm=C:\Projects\IIchan\Object editor\src\FrameAbout.dfm</Transaction>
+    <Transaction>2008.11.04 03:30:39.312.bdsproj,C:\Projects\IIchan\Object editor\src\LevelEditor.bdsproj=C:\Projects\IIchan\Object editor\src\ObjectEditor.bdsproj</Transaction>
+    <Transaction>2008.11.04 03:32:46.250.pas,C:\Projects\IIchan\Object editor\src\Unit1.pas=C:\Projects\IIchan\Object editor\src\ObjectFile.pas</Transaction>
+    <Transaction>2008.11.04 03:39:06.515.pas,C:\Projects\IIchan\Object editor\src\FrameAbout.pas=</Transaction>
+    <Transaction>2008.11.04 03:39:06.515.dfm,C:\Projects\IIchan\Object editor\src\FrameAbout.dfm=</Transaction>
+    <Transaction>2008.11.04 03:40:19.359.pas,C:\Projects\IIchan\Object editor\src\Unit2.pas=C:\Projects\IIchan\Object editor\src\FormAbout.pas</Transaction>
+    <Transaction>2008.11.04 03:40:19.359.dfm,C:\Projects\IIchan\Object editor\src\Unit2.dfm=C:\Projects\IIchan\Object editor\src\FormAbout.dfm</Transaction>
+    <Transaction>2008.11.07 00:30:16.421.bdsproj,C:\Projects\IIchan\Level editor\src\ObjectEditor.bdsproj=C:\Projects\IIchan\Level editor\src\LevelEditor.bdsproj</Transaction>
+    <Transaction>2008.11.10 00:20:19.589.pas,C:\Projects\II-chan scroller\Level editor\src\Unit1.pas=C:\Projects\II-chan scroller\Level editor\src\LevelFile.pas</Transaction>
+    <Transaction>2008.11.12 01:45:03.375.pas,C:\Projects\II-chan scroller\Level editor\src\Unit1.pas=C:\Projects\II-chan scroller\Level editor\src\Utils.pas</Transaction>
+    <Transaction>2008.11.13 23:01:40.953.pas,C:\projects\II-chan scroller\Level editor\src\Unit1.pas=C:\Projects\II-chan scroller\Level editor\src\Tools.pas</Transaction>
+    <Transaction>2008.11.13 23:29:35.078.pas,C:\Projects\II-chan scroller\Level editor\src\Unit1.pas=C:\Projects\II-chan scroller\Level editor\src\frmParams.pas</Transaction>
+    <Transaction>2008.11.13 23:29:35.078.dfm,C:\Projects\II-chan scroller\Level editor\src\Unit1.dfm=C:\Projects\II-chan scroller\Level editor\src\frmParams.dfm</Transaction>
+    <Transaction>2008.11.20 01:42:03.171.pas,C:\Projects\II-chan scroller\Level editor\src\FormNew.pas=</Transaction>
+    <Transaction>2008.11.20 01:42:03.171.dfm,C:\Projects\II-chan scroller\Level editor\src\FormNew.dfm=</Transaction>
+    <Transaction>2008.11.23 16:44:07.671.pas,C:\Projects\II-chan scroller\Level editor\src\Unit1.pas=C:\Projects\II-chan scroller\Level editor\src\ForScriptWnd.pas</Transaction>
+    <Transaction>2008.11.23 16:44:07.687.dfm,C:\Projects\II-chan scroller\Level editor\src\Unit1.dfm=C:\Projects\II-chan scroller\Level editor\src\ForScriptWnd.dfm</Transaction>
+    <Transaction>2008.11.23 19:19:01.203.pas,C:\Projects\II-chan scroller\Level editor\src\ForScriptWnd.pas=C:\Projects\II-chan scroller\Level editor\src\FormScriptWnd.pas</Transaction>
+    <Transaction>2008.11.23 19:19:01.203.dfm,C:\Projects\II-chan scroller\Level editor\src\ForScriptWnd.dfm=C:\Projects\II-chan scroller\Level editor\src\FormScriptWnd.dfm</Transaction>
+    <Transaction>2009.06.29 11:43:18.515.pas,D:\projects\iichantra\Level editor\src\FormAbout.pas=D:\Projects\IIchantra\Level editor\src\UFormAbout.pas</Transaction>
+    <Transaction>2009.06.29 11:43:18.515.dfm,D:\projects\iichantra\Level editor\src\FormAbout.dfm=D:\Projects\IIchantra\Level editor\src\UFormAbout.dfm</Transaction>
+    <Transaction>2009.06.29 11:44:31.796.pas,D:\projects\iichantra\Level editor\src\Main.pas=D:\Projects\IIchantra\Level editor\src\UFormMain.pas</Transaction>
+    <Transaction>2009.06.29 11:44:31.796.dfm,D:\projects\iichantra\Level editor\src\Main.dfm=D:\Projects\IIchantra\Level editor\src\UFormMain.dfm</Transaction>
+    <Transaction>2009.06.29 11:45:02.765.pas,D:\projects\iichantra\Level editor\src\Tools.pas=D:\Projects\IIchantra\Level editor\src\UTools.pas</Transaction>
+    <Transaction>2009.06.29 11:45:08.578.pas,D:\projects\iichantra\Level editor\src\LevelFile.pas=D:\Projects\IIchantra\Level editor\src\ULevelFile.pas</Transaction>
+    <Transaction>2009.06.29 11:45:14.484.pas,D:\projects\iichantra\Level editor\src\ObjectFile.pas=D:\Projects\IIchantra\Level editor\src\UObjectFile.pas</Transaction>
+    <Transaction>2009.06.29 11:45:39.546.pas,D:\projects\iichantra\Level editor\src\frmParams.pas=D:\Projects\IIchantra\Level editor\src\UFormParams.pas</Transaction>
+    <Transaction>2009.06.29 11:45:39.546.dfm,D:\projects\iichantra\Level editor\src\frmParams.dfm=D:\Projects\IIchantra\Level editor\src\UFormParams.dfm</Transaction>
+    <Transaction>2009.06.29 11:45:54.312.pas,D:\projects\iichantra\Level editor\src\FormNew.pas=D:\Projects\IIchantra\Level editor\src\UFormNew.pas</Transaction>
+    <Transaction>2009.06.29 11:45:54.312.dfm,D:\projects\iichantra\Level editor\src\FormNew.dfm=D:\Projects\IIchantra\Level editor\src\UFormNew.dfm</Transaction>
+    <Transaction>2009.06.29 11:46:08.218.pas,D:\projects\iichantra\Level editor\src\FormScriptWnd.pas=D:\Projects\IIchantra\Level editor\src\UFormScript.pas</Transaction>
+    <Transaction>2009.06.29 11:46:08.218.dfm,D:\projects\iichantra\Level editor\src\FormScriptWnd.dfm=D:\Projects\IIchantra\Level editor\src\UFormScript.dfm</Transaction>
+    <Transaction>2009.07.03 15:02:37.453.pas,D:\Projects\IIchantra\Level editor\src\Unit1.pas=D:\Projects\IIchantra\Level editor\src\UFormObjectProps.pas</Transaction>
+    <Transaction>2009.07.03 15:02:37.453.dfm,D:\Projects\IIchantra\Level editor\src\Unit1.dfm=D:\Projects\IIchantra\Level editor\src\UFormObjectProps.dfm</Transaction>
+    <Transaction>2009.07.03 20:43:24.828.pas,D:\Projects\IIchantra\Level editor\src\Unit1.pas=D:\Projects\IIchantra\Level editor\src\UMetaData.pas</Transaction>
+    <Transaction>2009.07.08 01:41:05.082.pas,D:\Projects\IIchantra\Level editor\src\UFormParams.pas=</Transaction>
+    <Transaction>2009.07.08 01:41:05.082.dfm,D:\Projects\IIchantra\Level editor\src\UFormParams.dfm=</Transaction>
+    <Transaction>2009.07.08 01:41:12.129.pas,D:\Projects\IIchantra\Level editor\src\UFormNew.pas=</Transaction>
+    <Transaction>2009.07.08 01:41:12.129.dfm,D:\Projects\IIchantra\Level editor\src\UFormNew.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

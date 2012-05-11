@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evolution category="mysql_test_schema" transaction="0" connection_id="mysql">
+
+    <mutation run_id="10">
+        <comment>Create table "test_mysql1"</comment>
+        <evolve_sql>
+            CREATE TABLE `test_mysql1` (
+                `id` integer PRIMARY KEY AUTO_INCREMENT,
+                `payload` varchar(256)
+            );
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS `test_mysql1`;</rollback_sql>
+    </mutation>
+    
+    <mutation run_id="20">
+        <comment>Create table "test_mysql2"</comment>
+        <evolve_sql>
+            CREATE TABLE `test_mysql2` (
+                test_key varchar(32) PRIMARY KEY,
+                test_field varchar(64)
+            );
+        </evolve_sql>
+        <rollback_sql>DROP TABLE IF EXISTS `test_mysql2`;</rollback_sql>
+    </mutation>
+
+</evolution>

@@ -1,0 +1,21 @@
+# Создаем игрока
+
+CreatePlayer(100, 96, 0, "anonya", 300, 350, 110, 97, 1320, 194,
+8, 3, 0, 0, 0, 0, 2, 3, 12, 9, 0, 0, 0, 0, 0, 0, animStand, 1);
+
+echo("Player created");
+
+# бонусы
+
+CreatePowerup(pwrHealth, 100, 80, 400);
+CreatePowerup(pwrAmmo, 80, 150, 400);
+CreatePowerup(pwrScore, 30, 600, 400);
+
+echo("Powerups created");
+
+CreateEnemy(800, 350, 100);
+CreateEnemy(1000, 350, 50);
+CreateEnemy(0, 350, 20);
+
+echo("Enemies created");
+

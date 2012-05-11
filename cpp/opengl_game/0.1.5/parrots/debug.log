@@ -1,0 +1,74 @@
+23:17:51 Log started
+23:17:51 appl. path:	c:\Source\cpp\OpenOrion\0.1.5\parrots
+23:17:51 log path:	c:\Source\cpp\OpenOrion\0.1.5\parrots\debug.log
+23:17:51 config path:	c:\Source\cpp\OpenOrion\0.1.5\parrots\default.cfg
+23:17:51 textures path:	c:\Source\cpp\OpenOrion\0.1.5\parrots\textures
+23:17:51 fonts path:	c:\Source\cpp\OpenOrion\0.1.5\parrots\fonts
+23:17:51 Searching textures in: c:\Source\cpp\OpenOrion\0.1.5\parrots\textures
+23:17:51 Found texture: button.bmp
+23:17:51 Found texture: button2.bmp
+23:17:51 Found texture: button_black.bmp
+23:17:51 Found texture: button_green.bmp
+23:17:51 Found texture: button_green_pressed.bmp
+23:17:51 Found texture: button_long.bmp
+23:17:51 Found texture: button_long_white.bmp
+23:17:51 Found texture: button_test.bmp
+23:17:51 Found texture: mainscreen.bmp
+23:17:51 Found texture: panel.bmp
+23:17:51 Found texture: progressbar.bmp
+23:17:51 Found texture: star.bmp
+23:17:51 Font loaded: Font1
+23:17:51 Font loaded: Font2
+23:17:51 Font loaded: Font3
+23:17:51 Font loaded: Font4
+23:17:51 GUI created
+23:17:51 Created GUIcontrol: GID=1; name=MainMenu
+23:17:51 Created GUIcontrol: GID=2; name=DifficultyMenu
+23:17:51 Created GUIcontrol: GID=3; name=SizeMenu
+23:17:51 Created GUIcontrol: GID=4; name=RaceMenu
+23:17:51 Created GUIcontrol: GID=5; name=OpponentsMenu
+23:17:51 Created GUIcontrol: GID=6; name=Start
+23:17:51 Created GUIcontrol: GID=7; name=Load
+23:17:51 Created GUIcontrol: GID=8; name=Options
+23:17:51 Created GUIcontrol: GID=9; name=Credits
+23:17:51 Created GUIcontrol: GID=10; name=Exit
+23:17:51 Created GUIcontrol: GID=11; name=Easy
+23:17:51 Created GUIcontrol: GID=12; name=Medium
+23:17:51 Created GUIcontrol: GID=13; name=Hard
+23:17:51 Created GUIcontrol: GID=14; name=Impossible
+23:17:51 Created GUIcontrol: GID=15; name=Back
+23:17:51 Created GUIcontrol: GID=16; name=Tiny
+23:17:51 Created GUIcontrol: GID=17; name=Small
+23:17:51 Created GUIcontrol: GID=18; name=Average
+23:17:51 Created GUIcontrol: GID=19; name=Big
+23:17:51 Created GUIcontrol: GID=20; name=Huge
+23:17:51 Created GUIcontrol: GID=21; name=Back
+23:17:51 Created GUIcontrol: GID=22; name=Alkari
+23:17:51 Created GUIcontrol: GID=23; name=Bulrathi
+23:17:51 Created GUIcontrol: GID=24; name=Klackon
+23:17:51 Created GUIcontrol: GID=25; name=Meklar
+23:17:51 Created GUIcontrol: GID=26; name=Psilon
+23:17:51 Created GUIcontrol: GID=27; name=Mrrshan
+23:17:51 Created GUIcontrol: GID=28; name=Darlok
+23:17:51 Created GUIcontrol: GID=29; name=Human
+23:17:51 Created GUIcontrol: GID=30; name=Sakkra
+23:17:51 Created GUIcontrol: GID=31; name=Silicoid
+23:17:51 Created GUIcontrol: GID=32; name=Back
+23:17:51 Created GUIcontrol: GID=33; name=One opponent
+23:17:51 Created GUIcontrol: GID=34; name=Two opponents
+23:17:51 Created GUIcontrol: GID=35; name=Three opponents
+23:17:51 Created GUIcontrol: GID=36; name=Four opponents
+23:17:51 Created GUIcontrol: GID=37; name=Five opponents
+23:17:51 Created GUIcontrol: GID=38; name=Back
+23:17:53 Difficulty=Easy
+23:17:53 Galaxy size=Tiny
+23:17:53 Race=Alkari
+23:17:53 Opponents count=One opponent
+23:17:53 Created player: name=Player0; race=Alkari
+23:17:53 Created player: name=Player1; race=Sakkra
+23:17:53 Created star: name=Orion
+23:17:53 Created star: name=Antares
+23:17:53 Created star: name=Arctur
+23:17:53 Created star: name=Sol
+23:17:56 Saving screenshot...
+23:18:00 Finished logging

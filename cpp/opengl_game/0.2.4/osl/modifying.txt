@@ -1,0 +1,4 @@
+Как добавить новую встроенную функцию:
+
+1) Изменить массив const string s_sysfunction[] и константу l_sysfunction в osl_lexems.h
+2) Прописать обработчик в osl_InterpretSeq для шаблона E_OSL_FUNCTION_CALL_TEMPLATE в osl_parse.cpp

@@ -1,0 +1,105 @@
+# -- GAME MENU ----------------------------------
+NewGUIElem("GUIVidget", "vdgCharSel");
+SetGUIElem("vdgCharSel", "Width", 1024);
+SetGUIElem("vdgCharSel", "Height", 768);
+SetGUIElem("vdgCharSel", "X", 0);
+SetGUIElem("vdgCharSel", "Y", 0);
+SetGUIElem("vdgCharSel", "Color", 255, 255, 255, 255);
+SetGUIElem("vdgCharSel", "Texture", "menu-bkg");
+SetGUIElem("vdgCharSel", "Visible", 0);
+SetGUIElem("vdgCharSel", "PatternCount", 1);
+SetGUIElem("vdgCharSel", "CurrentPattern", 0);
+SetGUIElem("vdgCharSel", "Group", MENU_CHARACTER);
+
+# ”же объ€влены в menu_main.txt
+x = SYS_SCR_WIDTH / 2 - 80;
+y = SYS_SCR_HEIGHT / 2;
+
+#NewGUIElem("GUIButton", "lbl1");
+#SetGUIElem("lbl1", "X", x);
+#SetGUIElem("lbl1", "Y", 100);
+#SetGUIElem("lbl1", "Width", 80);
+#SetGUIElem("lbl1", "Height", 9);
+#SetGUIElem("lbl1", "Color", 255, 255, 255, 255);
+#SetGUIElem("lbl1", "Visible", 0);
+#SetGUIElem("lbl1", "Caption", "SELECT YOUR CHARACTER");
+#SetGUIElem("lbl1", "CaptionX", 0);
+#SetGUIElem("lbl1", "CaptionY", 0);
+#SetGUIElem("lbl1", "CaptionFont", "default");
+#SetGUIElem("lbl1", "CaptionColor", 255, 255, 255, 255);
+#SetGUIElem("lbl1", "SelectedCaptionColor", 0, 255, 0, 255);
+#SetGUIElem("lbl1", "PressedCaptionColor", 255, 0, 0, 255);
+#SetGUIElem("lbl1", "Group", MENU_CHARACTER);
+#SetGUIElem("lbl1", "Enabled", 0);
+
+
+int(x1) = SYS_SCR_WIDTH / 2 - 150;
+
+
+NewGUIElem("GUIButton", "btnSohchan");
+SetGUIElem("btnSohchan", "X", x1);
+SetGUIElem("btnSohchan", "Y", y);
+SetGUIElem("btnSohchan", "Width", 125);
+SetGUIElem("btnSohchan", "Height", 155);
+SetGUIElem("btnSohchan", "Color", 255, 255, 255, 255);
+SetGUIElem("btnSohchan", "Visible", 0);
+SetGUIElem("btnSohchan", "Caption", "SOH-chan");
+SetGUIElem("btnSohchan", "CaptionX", 30);
+SetGUIElem("btnSohchan", "CaptionY", -20);
+SetGUIElem("btnSohchan", "CaptionFont", "default");
+SetGUIElem("btnSohchan", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnSohchan", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnSohchan", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnSohchan", "Group", MENU_CHARACTER);
+SetGUIElem("btnSohchan", "AddSignal", GUI_SGN_START_GAME, 0, 0);
+SetGUIElem("btnSohchan", "Texture", "sohchan_figure");
+SetGUIElem("btnSohchan", "PatternCount", 2);
+SetGUIElem("btnSohchan", "Visible", 0);
+SetGUIElem("btnSohchan", "PatternCount", 1);
+SetGUIElem("btnSohchan", "CurrentPattern", 0);
+SetGUIElem("btnSohchan", "Border", 1);
+SetGUIElem("btnSohchan", "BorderType", 1);
+
+x1 = x1 + 200;
+
+NewGUIElem("GUIButton", "btnUnylTan");
+SetGUIElem("btnUnylTan", "X", x1);
+SetGUIElem("btnUnylTan", "Y", y);
+SetGUIElem("btnUnylTan", "Width", 125);
+SetGUIElem("btnUnylTan", "Height", 155);
+SetGUIElem("btnUnylTan", "Color", 255, 255, 255, 255);
+SetGUIElem("btnUnylTan", "Visible", 0);
+SetGUIElem("btnUnylTan", "Caption", "Unyl-chan");
+SetGUIElem("btnUnylTan", "CaptionX", 30);
+SetGUIElem("btnUnylTan", "CaptionY", -20);
+SetGUIElem("btnUnylTan", "CaptionFont", "default");
+SetGUIElem("btnUnylTan", "CaptionColor", 255, 255, 255, 255);
+SetGUIElem("btnUnylTan", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("btnUnylTan", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("btnUnylTan", "Group", MENU_CHARACTER);
+SetGUIElem("btnUnylTan", "AddSignal", GUI_SGN_START_GAME, 0, 0);
+SetGUIElem("btnUnylTan", "Texture", "unyl_tan_figure");
+SetGUIElem("btnUnylTan", "Visible", 0);
+SetGUIElem("btnUnylTan", "PatternCount", 1);
+SetGUIElem("btnUnylTan", "CurrentPattern", 0);
+SetGUIElem("btnUnylTan", "Enabled", 0);
+SetGUIElem("btnUnylTan", "Border", 1);
+SetGUIElem("btnUnylTan", "BorderType", 1);
+
+int(x2) = SYS_SCR_WIDTH / 2 + 45;
+
+NewGUIElem("GUIButton", "lbl2");
+SetGUIElem("lbl2", "X", x2);
+SetGUIElem("lbl2", "Y", 401);
+SetGUIElem("lbl2", "Width", 80);
+SetGUIElem("lbl2", "Height", 9);
+SetGUIElem("lbl2", "Visible", 0);
+SetGUIElem("lbl2", "Caption", "(not enabled yet)");
+SetGUIElem("lbl2", "CaptionX", 0);
+SetGUIElem("lbl2", "CaptionY", 0);
+SetGUIElem("lbl2", "CaptionFont", "default");
+SetGUIElem("lbl2", "CaptionColor", 255, 0, 0, 255);
+SetGUIElem("lbl2", "SelectedCaptionColor", 0, 255, 0, 255);
+SetGUIElem("lbl2", "PressedCaptionColor", 255, 0, 0, 255);
+SetGUIElem("lbl2", "Group", MENU_CHARACTER);
+SetGUIElem("lbl2", "Enabled", 0);
